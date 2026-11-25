@@ -1,0 +1,1001 @@
+id,asset
+1,electric motor
+5,electric motor
+6,electric motor
+7,electric motor
+15,electric motor
+16,electric motor
+19,electric motor
+20,electric motor
+32,electric motor
+35,electric motor
+41,steam turbine
+44,steam turbine
+47,steam turbine
+48,steam turbine
+49,steam turbine
+51,steam turbine
+53,steam turbine
+54,steam turbine
+57,steam turbine
+63,steam turbine
+64,steam turbine
+67,steam turbine
+68,steam turbine
+69,steam turbine
+70,steam turbine
+76,steam turbine
+79,aero gas turbine
+82,aero gas turbine
+89,aero gas turbine
+93,aero gas turbine
+94,aero gas turbine
+95,aero gas turbine
+102,aero gas turbine
+104,aero gas turbine
+106,aero gas turbine
+109,aero gas turbine
+110,aero gas turbine
+111,aero gas turbine
+113,aero gas turbine
+114,aero gas turbine
+115,aero gas turbine
+117,aero gas turbine
+118,aero gas turbine
+119,aero gas turbine
+121,aero gas turbine
+122,aero gas turbine
+127,aero gas turbine
+128,aero gas turbine
+129,aero gas turbine
+133,aero gas turbine
+134,aero gas turbine
+139,aero gas turbine
+140,aero gas turbine
+142,industrial gas turbine
+148,industrial gas turbine
+149,industrial gas turbine
+151,industrial gas turbine
+153,industrial gas turbine
+159,industrial gas turbine
+169,industrial gas turbine
+171,industrial gas turbine
+173,industrial gas turbine
+181,industrial gas turbine
+182,industrial gas turbine
+183,industrial gas turbine
+184,pump
+191,pump
+192,pump
+193,pump
+198,pump
+199,pump
+202,pump
+203,pump
+204,pump
+205,pump
+209,pump
+212,pump
+213,pump
+217,pump
+218,pump
+223,compressor
+224,compressor
+225,compressor
+226,compressor
+227,compressor
+230,compressor
+232,compressor
+233,compressor
+237,compressor
+239,compressor
+240,compressor
+241,compressor
+246,compressor
+247,compressor
+249,compressor
+250,compressor
+252,compressor
+254,compressor
+259,compressor
+261,compressor
+262,compressor
+266,compressor
+267,reciprocating internal combustion engine
+269,reciprocating internal combustion engine
+271,reciprocating internal combustion engine
+276,reciprocating internal combustion engine
+277,reciprocating internal combustion engine
+278,reciprocating internal combustion engine
+286,reciprocating internal combustion engine
+287,reciprocating internal combustion engine
+292,reciprocating internal combustion engine
+293,reciprocating internal combustion engine
+295,reciprocating internal combustion engine
+296,reciprocating internal combustion engine
+299,reciprocating internal combustion engine
+300,reciprocating internal combustion engine
+301,reciprocating internal combustion engine
+302,reciprocating internal combustion engine
+304,reciprocating internal combustion engine
+305,reciprocating internal combustion engine
+308,reciprocating internal combustion engine
+311,electric generator
+312,electric generator
+317,electric generator
+322,electric generator
+323,electric generator
+329,electric generator
+332,electric generator
+334,electric generator
+338,electric generator
+342,electric generator
+343,electric generator
+347,fan
+349,fan
+352,fan
+360,fan
+366,fan
+367,fan
+368,fan
+374,fan
+383,power transformer
+384,power transformer
+388,power transformer
+389,power transformer
+392,power transformer
+399,power transformer
+405,power transformer
+406,power transformer
+407,power transformer
+408,power transformer
+410,power transformer
+411,power transformer
+412,power transformer
+413,power transformer
+415,power transformer
+416,power transformer
+418,power transformer
+419,power transformer
+423,power transformer
+429,power transformer
+434,power transformer
+437,power transformer
+439,power transformer
+440,power transformer
+441,power transformer
+446,power transformer
+453,power transformer
+454,power transformer
+456,power transformer
+461,power transformer
+463,power transformer
+464,power transformer
+465,power transformer
+466,power transformer
+470,electric motor
+471,electric motor
+472,electric motor
+474,electric motor
+484,electric motor
+486,electric motor
+488,electric motor
+491,electric motor
+492,electric motor
+493,electric motor
+495,electric motor
+498,electric motor
+501,electric motor
+502,electric motor
+505,electric motor
+512,steam turbine
+514,steam turbine
+516,steam turbine
+520,steam turbine
+522,steam turbine
+525,steam turbine
+529,steam turbine
+531,steam turbine
+537,steam turbine
+538,steam turbine
+539,steam turbine
+541,aero gas turbine
+542,aero gas turbine
+544,aero gas turbine
+548,aero gas turbine
+550,aero gas turbine
+552,aero gas turbine
+561,aero gas turbine
+570,aero gas turbine
+574,aero gas turbine
+575,aero gas turbine
+576,aero gas turbine
+579,aero gas turbine
+581,aero gas turbine
+585,aero gas turbine
+586,aero gas turbine
+589,aero gas turbine
+592,aero gas turbine
+593,aero gas turbine
+594,aero gas turbine
+598,aero gas turbine
+600,aero gas turbine
+601,aero gas turbine
+606,industrial gas turbine
+609,industrial gas turbine
+610,industrial gas turbine
+611,industrial gas turbine
+612,industrial gas turbine
+617,industrial gas turbine
+618,industrial gas turbine
+619,industrial gas turbine
+621,industrial gas turbine
+624,industrial gas turbine
+626,industrial gas turbine
+627,industrial gas turbine
+628,industrial gas turbine
+629,industrial gas turbine
+632,industrial gas turbine
+637,industrial gas turbine
+639,industrial gas turbine
+640,industrial gas turbine
+641,industrial gas turbine
+645,pump
+648,pump
+649,pump
+653,pump
+662,pump
+663,pump
+666,pump
+667,pump
+670,pump
+676,compressor
+677,compressor
+680,compressor
+681,compressor
+683,compressor
+687,compressor
+688,compressor
+689,compressor
+690,compressor
+691,compressor
+692,compressor
+697,compressor
+703,compressor
+705,compressor
+709,compressor
+712,compressor
+713,compressor
+714,compressor
+715,compressor
+723,reciprocating internal combustion engine
+727,reciprocating internal combustion engine
+729,reciprocating internal combustion engine
+730,reciprocating internal combustion engine
+735,reciprocating internal combustion engine
+737,reciprocating internal combustion engine
+739,reciprocating internal combustion engine
+743,reciprocating internal combustion engine
+744,reciprocating internal combustion engine
+754,reciprocating internal combustion engine
+755,reciprocating internal combustion engine
+756,reciprocating internal combustion engine
+761,reciprocating internal combustion engine
+764,electric generator
+767,electric generator
+773,electric generator
+774,electric generator
+775,electric generator
+779,electric generator
+780,electric generator
+783,electric generator
+784,electric generator
+786,electric generator
+787,electric generator
+790,electric generator
+792,electric generator
+793,electric generator
+799,fan
+805,fan
+806,fan
+808,fan
+814,fan
+816,fan
+821,fan
+822,fan
+824,fan
+826,fan
+828,fan
+829,fan
+830,fan
+831,fan
+835,fan
+836,power transformer
+838,power transformer
+840,power transformer
+843,power transformer
+844,power transformer
+847,power transformer
+848,power transformer
+850,power transformer
+853,power transformer
+856,power transformer
+857,power transformer
+861,power transformer
+863,power transformer
+865,power transformer
+866,power transformer
+868,power transformer
+871,power transformer
+872,power transformer
+874,power transformer
+875,power transformer
+877,power transformer
+883,power transformer
+884,power transformer
+885,power transformer
+886,power transformer
+887,power transformer
+891,power transformer
+897,power transformer
+899,power transformer
+901,power transformer
+906,power transformer
+908,power transformer
+910,power transformer
+912,power transformer
+914,power transformer
+915,power transformer
+923,electric motor
+928,electric motor
+931,electric motor
+932,electric motor
+933,electric motor
+937,electric motor
+944,electric motor
+945,electric motor
+946,electric motor
+947,electric motor
+950,electric motor
+951,electric motor
+953,electric motor
+954,electric motor
+956,electric motor
+958,electric motor
+959,electric motor
+960,electric motor
+961,electric motor
+962,electric motor
+966,electric motor
+968,electric motor
+969,electric motor
+971,electric motor
+976,electric motor
+980,electric motor
+983,electric motor
+984,electric motor
+985,electric motor
+986,electric motor
+987,electric motor
+991,electric motor
+994,electric motor
+996,electric motor
+1001,electric motor
+1002,steam turbine
+1003,steam turbine
+1004,steam turbine
+1005,steam turbine
+1006,steam turbine
+1009,steam turbine
+1016,steam turbine
+1021,steam turbine
+1026,steam turbine
+1030,steam turbine
+1031,steam turbine
+1032,steam turbine
+1041,steam turbine
+1049,steam turbine
+1051,aero gas turbine
+1052,aero gas turbine
+1060,aero gas turbine
+1063,aero gas turbine
+1067,aero gas turbine
+1073,aero gas turbine
+1084,aero gas turbine
+1091,aero gas turbine
+1094,aero gas turbine
+1098,aero gas turbine
+1103,aero gas turbine
+1106,aero gas turbine
+1108,aero gas turbine
+1112,aero gas turbine
+1113,aero gas turbine
+1116,aero gas turbine
+1117,aero gas turbine
+1125,aero gas turbine
+1129,aero gas turbine
+1131,aero gas turbine
+1133,aero gas turbine
+1135,aero gas turbine
+1139,aero gas turbine
+1141,aero gas turbine
+1142,aero gas turbine
+1145,aero gas turbine
+1146,aero gas turbine
+1149,aero gas turbine
+1151,aero gas turbine
+1154,aero gas turbine
+1155,aero gas turbine
+1156,industrial gas turbine
+1157,industrial gas turbine
+1160,industrial gas turbine
+1161,industrial gas turbine
+1165,industrial gas turbine
+1169,industrial gas turbine
+1170,industrial gas turbine
+1174,industrial gas turbine
+1176,industrial gas turbine
+1177,industrial gas turbine
+1182,industrial gas turbine
+1183,industrial gas turbine
+1189,industrial gas turbine
+1192,industrial gas turbine
+1201,industrial gas turbine
+1202,industrial gas turbine
+1205,industrial gas turbine
+1209,industrial gas turbine
+1219,industrial gas turbine
+1220,industrial gas turbine
+1224,industrial gas turbine
+1227,industrial gas turbine
+1230,industrial gas turbine
+1237,pump
+1239,pump
+1244,pump
+1245,pump
+1246,pump
+1248,pump
+1250,pump
+1252,pump
+1254,pump
+1257,pump
+1259,pump
+1260,pump
+1265,pump
+1267,pump
+1270,pump
+1271,pump
+1272,pump
+1274,pump
+1278,compressor
+1280,compressor
+1281,compressor
+1285,compressor
+1291,compressor
+1293,compressor
+1294,compressor
+1300,compressor
+1302,compressor
+1303,compressor
+1304,compressor
+1305,compressor
+1309,compressor
+1313,compressor
+1320,compressor
+1322,compressor
+1328,compressor
+1331,compressor
+1332,compressor
+1335,compressor
+1339,compressor
+1343,reciprocating internal combustion engine
+1344,reciprocating internal combustion engine
+1346,reciprocating internal combustion engine
+1347,reciprocating internal combustion engine
+1348,reciprocating internal combustion engine
+1357,reciprocating internal combustion engine
+1360,reciprocating internal combustion engine
+1362,reciprocating internal combustion engine
+1363,reciprocating internal combustion engine
+1366,reciprocating internal combustion engine
+1373,reciprocating internal combustion engine
+1375,reciprocating internal combustion engine
+1378,reciprocating internal combustion engine
+1379,reciprocating internal combustion engine
+1381,reciprocating internal combustion engine
+1386,reciprocating internal combustion engine
+1388,reciprocating internal combustion engine
+1392,reciprocating internal combustion engine
+1394,reciprocating internal combustion engine
+1396,reciprocating internal combustion engine
+1397,reciprocating internal combustion engine
+1398,reciprocating internal combustion engine
+1402,reciprocating internal combustion engine
+1406,reciprocating internal combustion engine
+1407,reciprocating internal combustion engine
+1413,reciprocating internal combustion engine
+1414,reciprocating internal combustion engine
+1416,reciprocating internal combustion engine
+1423,reciprocating internal combustion engine
+1427,reciprocating internal combustion engine
+1428,reciprocating internal combustion engine
+1429,reciprocating internal combustion engine
+1431,reciprocating internal combustion engine
+1433,reciprocating internal combustion engine
+1442,reciprocating internal combustion engine
+1450,reciprocating internal combustion engine
+1452,reciprocating internal combustion engine
+1455,reciprocating internal combustion engine
+1456,reciprocating internal combustion engine
+1459,reciprocating internal combustion engine
+1469,electric generator
+1470,electric generator
+1472,electric generator
+1474,electric generator
+1476,electric generator
+1478,electric generator
+1479,electric generator
+1480,electric generator
+1482,electric generator
+1494,electric generator
+1495,electric generator
+1499,electric generator
+1500,electric generator
+1501,electric generator
+1503,electric generator
+1504,electric generator
+1505,electric generator
+1507,electric generator
+1510,electric generator
+1513,electric generator
+1515,electric generator
+1516,electric generator
+1518,electric generator
+1523,electric generator
+1527,electric generator
+1528,electric generator
+1529,electric generator
+1532,electric generator
+1537,electric generator
+1538,electric generator
+1539,electric generator
+1540,electric generator
+1542,electric generator
+1544,electric generator
+1545,electric generator
+1550,fan
+1554,fan
+1555,fan
+1556,fan
+1558,fan
+1559,fan
+1560,fan
+1562,fan
+1564,fan
+1566,fan
+1569,fan
+1575,fan
+1576,fan
+1580,fan
+1583,fan
+1586,fan
+1587,fan
+1588,fan
+1589,fan
+1590,fan
+1591,fan
+1593,fan
+1595,fan
+1596,fan
+1597,fan
+1598,fan
+1604,fan
+1605,fan
+1607,fan
+1609,fan
+1610,power transformer
+1612,power transformer
+1617,power transformer
+1619,power transformer
+1621,power transformer
+1622,power transformer
+1625,power transformer
+1627,power transformer
+1629,power transformer
+1630,power transformer
+1631,power transformer
+1633,power transformer
+1638,power transformer
+1639,power transformer
+1640,power transformer
+1641,power transformer
+1652,power transformer
+1655,power transformer
+1656,power transformer
+1658,power transformer
+1659,power transformer
+1661,power transformer
+1664,power transformer
+1668,power transformer
+1670,power transformer
+1671,power transformer
+1672,power transformer
+1674,power transformer
+1675,power transformer
+1686,power transformer
+1688,power transformer
+1691,power transformer
+1692,power transformer
+1695,power transformer
+1696,power transformer
+1706,power transformer
+1707,power transformer
+1709,power transformer
+1710,power transformer
+1711,power transformer
+1712,power transformer
+1717,power transformer
+1718,power transformer
+1719,power transformer
+1720,power transformer
+1721,power transformer
+1723,power transformer
+1726,power transformer
+1731,power transformer
+1734,power transformer
+1735,power transformer
+1741,power transformer
+1742,power transformer
+1745,power transformer
+1747,power transformer
+1752,power transformer
+1756,power transformer
+1757,power transformer
+1761,power transformer
+1763,power transformer
+1764,power transformer
+1765,power transformer
+1767,power transformer
+1771,power transformer
+1774,power transformer
+1779,power transformer
+1780,power transformer
+1784,power transformer
+1785,power transformer
+1786,power transformer
+1788,power transformer
+1796,electric motor
+1800,electric motor
+1802,electric motor
+1803,electric motor
+1808,electric motor
+1816,electric motor
+1817,electric motor
+1818,electric motor
+1820,electric motor
+1822,electric motor
+1824,electric motor
+1826,electric motor
+1830,electric motor
+1831,electric motor
+1832,electric motor
+1833,electric motor
+1836,electric motor
+1837,electric motor
+1839,electric motor
+1840,electric motor
+1843,electric motor
+1848,electric motor
+1849,electric motor
+1852,electric motor
+1853,electric motor
+1854,electric motor
+1860,electric motor
+1868,electric motor
+1874,steam turbine
+1875,steam turbine
+1877,steam turbine
+1886,steam turbine
+1888,steam turbine
+1889,steam turbine
+1890,steam turbine
+1893,steam turbine
+1897,steam turbine
+1900,steam turbine
+1901,steam turbine
+1902,steam turbine
+1903,steam turbine
+1904,steam turbine
+1910,steam turbine
+1912,steam turbine
+1913,steam turbine
+1914,steam turbine
+1917,steam turbine
+1918,steam turbine
+1919,steam turbine
+1921,steam turbine
+1922,steam turbine
+1923,aero gas turbine
+1928,aero gas turbine
+1929,aero gas turbine
+1931,aero gas turbine
+1934,aero gas turbine
+1935,aero gas turbine
+1936,aero gas turbine
+1940,aero gas turbine
+1945,aero gas turbine
+1952,aero gas turbine
+1953,aero gas turbine
+1955,aero gas turbine
+1956,aero gas turbine
+1957,aero gas turbine
+1958,aero gas turbine
+1960,aero gas turbine
+1961,aero gas turbine
+1962,aero gas turbine
+1964,aero gas turbine
+1965,aero gas turbine
+1968,aero gas turbine
+1969,aero gas turbine
+1973,aero gas turbine
+1974,aero gas turbine
+1975,aero gas turbine
+1976,aero gas turbine
+1977,aero gas turbine
+1978,aero gas turbine
+1979,aero gas turbine
+1982,aero gas turbine
+1983,aero gas turbine
+1987,aero gas turbine
+1992,aero gas turbine
+1993,aero gas turbine
+1995,aero gas turbine
+1996,aero gas turbine
+1998,aero gas turbine
+2000,aero gas turbine
+2002,aero gas turbine
+2005,aero gas turbine
+2011,aero gas turbine
+2012,aero gas turbine
+2013,aero gas turbine
+2014,aero gas turbine
+2019,aero gas turbine
+2025,aero gas turbine
+2030,industrial gas turbine
+2034,industrial gas turbine
+2037,industrial gas turbine
+2038,industrial gas turbine
+2039,industrial gas turbine
+2041,industrial gas turbine
+2045,industrial gas turbine
+2049,industrial gas turbine
+2051,industrial gas turbine
+2052,industrial gas turbine
+2053,industrial gas turbine
+2054,industrial gas turbine
+2055,industrial gas turbine
+2057,industrial gas turbine
+2059,industrial gas turbine
+2060,industrial gas turbine
+2061,industrial gas turbine
+2062,industrial gas turbine
+2066,industrial gas turbine
+2067,industrial gas turbine
+2069,industrial gas turbine
+2070,industrial gas turbine
+2071,industrial gas turbine
+2073,industrial gas turbine
+2074,industrial gas turbine
+2076,industrial gas turbine
+2087,industrial gas turbine
+2089,industrial gas turbine
+2090,industrial gas turbine
+2091,industrial gas turbine
+2092,industrial gas turbine
+2093,industrial gas turbine
+2094,industrial gas turbine
+2095,industrial gas turbine
+2104,industrial gas turbine
+2105,industrial gas turbine
+2107,pump
+2108,pump
+2111,pump
+2113,pump
+2117,pump
+2118,pump
+2123,pump
+2124,pump
+2131,pump
+2132,pump
+2135,pump
+2138,pump
+2140,pump
+2144,pump
+2146,pump
+2152,compressor
+2157,compressor
+2158,compressor
+2159,compressor
+2163,compressor
+2164,compressor
+2165,compressor
+2169,compressor
+2170,compressor
+2181,compressor
+2182,compressor
+2183,compressor
+2184,compressor
+2185,compressor
+2187,compressor
+2189,compressor
+2194,compressor
+2203,compressor
+2204,compressor
+2210,compressor
+2214,reciprocating internal combustion engine
+2215,reciprocating internal combustion engine
+2217,reciprocating internal combustion engine
+2221,reciprocating internal combustion engine
+2225,reciprocating internal combustion engine
+2227,reciprocating internal combustion engine
+2232,reciprocating internal combustion engine
+2235,reciprocating internal combustion engine
+2242,reciprocating internal combustion engine
+2245,reciprocating internal combustion engine
+2251,reciprocating internal combustion engine
+2256,reciprocating internal combustion engine
+2258,reciprocating internal combustion engine
+2259,reciprocating internal combustion engine
+2260,reciprocating internal combustion engine
+2261,reciprocating internal combustion engine
+2262,reciprocating internal combustion engine
+2268,reciprocating internal combustion engine
+2271,reciprocating internal combustion engine
+2272,reciprocating internal combustion engine
+2274,reciprocating internal combustion engine
+2276,reciprocating internal combustion engine
+2279,reciprocating internal combustion engine
+2280,reciprocating internal combustion engine
+2283,reciprocating internal combustion engine
+2287,reciprocating internal combustion engine
+2288,reciprocating internal combustion engine
+2289,reciprocating internal combustion engine
+2290,reciprocating internal combustion engine
+2292,reciprocating internal combustion engine
+2296,reciprocating internal combustion engine
+2297,reciprocating internal combustion engine
+2299,reciprocating internal combustion engine
+2300,reciprocating internal combustion engine
+2301,reciprocating internal combustion engine
+2303,reciprocating internal combustion engine
+2305,reciprocating internal combustion engine
+2306,reciprocating internal combustion engine
+2308,reciprocating internal combustion engine
+2309,reciprocating internal combustion engine
+2310,reciprocating internal combustion engine
+2311,reciprocating internal combustion engine
+2313,reciprocating internal combustion engine
+2316,reciprocating internal combustion engine
+2318,reciprocating internal combustion engine
+2323,reciprocating internal combustion engine
+2324,reciprocating internal combustion engine
+2326,reciprocating internal combustion engine
+2329,reciprocating internal combustion engine
+2330,reciprocating internal combustion engine
+2332,reciprocating internal combustion engine
+2333,reciprocating internal combustion engine
+2335,reciprocating internal combustion engine
+2336,reciprocating internal combustion engine
+2341,electric generator
+2342,electric generator
+2343,electric generator
+2344,electric generator
+2347,electric generator
+2348,electric generator
+2353,electric generator
+2354,electric generator
+2355,electric generator
+2356,electric generator
+2358,electric generator
+2359,electric generator
+2360,electric generator
+2362,electric generator
+2364,electric generator
+2365,electric generator
+2369,electric generator
+2374,electric generator
+2377,electric generator
+2382,electric generator
+2385,electric generator
+2387,electric generator
+2393,electric generator
+2399,electric generator
+2402,electric generator
+2411,electric generator
+2416,electric generator
+2419,electric generator
+2420,fan
+2424,fan
+2427,fan
+2429,fan
+2432,fan
+2433,fan
+2434,fan
+2438,fan
+2439,fan
+2441,fan
+2444,fan
+2445,fan
+2448,fan
+2453,fan
+2458,fan
+2460,fan
+2462,fan
+2463,fan
+2469,fan
+2470,fan
+2471,fan
+2476,fan
+2482,power transformer
+2483,power transformer
+2487,power transformer
+2490,power transformer
+2491,power transformer
+2492,power transformer
+2496,power transformer
+2497,power transformer
+2504,power transformer
+2505,power transformer
+2509,power transformer
+2512,power transformer
+2515,power transformer
+2516,power transformer
+2517,power transformer
+2518,power transformer
+2520,power transformer
+2529,power transformer
+2535,power transformer
+2536,power transformer
+2543,power transformer
+2547,power transformer
+2550,power transformer
+2551,power transformer
+2552,power transformer
+2554,power transformer
+2555,power transformer
+2556,power transformer
+2557,power transformer
+2560,power transformer
+2562,power transformer
+2564,power transformer
+2566,power transformer
+2567,power transformer
+2570,power transformer
+2576,power transformer
+2580,power transformer
+2582,power transformer
+2583,power transformer
+2585,power transformer
+2590,power transformer
+2593,power transformer
+2594,power transformer
+2595,power transformer
+2596,power transformer
+2611,power transformer
+2615,power transformer
+2617,power transformer
+2619,power transformer
+2621,power transformer
+2624,power transformer
+2626,power transformer
+2629,power transformer
+2632,power transformer
+2640,power transformer
+2642,power transformer
+2646,power transformer
+2649,power transformer
+2657,power transformer
+2658,power transformer
+2660,power transformer
+2661,power transformer
+2663,power transformer

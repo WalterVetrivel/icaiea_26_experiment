@@ -1,0 +1,1001 @@
+id,asset,variant,model,condition,rag_coverage,answer,pred,correct,parsed,n_options,wall_s,prompt_tokens,output_tokens,prompt_s,gen_s,load_s,raw
+5,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,20.751,132,2,0.276,0.024,20.435,R
+6,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,S,0,1,5,20.912,125,2,0.101,0.019,20.42,S
+7,electric motor,simple_pert,qwen3.5:2b,zero_shot,,T,P,0,1,5,21.025,126,2,0.093,0.02,20.386,P
+1,electric motor,simple_pert,qwen3.5:2b,zero_shot,,T,S,0,1,5,21.136,124,2,0.079,0.016,20.441,S
+15,electric motor,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.501,132,2,0.066,0.016,0.013,R
+16,electric motor,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.44,120,2,0.064,0.016,0.011,R
+19,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.461,133,2,0.074,0.017,0.013,T
+20,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.483,119,2,0.064,0.016,0.009,R
+32,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.459,114,2,0.063,0.016,0.008,R
+35,electric motor,simple_pert,qwen3.5:2b,zero_shot,,T,S,0,1,5,0.483,120,2,0.064,0.016,0.004,S
+41,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.464,116,2,0.062,0.017,0.015,R
+44,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.449,119,2,0.065,0.016,0.008,R
+47,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.469,110,2,0.059,0.016,0.011,R
+48,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.442,109,2,0.063,0.017,0.014,R
+49,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.415,109,2,0.07,0.016,0.014,R
+51,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.423,130,2,0.065,0.017,0.004,T
+53,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,5,0.43,132,2,0.065,0.016,0.016,S
+54,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.444,104,2,0.059,0.016,0.004,R
+57,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.464,120,2,0.066,0.017,0.008,R
+63,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.47,110,2,0.06,0.016,0.014,R
+64,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,4,0.455,122,2,0.065,0.016,0.005,S
+67,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,4,0.451,110,2,0.062,0.016,0.01,P
+68,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,4,0.442,115,2,0.061,0.016,0.007,P
+69,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.447,120,2,0.063,0.017,0.013,R
+70,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.45,125,2,0.065,0.016,0.011,R
+76,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.46,129,2,0.065,0.016,0.009,T
+79,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,5,0.477,131,2,0.066,0.016,0.009,P
+82,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.468,122,2,0.068,0.017,0.013,R
+89,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.46,106,2,0.061,0.017,0.008,Q
+93,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.443,113,2,0.063,0.017,0.009,Q
+94,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.447,117,2,0.065,0.017,0.008,R
+95,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,3,0.454,114,2,0.06,0.016,0.015,Q
+102,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.446,107,2,0.061,0.016,0.009,R
+104,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.461,120,2,0.065,0.017,0.009,R
+106,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.477,137,2,0.073,0.016,0.004,T
+109,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.464,123,2,0.063,0.017,0.018,R
+110,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,S,0,1,5,0.485,130,2,0.068,0.017,0.003,S
+111,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.488,133,2,0.076,0.017,0.009,R
+113,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.486,134,2,0.074,0.016,0.015,R
+114,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,5,0.487,132,2,0.065,0.016,0.008,P
+115,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.488,143,2,0.074,0.017,0.007,T
+117,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,P,0,1,5,0.496,141,2,0.075,0.017,0.012,P
+118,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.476,121,2,0.063,0.016,0.014,R
+119,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.482,124,2,0.066,0.017,0.007,T
+121,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.473,127,2,0.066,0.017,0.007,R
+122,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,S,0,1,5,0.486,137,2,0.075,0.017,0.009,S
+127,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.492,136,2,0.073,0.016,0.014,T
+128,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,S,0,1,5,0.495,138,2,0.075,0.016,0.013,S
+129,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.5,137,2,0.073,0.016,0.01,T
+133,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.479,122,2,0.063,0.017,0.011,R
+134,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,S,0,1,5,0.473,124,2,0.066,0.017,0.021,S
+139,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.456,122,2,0.067,0.016,0.005,T
+140,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.456,127,2,0.065,0.016,0.009,S
+142,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.458,123,2,0.066,0.019,0.009,T
+148,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,Q,0,1,5,0.464,118,2,0.065,0.017,0.023,Q
+149,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,P,0,1,5,0.471,138,2,0.077,0.016,0.008,P
+151,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.471,120,2,0.063,0.016,0.01,R
+153,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.459,125,2,0.066,0.016,0.01,R
+159,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.455,112,2,0.061,0.016,0.026,R
+169,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,5,0.448,129,2,0.065,0.016,0.006,P
+171,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.451,121,2,0.064,0.016,0.009,R
+173,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.455,123,2,0.064,0.016,0.007,S
+181,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.47,128,2,0.065,0.018,0.009,T
+182,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.488,134,2,0.073,0.017,0.004,R
+183,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.471,132,2,0.069,0.017,0.01,T
+184,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.478,109,2,0.062,0.017,0.004,R
+191,pump,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.472,105,2,0.06,0.016,0.017,R
+192,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,5,0.457,114,2,0.061,0.016,0.013,Q
+193,pump,simple_pert,qwen3.5:2b,zero_shot,,R,S,0,1,5,0.457,112,2,0.061,0.016,0.014,S
+198,pump,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.451,125,2,0.064,0.016,0.006,S
+199,pump,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.447,115,2,0.062,0.017,0.015,R
+202,pump,simple_pert,qwen3.5:2b,zero_shot,,T,S,0,1,5,0.452,117,2,0.065,0.018,0.009,S
+203,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.451,114,2,0.061,0.016,0.009,R
+204,pump,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.453,118,2,0.064,0.016,0.009,R
+205,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.444,113,2,0.061,0.016,0.021,R
+209,pump,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.442,105,2,0.06,0.016,0.014,R
+212,pump,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.445,120,2,0.065,0.016,0.009,R
+213,pump,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.439,117,2,0.066,0.016,0.012,T
+217,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,5,0.447,117,2,0.069,0.016,0.017,Q
+218,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.457,120,2,0.064,0.016,0.013,T
+223,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.474,110,2,0.069,0.02,0.006,R
+224,compressor,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.525,105,2,0.066,0.019,0.011,R
+225,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.513,105,2,0.083,0.018,0.014,R
+226,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.507,110,2,0.066,0.019,0.011,R
+227,compressor,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.525,106,2,0.064,0.018,0.009,R
+230,compressor,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.503,131,2,0.071,0.019,0.01,T
+232,compressor,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.539,118,2,0.067,0.018,0.02,R
+233,compressor,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.559,128,2,0.068,0.018,0.009,R
+237,compressor,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.532,118,2,0.067,0.018,0.011,T
+239,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.555,114,2,0.064,0.018,0.006,R
+240,compressor,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.506,113,2,0.067,0.018,0.018,R
+241,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.492,104,2,0.066,0.019,0.011,R
+246,compressor,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.463,105,2,0.069,0.018,0.014,R
+247,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.416,129,2,0.072,0.018,0.01,R
+249,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,S,0,1,5,0.464,114,2,0.066,0.018,0.019,S
+250,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,5,0.48,115,2,0.068,0.019,0.009,S
+252,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.524,120,2,0.069,0.021,0.013,T
+254,compressor,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.538,114,2,0.067,0.019,0.008,T
+259,compressor,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.517,127,2,0.067,0.018,0.015,R
+261,compressor,simple_pert,qwen3.5:2b,zero_shot,,T,S,0,1,5,0.499,128,2,0.068,0.018,0.008,S
+262,compressor,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.502,122,2,0.067,0.018,0.009,T
+266,compressor,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.52,112,2,0.068,0.019,0.01,R
+267,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,S,0,1,5,0.513,121,2,0.071,0.018,0.013,S
+269,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.529,123,2,0.069,0.019,0.008,T
+271,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.53,138,2,0.082,0.018,0.009,R
+276,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.518,124,2,0.07,0.019,0.006,T
+277,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,T,S,0,1,5,0.531,121,2,0.068,0.018,0.026,S
+278,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.532,138,2,0.08,0.019,0.018,T
+286,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.524,124,2,0.067,0.018,0.013,R
+287,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.49,125,2,0.073,0.018,0.012,S
+292,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,5,0.487,121,2,0.066,0.018,0.016,S
+293,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,5,0.469,121,2,0.095,0.019,0.008,Q
+295,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.494,138,2,0.078,0.019,0.009,T
+296,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.53,121,2,0.069,0.019,0.006,T
+299,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.547,134,2,0.081,0.02,0.023,R
+300,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.556,120,2,0.072,0.018,0.01,R
+301,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.538,119,2,0.073,0.019,0.012,R
+302,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.541,122,2,0.071,0.018,0.01,S
+304,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.527,118,2,0.068,0.02,0.009,R
+305,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.538,123,2,0.072,0.019,0.008,S
+308,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.553,136,2,0.081,0.018,0.01,T
+311,electric generator,simple_pert,qwen3.5:2b,zero_shot,,T,S,0,1,5,0.553,125,2,0.07,0.018,0.013,S
+312,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,S,0,1,5,0.57,117,2,0.074,0.02,0.02,S
+317,electric generator,simple_pert,qwen3.5:2b,zero_shot,,R,Q,0,1,5,0.549,116,2,0.066,0.019,0.011,Q
+322,electric generator,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.535,119,2,0.07,0.019,0.013,T
+323,electric generator,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.497,121,2,0.079,0.018,0.018,T
+329,electric generator,simple_pert,qwen3.5:2b,zero_shot,,T,S,0,1,5,0.483,118,2,0.069,0.019,0.015,S
+332,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.484,115,2,0.069,0.018,0.009,R
+334,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.476,118,2,0.069,0.019,0.013,R
+338,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,5,0.503,113,2,0.067,0.019,0.011,Q
+342,electric generator,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.513,118,2,0.073,0.02,0.006,R
+343,electric generator,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.521,117,2,0.067,0.018,0.008,T
+347,fan,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.517,115,2,0.067,0.019,0.013,R
+349,fan,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.54,121,2,0.067,0.019,0.011,R
+352,fan,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.533,119,2,0.071,0.018,0.01,R
+360,fan,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.532,117,2,0.067,0.018,0.01,T
+366,fan,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.531,104,2,0.064,0.02,0.008,R
+367,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.504,121,2,0.069,0.018,0.008,R
+368,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.533,108,2,0.071,0.019,0.013,R
+374,fan,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.532,119,2,0.069,0.018,0.011,T
+383,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.535,118,2,0.07,0.018,0.005,T
+384,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.535,123,2,0.07,0.019,0.011,T
+388,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,,0,0,5,0.504,113,2,0.067,0.021,0.013,B
+389,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.506,126,2,0.07,0.019,0.011,T
+392,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.514,119,2,0.068,0.018,0.014,R
+399,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.527,160,2,0.085,0.019,0.014,R
+405,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.548,132,2,0.072,0.019,0.012,T
+406,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.557,158,2,0.085,0.02,0.01,R
+407,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,5,0.568,149,2,0.082,0.02,0.012,Q
+408,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,5,0.574,153,2,0.082,0.019,0.007,Q
+410,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.59,158,2,0.082,0.019,0.01,R
+411,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.615,153,2,0.083,0.019,0.012,R
+412,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,Q,0,1,5,0.609,164,2,0.083,0.019,0.005,Q
+413,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.607,133,2,0.083,0.022,0.01,R
+415,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,Q,0,1,5,0.603,134,2,0.079,0.019,0.013,Q
+416,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,5,0.577,155,2,0.083,0.019,0.01,P
+418,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,5,0.593,160,2,0.084,0.021,0.013,S
+419,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,5,0.608,160,2,0.09,0.02,0.006,P
+423,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,5,0.587,139,2,0.081,0.019,0.011,P
+429,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,5,0.588,137,2,0.08,0.02,0.021,S
+434,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,Q,0,1,5,0.572,152,2,0.083,0.02,0.012,Q
+437,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.552,132,2,0.073,0.019,0.01,T
+439,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.559,126,2,0.07,0.019,0.009,R
+440,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.559,147,2,0.081,0.02,0.026,R
+441,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,Q,0,1,5,0.57,149,2,0.08,0.019,0.012,Q
+446,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,S,0,1,5,0.59,121,2,0.069,0.018,0.012,S
+453,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.589,136,2,0.079,0.021,0.013,T
+454,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.587,148,2,0.081,0.019,0.008,R
+456,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.586,146,2,0.083,0.022,0.023,T
+461,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.566,159,2,0.08,0.017,0.017,R
+463,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.54,119,2,0.066,0.017,0.006,S
+464,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,5,0.499,150,2,0.08,0.017,0.008,Q
+465,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,5,0.458,122,2,0.064,0.016,0.017,S
+466,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,P,0,1,5,0.439,144,2,0.076,0.017,0.009,P
+470,electric motor,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.438,105,2,0.061,0.017,0.014,R
+471,electric motor,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.441,107,2,0.064,0.017,0.004,R
+472,electric motor,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.452,105,2,0.062,0.017,0.016,R
+474,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.465,104,2,0.062,0.017,0.014,R
+484,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.459,123,2,0.066,0.017,0.013,R
+486,electric motor,simple_pert,qwen3.5:2b,zero_shot,,R,S,0,1,5,0.484,115,2,0.062,0.018,0.007,S
+488,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.475,109,2,0.061,0.016,0.014,R
+491,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,3,0.428,107,2,0.064,0.016,0.01,B
+492,electric motor,simple_pert,qwen3.5:2b,zero_shot,,R,P,0,1,3,0.441,109,2,0.062,0.016,0.011,P
+493,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.412,107,2,0.061,0.016,0.005,R
+495,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,S,0,1,5,0.427,119,2,0.064,0.016,0.015,S
+498,electric motor,simple_pert,qwen3.5:2b,zero_shot,,T,S,0,1,5,0.456,118,2,0.064,0.017,0.003,S
+501,electric motor,simple_pert,qwen3.5:2b,zero_shot,,R,P,0,1,5,0.46,120,2,0.065,0.019,0.014,P
+502,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.448,118,2,0.067,0.016,0.003,R
+505,electric motor,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.431,119,2,0.065,0.016,0.007,R
+512,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.426,115,2,0.062,0.016,0.015,R
+514,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.408,122,2,0.064,0.016,0.017,T
+516,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,5,0.436,119,2,0.065,0.017,0.005,P
+520,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.45,121,2,0.064,0.016,0.013,R
+522,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,T,P,0,1,5,0.464,118,2,0.065,0.017,0.011,P
+525,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.474,118,2,0.07,0.017,0.015,R
+529,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.466,111,2,0.063,0.017,0.01,R
+531,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.467,112,2,0.062,0.016,0.004,R
+537,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,5,0.455,120,2,0.064,0.017,0.009,P
+538,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.449,121,2,0.064,0.017,0.013,T
+539,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.45,116,2,0.062,0.016,0.015,T
+541,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.441,120,2,0.066,0.017,0.015,R
+542,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.436,118,2,0.067,0.016,0.012,T
+544,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.445,120,2,0.064,0.016,0.021,T
+548,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.441,126,2,0.067,0.016,0.005,T
+550,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.414,125,2,0.069,0.016,0.016,R
+552,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.436,118,2,0.066,0.016,0.006,T
+561,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,5,0.43,119,2,0.063,0.016,0.018,S
+570,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.442,121,2,0.065,0.017,0.006,R
+574,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.47,122,2,0.065,0.016,0.003,S
+575,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,5,0.438,126,2,0.074,0.017,0.01,S
+576,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,S,0,1,5,0.43,121,2,0.064,0.016,0.014,S
+579,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.427,121,2,0.067,0.016,0.01,T
+581,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,Q,0,1,5,0.425,120,2,0.065,0.017,0.005,Q
+585,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.442,121,2,0.065,0.017,0.007,T
+586,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.457,121,2,0.069,0.019,0.013,R
+589,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,P,0,1,5,0.466,122,2,0.064,0.016,0.01,P
+592,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.469,121,2,0.066,0.016,0.013,T
+593,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.473,121,2,0.068,0.016,0.011,T
+594,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.465,124,2,0.066,0.016,0.013,S
+598,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.456,123,2,0.065,0.017,0.007,R
+600,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,P,0,1,5,0.453,121,2,0.064,0.016,0.006,P
+601,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,5,0.45,123,2,0.066,0.017,0.008,P
+606,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.45,119,2,0.064,0.016,0.007,T
+609,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.447,121,2,0.066,0.017,0.008,T
+610,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.425,119,2,0.071,0.017,0.011,R
+611,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.432,118,2,0.063,0.016,0.008,R
+612,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.431,123,2,0.065,0.017,0.014,R
+617,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.427,113,2,0.063,0.016,0.01,R
+618,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.443,111,2,0.062,0.016,0.004,R
+619,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,P,0,1,4,0.431,110,2,0.061,0.016,0.015,P
+621,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,P,0,1,4,0.416,113,2,0.062,0.016,0.013,P
+624,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.424,120,2,0.063,0.017,0.014,T
+626,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.427,121,2,0.065,0.016,0.012,T
+627,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.441,121,2,0.068,0.019,0.01,R
+628,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.456,121,2,0.066,0.017,0.003,T
+629,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.462,122,2,0.067,0.017,0.021,T
+632,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.463,112,2,0.063,0.016,0.006,R
+637,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,S,0,1,4,0.452,115,2,0.062,0.017,0.012,S
+639,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.451,119,2,0.065,0.016,0.008,T
+640,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.449,122,2,0.063,0.017,0.01,T
+641,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.455,122,2,0.071,0.017,0.012,R
+645,pump,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.458,116,2,0.064,0.017,0.006,S
+648,pump,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.45,110,2,0.062,0.018,0.007,R
+649,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,S,0,1,4,0.453,110,2,0.068,0.016,0.021,S
+653,pump,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.456,114,2,0.061,0.016,0.017,S
+662,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.461,115,2,0.062,0.016,0.019,R
+663,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,5,0.482,114,2,0.06,0.016,0.009,B
+666,pump,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.466,117,2,0.064,0.016,0.011,T
+667,pump,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,5,0.469,114,2,0.062,0.016,0.011,S
+670,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,5,0.462,115,2,0.062,0.017,0.008,B
+676,compressor,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.459,118,2,0.065,0.016,0.006,R
+677,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,5,0.478,117,2,0.067,0.019,0.016,P
+680,compressor,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.463,116,2,0.062,0.016,0.01,R
+681,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.446,116,2,0.072,0.016,0.006,R
+683,compressor,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.431,115,2,0.062,0.016,0.008,T
+687,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.419,116,2,0.063,0.018,0.022,T
+688,compressor,simple_pert,qwen3.5:2b,zero_shot,,T,S,0,1,5,0.427,117,2,0.065,0.016,0.01,S
+689,compressor,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.421,116,2,0.067,0.017,0.005,T
+690,compressor,simple_pert,qwen3.5:2b,zero_shot,,R,S,0,1,5,0.431,113,2,0.066,0.019,0.013,S
+691,compressor,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.447,113,2,0.072,0.019,0.006,T
+692,compressor,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.457,113,2,0.068,0.018,0.007,T
+697,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,3,0.507,105,2,0.068,0.019,0.005,B
+703,compressor,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.519,103,2,0.065,0.019,0.007,R
+705,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.504,113,2,0.065,0.019,0.016,T
+709,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.496,113,2,0.072,0.018,0.011,R
+712,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,5,0.482,116,2,0.065,0.018,0.007,P
+713,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.467,115,2,0.064,0.019,0.006,R
+714,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.478,117,2,0.067,0.019,0.028,R
+715,compressor,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.502,115,2,0.066,0.019,0.005,T
+723,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,S,0,1,5,0.519,123,2,0.07,0.021,0.015,S
+727,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,5,0.547,126,2,0.074,0.02,0.008,A
+729,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.542,123,2,0.072,0.018,0.013,T
+730,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.543,126,2,0.068,0.018,0.015,S
+735,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.529,123,2,0.068,0.018,0.012,S
+737,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.526,125,2,0.069,0.019,0.014,T
+739,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.549,121,2,0.069,0.018,0.01,T
+743,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.539,124,2,0.071,0.019,0.008,R
+744,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,5,0.547,126,2,0.069,0.019,0.01,P
+754,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,5,0.528,121,2,0.072,0.018,0.013,P
+755,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,5,0.523,125,2,0.071,0.019,0.011,Q
+756,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,5,0.522,122,2,0.069,0.019,0.011,P
+761,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.51,123,2,0.071,0.018,0.01,R
+764,electric generator,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.535,111,2,0.067,0.019,0.007,R
+767,electric generator,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,4,0.526,111,2,0.071,0.019,0.015,S
+773,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,5,0.529,119,2,0.071,0.019,0.008,Q
+774,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,5,0.548,119,2,0.076,0.019,0.009,Q
+775,electric generator,simple_pert,qwen3.5:2b,zero_shot,,T,Q,0,1,5,0.537,116,2,0.066,0.019,0.008,Q
+779,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.532,109,2,0.065,0.02,0.014,R
+780,electric generator,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.539,109,2,0.077,0.019,0.01,R
+783,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.537,110,2,0.065,0.019,0.012,R
+784,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.53,106,2,0.064,0.018,0.008,R
+786,electric generator,simple_pert,qwen3.5:2b,zero_shot,,S,P,0,1,5,0.536,118,2,0.07,0.019,0.019,P
+787,electric generator,simple_pert,qwen3.5:2b,zero_shot,,T,S,0,1,5,0.528,123,2,0.072,0.02,0.012,S
+790,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.523,119,2,0.07,0.018,0.01,R
+792,electric generator,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.536,121,2,0.072,0.021,0.012,T
+793,electric generator,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.529,117,2,0.069,0.019,0.019,S
+799,fan,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.527,119,2,0.069,0.019,0.011,R
+805,fan,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.53,116,2,0.067,0.019,0.008,T
+806,fan,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.53,115,2,0.069,0.019,0.01,R
+808,fan,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.532,118,2,0.068,0.019,0.016,T
+814,fan,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,3,0.532,107,2,0.067,0.019,0.013,P
+816,fan,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.502,106,2,0.072,0.019,0.014,R
+821,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.472,104,2,0.07,0.019,0.008,R
+822,fan,simple_pert,qwen3.5:2b,zero_shot,,S,P,0,1,5,0.487,117,2,0.068,0.019,0.019,P
+824,fan,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.494,117,2,0.081,0.019,0.008,R
+826,fan,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,5,0.54,119,2,0.07,0.018,0.009,S
+828,fan,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.568,119,2,0.076,0.018,0.01,T
+829,fan,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.559,119,2,0.069,0.019,0.017,R
+830,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.544,118,2,0.069,0.019,0.007,T
+831,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.528,117,2,0.068,0.018,0.008,T
+835,fan,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.528,116,2,0.067,0.019,0.013,R
+836,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.525,126,2,0.074,0.019,0.008,R
+838,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,P,0,1,5,0.545,133,2,0.081,0.02,0.012,P
+840,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,P,0,1,5,0.559,127,2,0.07,0.019,0.009,P
+843,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,5,0.562,134,2,0.082,0.019,0.01,Q
+844,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,P,0,1,5,0.568,126,2,0.072,0.019,0.024,P
+847,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.56,133,2,0.081,0.019,0.015,R
+848,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,5,0.557,138,2,0.084,0.02,0.013,P
+850,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.556,130,2,0.07,0.02,0.013,T
+853,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.561,137,2,0.081,0.02,0.024,T
+856,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.548,132,2,0.072,0.019,0.007,T
+857,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.557,134,2,0.081,0.02,0.008,R
+861,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,P,0,1,5,0.553,131,2,0.073,0.019,0.01,P
+863,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.545,136,2,0.078,0.019,0.011,R
+865,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,5,0.565,133,2,0.079,0.02,0.01,P
+866,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,5,0.568,133,2,0.089,0.019,0.01,P
+868,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.579,133,2,0.08,0.019,0.014,R
+871,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.567,127,2,0.07,0.018,0.009,T
+872,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,S,0,1,5,0.561,133,2,0.079,0.019,0.01,S
+874,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.557,132,2,0.073,0.019,0.008,R
+875,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,P,0,1,5,0.551,134,2,0.083,0.02,0.007,P
+877,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,P,0,1,5,0.549,129,2,0.074,0.021,0.02,P
+883,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.567,129,2,0.082,0.021,0.016,T
+884,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.577,134,2,0.081,0.021,0.007,R
+885,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,5,0.577,138,2,0.081,0.02,0.012,Q
+886,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,P,0,1,5,0.602,136,2,0.08,0.019,0.018,P
+887,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,5,0.581,125,2,0.071,0.019,0.012,P
+891,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,P,0,1,5,0.565,131,2,0.073,0.018,0.008,P
+897,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.545,125,2,0.067,0.019,0.007,S
+899,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,5,0.528,127,2,0.07,0.018,0.019,Q
+901,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,5,0.527,133,2,0.083,0.02,0.006,P
+906,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,5,0.524,128,2,0.07,0.019,0.012,P
+908,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.525,125,2,0.072,0.019,0.008,T
+910,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.544,160,2,0.086,0.019,0.012,R
+912,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.562,160,2,0.09,0.018,0.01,T
+914,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,P,0,1,5,0.572,133,2,0.081,0.02,0.01,P
+915,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,5,0.576,135,2,0.08,0.019,0.009,P
+923,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.57,121,2,0.068,0.019,0.012,T
+928,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,5,0.543,117,2,0.077,0.018,0.013,S
+931,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.521,116,2,0.066,0.018,0.01,T
+932,electric motor,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.532,115,2,0.067,0.019,0.011,T
+933,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,5,0.528,115,2,0.078,0.019,0.011,S
+937,electric motor,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.517,110,2,0.068,0.019,0.008,R
+944,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,4,0.524,109,2,0.065,0.019,0.006,S
+945,electric motor,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.507,111,2,0.069,0.018,0.014,R
+946,electric motor,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.505,120,2,0.072,0.019,0.008,S
+947,electric motor,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.511,131,2,0.072,0.019,0.008,T
+950,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.524,126,2,0.072,0.019,0.006,T
+951,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.522,121,2,0.071,0.019,0.008,T
+953,electric motor,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.526,116,2,0.067,0.018,0.008,T
+954,electric motor,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.53,130,2,0.07,0.019,0.006,T
+956,electric motor,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.531,115,2,0.067,0.017,0.015,T
+958,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.523,123,2,0.066,0.017,0.004,R
+959,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.495,115,2,0.063,0.017,0.004,R
+960,electric motor,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.47,113,2,0.063,0.017,0.012,T
+961,electric motor,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.442,116,2,0.062,0.016,0.014,R
+962,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.45,123,2,0.064,0.016,0.016,T
+966,electric motor,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.451,116,2,0.062,0.016,0.011,T
+968,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,S,0,1,5,0.447,120,2,0.065,0.016,0.013,S
+969,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,S,0,1,5,0.452,114,2,0.063,0.016,0.01,S
+971,electric motor,simple_pert,qwen3.5:2b,zero_shot,,T,S,0,1,5,0.441,116,2,0.065,0.017,0.007,S
+976,electric motor,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.455,133,2,0.076,0.017,0.016,T
+980,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.456,116,2,0.063,0.016,0.016,Q
+983,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,2,0.452,98,2,0.058,0.016,0.014,P
+984,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.448,101,2,0.062,0.016,0.012,B
+985,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,2,0.429,110,2,0.062,0.016,0.007,P
+986,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.439,108,2,0.062,0.017,0.011,Q
+987,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.452,102,2,0.06,0.016,0.013,B
+991,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.446,116,2,0.063,0.016,0.008,B
+994,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.46,101,2,0.06,0.017,0.01,B
+996,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.445,103,2,0.063,0.017,0.005,Q
+1001,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.443,102,2,0.059,0.016,0.012,B
+1002,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.452,116,2,0.062,0.016,0.004,S
+1003,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.458,129,2,0.067,0.016,0.011,T
+1004,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.465,114,2,0.061,0.016,0.008,T
+1005,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.456,119,2,0.064,0.016,0.008,T
+1006,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.455,113,2,0.062,0.016,0.007,T
+1009,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.442,128,2,0.067,0.016,0.019,R
+1016,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.439,113,2,0.062,0.017,0.007,T
+1021,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.439,127,2,0.066,0.016,0.011,T
+1026,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.447,131,2,0.067,0.016,0.018,T
+1030,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.448,117,2,0.065,0.016,0.018,T
+1031,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.452,113,2,0.063,0.018,0.014,T
+1032,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.459,113,2,0.065,0.016,0.008,T
+1041,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.45,111,2,0.061,0.016,0.014,Q
+1049,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,2,0.453,99,2,0.058,0.016,0.006,P
+1051,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.458,130,2,0.068,0.018,0.005,T
+1052,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.464,126,2,0.067,0.017,0.015,T
+1060,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.469,118,2,0.064,0.016,0.01,T
+1063,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.469,118,2,0.069,0.017,0.015,R
+1067,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.467,120,2,0.065,0.016,0.009,R
+1073,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.472,146,2,0.08,0.018,0.013,T
+1084,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.487,134,2,0.074,0.016,0.009,T
+1091,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,S,0,1,4,0.487,120,2,0.065,0.016,0.009,S
+1094,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.485,127,2,0.067,0.016,0.005,R
+1098,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.469,117,2,0.064,0.016,0.014,R
+1103,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,4,0.455,123,2,0.064,0.016,0.006,S
+1106,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.454,125,2,0.066,0.016,0.012,T
+1108,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,S,0,1,5,0.453,128,2,0.066,0.016,0.012,S
+1112,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.452,120,2,0.066,0.017,0.008,T
+1113,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.463,120,2,0.073,0.017,0.007,R
+1116,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.455,124,2,0.066,0.016,0.011,R
+1117,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.43,119,2,0.069,0.016,0.02,R
+1125,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.439,118,2,0.065,0.016,0.004,R
+1129,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.425,124,2,0.065,0.016,0.01,R
+1131,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.429,111,2,0.062,0.016,0.01,R
+1133,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.455,125,2,0.066,0.017,0.003,R
+1135,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.451,108,2,0.067,0.017,0.007,B
+1139,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,2,0.447,113,2,0.062,0.016,0.012,B
+1141,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.453,119,2,0.065,0.018,0.013,Q
+1142,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.452,102,2,0.061,0.016,0.013,Q
+1145,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.439,108,2,0.061,0.016,0.012,B
+1146,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.441,107,2,0.064,0.017,0.009,B
+1149,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.44,107,2,0.069,0.017,0.01,B
+1151,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.412,110,2,0.065,0.017,0.011,Q
+1154,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.414,102,2,0.062,0.017,0.011,B
+1155,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.413,114,2,0.061,0.016,0.026,Q
+1156,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.41,122,2,0.066,0.017,0.013,R
+1157,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.418,125,2,0.072,0.016,0.003,R
+1160,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.397,122,2,0.066,0.016,0.013,R
+1161,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.405,117,2,0.065,0.017,0.029,T
+1165,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.408,124,2,0.066,0.017,0.006,R
+1169,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.433,130,2,0.068,0.017,0.004,T
+1170,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.457,115,2,0.062,0.016,0.008,S
+1174,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.444,120,2,0.065,0.016,0.008,T
+1176,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.448,123,2,0.064,0.016,0.016,T
+1177,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.446,120,2,0.065,0.017,0.01,R
+1182,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.447,117,2,0.065,0.017,0.012,R
+1183,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.464,118,2,0.064,0.017,0.011,R
+1189,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.467,118,2,0.075,0.016,0.019,T
+1192,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.463,125,2,0.065,0.016,0.011,T
+1201,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.46,123,2,0.067,0.017,0.005,R
+1202,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.471,133,2,0.075,0.016,0.013,R
+1205,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.461,114,2,0.064,0.017,0.025,R
+1209,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.449,114,2,0.079,0.017,0.007,R
+1219,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.447,108,2,0.062,0.016,0.007,Q
+1220,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.418,105,2,0.062,0.017,0.007,Q
+1224,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.432,108,2,0.06,0.017,0.015,Q
+1227,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.427,107,2,0.073,0.017,0.004,Q
+1230,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,2,0.425,103,2,0.061,0.016,0.006,P
+1237,pump,simple_pert,qwen3.5:2b,zero_shot,,R,S,0,1,5,0.429,125,2,0.065,0.016,0.013,S
+1239,pump,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.439,115,2,0.068,0.019,0.008,R
+1244,pump,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.493,131,2,0.077,0.02,0.006,S
+1245,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,S,0,1,5,0.52,113,2,0.068,0.019,0.008,S
+1246,pump,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.549,127,2,0.069,0.018,0.004,T
+1248,pump,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.536,114,2,0.067,0.018,0.015,T
+1250,pump,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.524,130,2,0.075,0.021,0.013,T
+1252,pump,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.532,98,2,0.063,0.02,0.012,B
+1254,pump,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.523,97,2,0.065,0.019,0.019,B
+1257,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,2,0.516,115,2,0.069,0.019,0.01,B
+1259,pump,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.527,98,2,0.062,0.018,0.007,B
+1260,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,2,0.512,101,2,0.064,0.02,0.009,B
+1265,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.498,105,2,0.068,0.019,0.009,Q
+1267,pump,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.525,101,2,0.066,0.019,0.008,B
+1270,pump,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.52,103,2,0.073,0.025,0.01,R
+1271,pump,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.517,107,2,0.069,0.019,0.015,R
+1272,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.57,107,2,0.075,0.02,0.011,R
+1274,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.52,105,2,0.07,0.019,0.007,R
+1278,compressor,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.507,112,2,0.067,0.019,0.013,T
+1280,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.512,130,2,0.07,0.018,0.007,T
+1281,compressor,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.476,117,2,0.068,0.019,0.007,R
+1285,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.497,120,2,0.076,0.018,0.006,T
+1291,compressor,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.515,114,2,0.067,0.019,0.007,T
+1293,compressor,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.522,118,2,0.074,0.019,0.006,R
+1294,compressor,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.53,115,2,0.066,0.018,0.01,T
+1300,compressor,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.565,124,2,0.078,0.027,0.008,S
+1302,compressor,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.559,131,2,0.07,0.018,0.009,R
+1303,compressor,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.548,112,2,0.066,0.018,0.008,S
+1304,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.54,130,2,0.07,0.018,0.01,R
+1305,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,S,0,1,5,0.511,114,2,0.065,0.019,0.015,S
+1309,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.498,98,2,0.064,0.019,0.007,Q
+1313,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.504,102,2,0.069,0.026,0.006,B
+1320,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.523,106,2,0.065,0.02,0.006,R
+1322,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.524,109,2,0.065,0.018,0.017,R
+1328,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.534,109,2,0.075,0.02,0.008,B
+1331,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.507,110,2,0.076,0.02,0.014,Q
+1332,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,2,0.48,98,2,0.064,0.019,0.011,P
+1335,compressor,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.48,116,2,0.065,0.019,0.008,R
+1339,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.471,103,2,0.066,0.018,0.011,R
+1343,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.516,133,2,0.08,0.019,0.009,T
+1344,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.526,128,2,0.074,0.02,0.009,T
+1346,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.563,139,2,0.085,0.02,0.008,T
+1347,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.574,129,2,0.074,0.019,0.01,T
+1348,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,S,0,1,5,0.523,130,2,0.072,0.018,0.011,S
+1357,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.515,122,2,0.07,0.018,0.009,T
+1360,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.503,108,2,0.066,0.019,0.013,R
+1362,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.503,113,2,0.073,0.019,0.01,R
+1363,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.531,116,2,0.069,0.019,0.007,R
+1366,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.54,126,2,0.074,0.019,0.014,R
+1373,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.541,116,2,0.086,0.019,0.014,R
+1375,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.515,116,2,0.082,0.019,0.01,R
+1378,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.512,116,2,0.066,0.019,0.007,R
+1379,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,4,0.511,117,2,0.067,0.019,0.008,S
+1381,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.477,117,2,0.094,0.018,0.013,R
+1386,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.492,123,2,0.071,0.02,0.007,T
+1388,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.515,128,2,0.071,0.02,0.014,T
+1392,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.493,127,2,0.079,0.022,0.013,T
+1394,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,S,0,1,5,0.518,120,2,0.073,0.019,0.017,S
+1396,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,S,0,1,5,0.55,133,2,0.08,0.02,0.015,S
+1397,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.52,133,2,0.091,0.019,0.011,T
+1398,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.55,126,2,0.07,0.019,0.01,T
+1402,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.54,105,2,0.065,0.019,0.011,B
+1406,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.491,105,2,0.083,0.02,0.019,Q
+1407,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.498,110,2,0.066,0.019,0.009,B
+1413,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.519,116,2,0.078,0.02,0.011,R
+1414,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,3,0.516,111,2,0.065,0.019,0.005,Q
+1416,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.541,116,2,0.068,0.02,0.01,R
+1423,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.548,114,2,0.069,0.019,0.026,R
+1427,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.524,111,2,0.072,0.019,0.011,R
+1428,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.525,121,2,0.07,0.018,0.012,R
+1429,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.517,114,2,0.064,0.019,0.012,R
+1431,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.477,115,2,0.071,0.02,0.009,R
+1433,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.468,111,2,0.069,0.02,0.008,Q
+1442,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.483,122,2,0.07,0.019,0.003,Q
+1450,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,2,0.484,106,2,0.065,0.019,0.006,B
+1452,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.499,106,2,0.083,0.019,0.014,Q
+1455,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.503,111,2,0.068,0.019,0.011,Q
+1456,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.486,105,2,0.069,0.019,0.007,A
+1459,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,2,0.481,103,2,0.067,0.019,0.009,P
+1469,electric generator,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.487,121,2,0.07,0.019,0.016,R
+1470,electric generator,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.484,130,2,0.071,0.019,0.013,R
+1472,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.497,120,2,0.07,0.02,0.004,R
+1474,electric generator,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.498,117,2,0.07,0.019,0.01,T
+1476,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.483,115,2,0.073,0.019,0.024,T
+1478,electric generator,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.491,119,2,0.071,0.019,0.012,T
+1479,electric generator,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.494,122,2,0.071,0.019,0.01,T
+1480,electric generator,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.491,129,2,0.069,0.018,0.009,S
+1482,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.513,107,2,0.064,0.019,0.019,R
+1494,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.516,135,2,0.078,0.019,0.007,T
+1495,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.521,120,2,0.071,0.023,0.013,R
+1499,electric generator,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.526,112,2,0.071,0.018,0.01,R
+1500,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.532,115,2,0.071,0.019,0.01,T
+1501,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.533,115,2,0.074,0.018,0.005,T
+1503,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.521,124,2,0.072,0.018,0.014,T
+1504,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.537,115,2,0.069,0.018,0.012,T
+1505,electric generator,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.536,118,2,0.069,0.019,0.01,T
+1507,electric generator,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.529,112,2,0.067,0.018,0.01,S
+1510,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.5,114,2,0.077,0.019,0.009,T
+1513,electric generator,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.487,112,2,0.067,0.019,0.01,T
+1515,electric generator,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.483,110,2,0.065,0.019,0.013,R
+1516,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.48,114,2,0.066,0.018,0.015,R
+1518,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.5,123,2,0.068,0.019,0.009,R
+1523,electric generator,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.506,128,2,0.071,0.019,0.009,R
+1527,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,2,0.51,111,2,0.068,0.019,0.011,P
+1528,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.502,106,2,0.066,0.019,0.011,Q
+1529,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.495,116,2,0.068,0.019,0.018,B
+1532,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.455,117,2,0.07,0.018,0.011,Q
+1537,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.488,103,2,0.064,0.019,0.005,Q
+1538,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.499,98,2,0.064,0.019,0.012,Q
+1539,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.507,107,2,0.066,0.019,0.014,Q
+1540,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.507,106,2,0.073,0.019,0.008,Q
+1542,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.463,103,2,0.064,0.018,0.012,Q
+1544,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.46,104,2,0.066,0.019,0.014,Q
+1545,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.455,102,2,0.064,0.02,0.01,B
+1550,fan,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.493,132,2,0.073,0.019,0.006,R
+1554,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.483,135,2,0.083,0.02,0.007,T
+1555,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.49,102,2,0.067,0.019,0.009,Q
+1556,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.503,102,2,0.07,0.018,0.014,Q
+1558,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,2,0.488,111,2,0.069,0.021,0.01,P
+1559,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.514,99,2,0.065,0.02,0.011,Q
+1560,fan,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.505,107,2,0.07,0.019,0.009,Q
+1562,fan,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.527,102,2,0.065,0.019,0.028,Q
+1564,fan,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.535,118,2,0.069,0.019,0.011,T
+1566,fan,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.5,116,2,0.075,0.018,0.009,T
+1569,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.491,115,2,0.067,0.019,0.011,T
+1575,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.481,116,2,0.067,0.02,0.02,Q
+1576,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.48,98,2,0.067,0.019,0.009,Q
+1580,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,2,0.491,102,2,0.064,0.019,0.007,B
+1583,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.518,101,2,0.064,0.019,0.012,Q
+1586,fan,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.502,106,2,0.066,0.018,0.012,Q
+1587,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.512,103,2,0.069,0.019,0.007,Q
+1588,fan,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.495,101,2,0.068,0.019,0.008,B
+1589,fan,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.474,98,2,0.065,0.02,0.01,B
+1590,fan,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.471,102,2,0.064,0.019,0.016,B
+1591,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,2,0.47,102,2,0.071,0.019,0.006,B
+1593,fan,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.468,101,2,0.065,0.018,0.007,A
+1595,fan,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,2,0.461,97,2,0.064,0.019,0.012,P
+1596,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.457,104,2,0.067,0.019,0.017,Q
+1597,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,2,0.424,102,2,0.073,0.019,0.011,P
+1598,fan,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.49,105,2,0.071,0.021,0.008,Q
+1604,fan,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.506,104,2,0.067,0.019,0.012,R
+1605,fan,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.481,102,2,0.069,0.018,0.015,R
+1607,fan,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.49,116,2,0.063,0.017,0.011,R
+1609,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.451,106,2,0.061,0.016,0.009,R
+1610,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.446,155,2,0.078,0.017,0.014,R
+1612,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.483,154,2,0.079,0.018,0.008,R
+1617,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.52,148,2,0.077,0.017,0.006,R
+1619,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,P,0,1,5,0.541,146,2,0.079,0.018,0.012,P
+1621,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.552,145,2,0.079,0.018,0.006,R
+1622,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.547,129,2,0.066,0.017,0.011,R
+1625,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.537,147,2,0.078,0.018,0.006,R
+1627,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.519,127,2,0.067,0.018,0.011,T
+1629,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.508,127,2,0.072,0.017,0.012,T
+1630,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.504,138,2,0.076,0.017,0.017,R
+1631,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,5,0.483,126,2,0.067,0.017,0.008,S
+1633,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.488,159,2,0.078,0.017,0.008,R
+1638,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.486,152,2,0.082,0.018,0.019,R
+1639,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,P,0,1,5,0.49,163,2,0.08,0.017,0.014,P
+1640,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.517,149,2,0.078,0.017,0.011,R
+1641,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.529,152,2,0.078,0.017,0.017,R
+1652,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.533,149,2,0.077,0.017,0.012,R
+1655,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,S,0,1,5,0.518,123,2,0.066,0.016,0.009,S
+1656,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.495,131,2,0.069,0.017,0.005,S
+1658,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.484,137,2,0.077,0.017,0.009,T
+1659,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,5,0.471,122,2,0.067,0.017,0.014,S
+1661,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.486,160,2,0.079,0.017,0.012,R
+1664,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.491,125,2,0.069,0.019,0.014,T
+1668,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,S,0,1,5,0.49,136,2,0.076,0.017,0.007,S
+1670,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.495,121,2,0.067,0.017,0.013,T
+1671,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.469,147,2,0.081,0.017,0.013,R
+1672,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,S,0,1,5,0.458,124,2,0.066,0.017,0.007,S
+1674,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.442,123,2,0.065,0.016,0.012,T
+1675,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.439,123,2,0.07,0.017,0.013,T
+1686,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.451,119,2,0.064,0.016,0.012,T
+1688,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.45,115,2,0.062,0.016,0.01,T
+1691,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.455,131,2,0.066,0.018,0.015,T
+1692,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.463,115,2,0.063,0.017,0.006,T
+1695,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.463,125,2,0.066,0.016,0.013,T
+1696,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.475,136,2,0.074,0.016,0.007,T
+1706,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.482,150,2,0.078,0.017,0.011,R
+1707,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.483,149,2,0.077,0.017,0.011,R
+1709,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,5,0.5,159,2,0.079,0.017,0.011,S
+1710,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,S,0,1,4,0.493,129,2,0.067,0.017,0.007,S
+1711,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.48,119,2,0.065,0.016,0.012,R
+1712,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,4,0.47,111,2,0.068,0.017,0.004,S
+1717,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.428,110,2,0.065,0.017,0.023,R
+1718,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.432,141,2,0.076,0.017,0.006,R
+1719,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,S,0,1,4,0.434,115,2,0.064,0.017,0.008,S
+1720,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.432,127,2,0.066,0.016,0.006,R
+1721,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,4,0.433,128,2,0.069,0.017,0.01,S
+1723,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,S,0,1,4,0.422,111,2,0.063,0.017,0.012,S
+1726,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.418,109,2,0.061,0.016,0.011,R
+1731,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.428,151,2,0.077,0.016,0.007,R
+1734,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.453,118,2,0.064,0.017,0.009,R
+1735,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.465,110,2,0.062,0.017,0.014,R
+1741,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.465,116,2,0.063,0.017,0.013,Q
+1742,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.456,110,2,0.062,0.017,0.01,Q
+1745,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.449,98,2,0.059,0.016,0.016,Q
+1747,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.428,108,2,0.061,0.016,0.014,Q
+1752,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.429,103,2,0.061,0.017,0.008,Q
+1756,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,2,0.421,100,2,0.059,0.016,0.007,P
+1757,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.424,103,2,0.061,0.016,0.023,Q
+1761,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.441,126,2,0.065,0.017,0.006,Q
+1763,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.45,107,2,0.067,0.017,0.006,Q
+1764,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.454,103,2,0.06,0.016,0.011,Q
+1765,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,2,0.453,121,2,0.067,0.017,0.013,B
+1767,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.463,121,2,0.069,0.017,0.006,R
+1771,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.465,120,2,0.065,0.017,0.009,R
+1774,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.467,124,2,0.066,0.016,0.012,R
+1779,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.492,137,2,0.076,0.017,0.027,R
+1780,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,2,0.486,113,2,0.063,0.017,0.014,P
+1784,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.483,127,2,0.067,0.017,0.015,B
+1785,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.488,131,2,0.071,0.017,0.029,B
+1786,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.464,113,2,0.062,0.017,0.011,Q
+1788,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.463,129,2,0.068,0.018,0.007,B
+1796,electric motor,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.471,124,2,0.069,0.016,0.013,T
+1800,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,4,0.471,119,2,0.066,0.017,0.006,S
+1802,electric motor,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.483,117,2,0.066,0.017,0.013,R
+1803,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,2,0.475,106,2,0.061,0.016,0.008,P
+1808,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,2,0.461,107,2,0.062,0.017,0.009,P
+1816,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.454,106,2,0.062,0.017,0.013,Q
+1817,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.449,103,2,0.063,0.016,0.011,Q
+1818,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.456,103,2,0.067,0.017,0.007,Q
+1820,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.448,111,2,0.065,0.017,0.012,R
+1822,electric motor,simple_pert,qwen3.5:2b,zero_shot,,R,,0,0,3,0.443,112,2,0.062,0.016,0.012,B
+1824,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.44,111,2,0.061,0.016,0.004,R
+1826,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.438,119,2,0.066,0.018,0.014,R
+1830,electric motor,simple_pert,qwen3.5:2b,zero_shot,,R,S,0,1,4,0.469,115,2,0.066,0.019,0.017,S
+1831,electric motor,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.492,116,2,0.068,0.018,0.02,R
+1832,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,2,0.51,109,2,0.067,0.019,0.014,P
+1833,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.53,105,2,0.065,0.018,0.01,Q
+1836,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,2,0.513,107,2,0.066,0.018,0.008,P
+1837,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,2,0.515,108,2,0.067,0.02,0.008,P
+1839,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.505,104,2,0.066,0.019,0.014,Q
+1840,electric motor,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.492,124,2,0.071,0.018,0.012,T
+1843,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.537,124,2,0.079,0.02,0.007,R
+1848,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.532,110,2,0.066,0.018,0.008,B
+1849,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.536,105,2,0.067,0.018,0.013,B
+1852,electric motor,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.546,107,2,0.065,0.019,0.006,Q
+1853,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.483,104,2,0.07,0.02,0.008,B
+1854,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.477,106,2,0.066,0.019,0.008,B
+1860,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,2,0.478,105,2,0.066,0.019,0.015,P
+1868,electric motor,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,4,0.47,121,2,0.068,0.019,0.008,S
+1874,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.501,122,2,0.071,0.018,0.005,T
+1875,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.512,118,2,0.069,0.018,0.008,R
+1877,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.513,113,2,0.066,0.018,0.007,R
+1886,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.516,113,2,0.076,0.019,0.007,R
+1888,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.52,116,2,0.072,0.018,0.005,R
+1889,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.505,110,2,0.07,0.019,0.007,R
+1890,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.504,111,2,0.066,0.018,0.006,R
+1893,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.491,108,2,0.066,0.018,0.008,R
+1897,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,2,0.478,101,2,0.068,0.019,0.009,P
+1900,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,2,0.509,109,2,0.068,0.02,0.01,P
+1901,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.515,101,2,0.066,0.021,0.006,Q
+1902,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.524,101,2,0.07,0.019,0.009,Q
+1903,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,2,0.534,105,2,0.07,0.019,0.008,B
+1904,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.518,118,2,0.068,0.018,0.01,T
+1910,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.529,120,2,0.069,0.019,0.015,T
+1912,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.534,125,2,0.07,0.018,0.007,R
+1913,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.521,125,2,0.093,0.018,0.003,T
+1914,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.528,122,2,0.071,0.019,0.005,R
+1917,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.513,110,2,0.068,0.019,0.009,R
+1918,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.51,108,2,0.072,0.02,0.011,R
+1919,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.553,112,2,0.07,0.021,0.012,R
+1921,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.545,109,2,0.068,0.019,0.016,R
+1922,steam turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.519,109,2,0.079,0.019,0.007,R
+1923,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.525,123,2,0.072,0.019,0.007,T
+1928,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.496,129,2,0.073,0.019,0.01,R
+1929,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.507,123,2,0.07,0.019,0.019,T
+1931,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,S,0,1,5,0.536,122,2,0.072,0.02,0.006,S
+1934,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.549,130,2,0.072,0.02,0.009,R
+1935,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.543,130,2,0.096,0.023,0.01,T
+1936,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.54,133,2,0.081,0.019,0.008,T
+1940,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.542,124,2,0.07,0.018,0.015,R
+1945,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.53,126,2,0.071,0.019,0.009,R
+1952,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.545,126,2,0.08,0.019,0.009,R
+1953,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.535,126,2,0.071,0.02,0.014,R
+1955,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.533,129,2,0.071,0.019,0.013,T
+1956,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.562,126,2,0.073,0.019,0.008,R
+1957,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.562,129,2,0.074,0.019,0.013,R
+1958,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.539,127,2,0.078,0.019,0.025,T
+1960,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.54,125,2,0.071,0.018,0.008,T
+1961,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.511,123,2,0.069,0.018,0.01,T
+1962,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,S,0,1,5,0.496,122,2,0.069,0.019,0.014,S
+1964,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.509,118,2,0.067,0.018,0.011,R
+1965,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.513,115,2,0.069,0.019,0.012,R
+1968,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.507,118,2,0.069,0.02,0.01,R
+1969,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.513,120,2,0.072,0.019,0.013,R
+1973,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.525,118,2,0.069,0.019,0.014,R
+1974,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.525,117,2,0.069,0.019,0.01,R
+1975,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.524,125,2,0.07,0.019,0.004,T
+1976,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.517,126,2,0.069,0.019,0.007,R
+1977,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.522,124,2,0.074,0.019,0.025,R
+1978,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.533,125,2,0.071,0.019,0.006,R
+1979,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.526,123,2,0.071,0.019,0.014,R
+1982,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,4,0.537,119,2,0.073,0.019,0.009,S
+1983,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.532,122,2,0.069,0.018,0.021,R
+1987,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.478,121,2,0.07,0.019,0.01,R
+1992,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.479,118,2,0.072,0.02,0.007,R
+1993,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.475,117,2,0.073,0.018,0.007,R
+1995,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.458,116,2,0.069,0.019,0.01,R
+1996,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.515,117,2,0.069,0.02,0.01,R
+1998,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.489,118,2,0.072,0.018,0.007,R
+2000,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.481,119,2,0.067,0.019,0.01,R
+2002,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.498,117,2,0.07,0.019,0.01,R
+2005,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.464,120,2,0.07,0.019,0.018,R
+2011,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.534,125,2,0.068,0.021,0.008,R
+2012,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.505,124,2,0.073,0.018,0.008,T
+2013,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.497,125,2,0.073,0.019,0.01,T
+2014,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.517,120,2,0.07,0.019,0.016,R
+2019,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.481,116,2,0.072,0.019,0.013,R
+2025,aero gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.509,115,2,0.067,0.019,0.009,R
+2030,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.524,114,2,0.077,0.021,0.006,R
+2034,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.547,110,2,0.069,0.021,0.008,R
+2037,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.559,125,2,0.076,0.024,0.014,T
+2038,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.533,126,2,0.074,0.019,0.013,R
+2039,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.529,126,2,0.075,0.019,0.011,T
+2041,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.497,123,2,0.069,0.019,0.015,T
+2045,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.484,118,2,0.069,0.018,0.011,R
+2049,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.511,129,2,0.069,0.019,0.021,T
+2051,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.545,126,2,0.073,0.018,0.011,T
+2052,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.542,125,2,0.07,0.018,0.01,T
+2053,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.522,125,2,0.087,0.019,0.011,T
+2054,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.535,128,2,0.074,0.021,0.019,T
+2055,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.504,125,2,0.068,0.018,0.009,R
+2057,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.51,112,2,0.067,0.02,0.007,R
+2059,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.527,109,2,0.068,0.019,0.007,R
+2060,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.513,113,2,0.067,0.019,0.019,R
+2061,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.531,114,2,0.074,0.021,0.012,R
+2062,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.548,110,2,0.065,0.02,0.011,R
+2066,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.544,120,2,0.07,0.019,0.007,R
+2067,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.544,122,2,0.07,0.019,0.018,R
+2069,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.535,119,2,0.069,0.019,0.008,T
+2070,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.516,125,2,0.068,0.018,0.009,T
+2071,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.52,124,2,0.07,0.019,0.005,T
+2073,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.522,114,2,0.069,0.019,0.022,R
+2074,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.517,111,2,0.067,0.023,0.004,R
+2076,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,3,0.516,109,2,0.068,0.02,0.013,R
+2087,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,2,0.515,107,2,0.065,0.018,0.012,P
+2089,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,2,0.52,107,2,0.077,0.019,0.029,P
+2090,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.519,119,2,0.072,0.02,0.013,R
+2091,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.49,118,2,0.074,0.019,0.004,R
+2092,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.486,121,2,0.07,0.019,0.004,R
+2093,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.47,121,2,0.091,0.02,0.013,R
+2094,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.465,120,2,0.069,0.019,0.009,R
+2095,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.506,117,2,0.073,0.019,0.004,R
+2104,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.508,103,2,0.066,0.021,0.009,B
+2105,industrial gas turbine,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.522,104,2,0.07,0.02,0.007,B
+2107,pump,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.527,105,2,0.068,0.019,0.005,B
+2108,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,2,0.521,102,2,0.067,0.019,0.008,B
+2111,pump,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.526,102,2,0.075,0.019,0.023,Q
+2113,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.488,119,2,0.07,0.02,0.009,R
+2117,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.475,113,2,0.067,0.019,0.015,R
+2118,pump,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.467,115,2,0.069,0.02,0.006,R
+2123,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.477,115,2,0.074,0.018,0.017,R
+2124,pump,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,4,0.513,115,2,0.067,0.019,0.006,S
+2131,pump,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.514,117,2,0.069,0.02,0.012,R
+2132,pump,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.533,120,2,0.069,0.018,0.011,T
+2135,pump,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.522,120,2,0.079,0.019,0.007,T
+2138,pump,simple_pert,qwen3.5:2b,zero_shot,,R,S,0,1,4,0.524,113,2,0.067,0.019,0.014,S
+2140,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.54,112,2,0.067,0.019,0.017,R
+2144,pump,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.523,104,2,0.066,0.019,0.012,B
+2146,pump,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,2,0.533,104,2,0.075,0.019,0.026,B
+2152,compressor,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.52,113,2,0.066,0.019,0.012,R
+2157,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.51,116,2,0.068,0.02,0.007,R
+2158,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.517,118,2,0.07,0.02,0.012,R
+2159,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.512,118,2,0.079,0.018,0.02,R
+2163,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.521,115,2,0.069,0.019,0.008,R
+2164,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.521,112,2,0.066,0.019,0.014,R
+2165,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.515,116,2,0.069,0.018,0.01,R
+2169,compressor,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.483,115,2,0.079,0.018,0.005,R
+2170,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.493,115,2,0.078,0.019,0.013,R
+2181,compressor,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.493,117,2,0.067,0.018,0.009,T
+2182,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.496,118,2,0.07,0.019,0.008,R
+2183,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.524,117,2,0.07,0.019,0.014,T
+2184,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,5,0.521,119,2,0.072,0.019,0.004,S
+2185,compressor,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.527,119,2,0.072,0.017,0.008,R
+2187,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.51,117,2,0.066,0.016,0.007,T
+2189,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.495,116,2,0.068,0.017,0.008,T
+2194,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.468,119,2,0.064,0.016,0.009,R
+2203,compressor,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.455,102,2,0.06,0.016,0.013,Q
+2204,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.472,102,2,0.067,0.016,0.015,B
+2210,compressor,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.438,102,2,0.063,0.016,0.011,B
+2214,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.441,124,2,0.067,0.017,0.01,R
+2215,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.444,123,2,0.064,0.016,0.006,R
+2217,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.429,120,2,0.066,0.017,0.012,R
+2221,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.467,120,2,0.074,0.017,0.004,R
+2225,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.472,127,2,0.067,0.018,0.007,R
+2227,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,S,0,1,5,0.467,127,2,0.07,0.016,0.013,S
+2232,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,T,Q,0,1,5,0.441,126,2,0.07,0.016,0.012,Q
+2235,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.429,114,2,0.064,0.017,0.011,R
+2242,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.426,118,2,0.066,0.017,0.004,R
+2245,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.421,115,2,0.062,0.016,0.004,R
+2251,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.439,111,2,0.062,0.016,0.005,Q
+2256,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.439,109,2,0.062,0.016,0.013,Q
+2258,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.436,108,2,0.061,0.017,0.009,Q
+2259,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,S,0,1,5,0.439,129,2,0.066,0.016,0.018,S
+2260,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,T,S,0,1,5,0.448,125,2,0.065,0.016,0.015,S
+2261,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.452,128,2,0.067,0.017,0.006,T
+2262,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.463,127,2,0.067,0.017,0.012,R
+2268,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.465,127,2,0.069,0.016,0.013,R
+2271,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.461,123,2,0.065,0.017,0.007,R
+2272,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.463,119,2,0.066,0.017,0.008,R
+2274,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.455,122,2,0.065,0.017,0.006,R
+2276,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.46,118,2,0.064,0.016,0.006,R
+2279,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.462,117,2,0.065,0.016,0.01,R
+2280,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.471,129,2,0.067,0.016,0.007,R
+2283,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.474,128,2,0.067,0.016,0.013,R
+2287,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.477,127,2,0.067,0.017,0.009,T
+2288,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.48,129,2,0.067,0.016,0.009,T
+2289,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.481,127,2,0.067,0.016,0.009,T
+2290,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.478,125,2,0.065,0.016,0.011,T
+2292,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.468,124,2,0.066,0.017,0.007,T
+2296,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,Q,0,1,4,0.461,119,2,0.065,0.016,0.01,Q
+2297,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.451,120,2,0.065,0.017,0.014,R
+2299,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.464,122,2,0.066,0.017,0.006,R
+2300,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.464,121,2,0.066,0.017,0.006,R
+2301,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.467,122,2,0.066,0.016,0.006,R
+2303,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.467,121,2,0.064,0.016,0.007,R
+2305,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.453,119,2,0.064,0.016,0.011,R
+2306,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.456,129,2,0.065,0.016,0.008,T
+2308,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.458,129,2,0.068,0.016,0.008,R
+2309,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.46,125,2,0.067,0.017,0.007,R
+2310,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,5,0.461,124,2,0.065,0.016,0.011,S
+2311,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.464,127,2,0.065,0.016,0.013,T
+2313,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.47,125,2,0.065,0.016,0.014,R
+2316,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.465,124,2,0.066,0.017,0.023,S
+2318,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.464,129,2,0.066,0.016,0.008,T
+2323,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.463,123,2,0.068,0.018,0.009,R
+2324,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.452,111,2,0.064,0.016,0.029,Q
+2326,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.455,111,2,0.067,0.017,0.013,Q
+2329,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,2,0.449,109,2,0.061,0.016,0.013,P
+2330,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.441,111,2,0.062,0.016,0.015,Q
+2332,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.444,111,2,0.066,0.016,0.006,Q
+2333,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.44,109,2,0.062,0.017,0.015,Q
+2335,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,2,0.451,109,2,0.068,0.017,0.008,B
+2336,reciprocating internal combustion engine,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.45,109,2,0.061,0.017,0.007,Q
+2341,electric generator,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.449,123,2,0.066,0.016,0.006,R
+2342,electric generator,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.451,118,2,0.064,0.016,0.015,R
+2343,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.455,117,2,0.063,0.016,0.011,R
+2344,electric generator,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.45,119,2,0.065,0.016,0.008,R
+2347,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,2,0.453,107,2,0.062,0.018,0.011,P
+2348,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,2,0.462,105,2,0.066,0.017,0.003,P
+2353,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.45,101,2,0.061,0.016,0.005,Q
+2354,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,2,0.446,104,2,0.061,0.016,0.009,P
+2355,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,2,0.445,108,2,0.062,0.017,0.018,P
+2356,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.433,103,2,0.061,0.016,0.005,Q
+2358,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.437,102,2,0.061,0.016,0.011,Q
+2359,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,2,0.449,106,2,0.062,0.017,0.005,P
+2360,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.445,102,2,0.061,0.017,0.006,Q
+2362,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,2,0.444,106,2,0.062,0.016,0.014,B
+2364,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.45,106,2,0.067,0.019,0.005,Q
+2365,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,2,0.447,104,2,0.061,0.016,0.011,B
+2369,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,2,0.446,105,2,0.062,0.017,0.016,B
+2374,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,3,0.445,111,2,0.062,0.016,0.008,R
+2377,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,2,0.443,110,2,0.062,0.017,0.005,B
+2382,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,2,0.446,109,2,0.063,0.017,0.012,B
+2385,electric generator,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.447,121,2,0.066,0.017,0.008,R
+2387,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.462,129,2,0.066,0.016,0.007,T
+2393,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.465,108,2,0.062,0.017,0.012,B
+2399,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,2,0.472,105,2,0.069,0.021,0.012,B
+2402,electric generator,simple_pert,qwen3.5:2b,zero_shot,,R,S,0,1,4,0.495,121,2,0.071,0.016,0.007,S
+2411,electric generator,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.482,105,2,0.062,0.017,0.026,B
+2416,electric generator,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.481,118,2,0.067,0.019,0.032,R
+2419,electric generator,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,4,0.494,120,2,0.071,0.02,0.009,R
+2420,fan,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,2,0.499,104,2,0.066,0.019,0.012,P
+2424,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,2,0.513,105,2,0.067,0.019,0.011,P
+2427,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,,0,0,2,0.511,103,2,0.065,0.019,0.018,B
+2429,fan,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.506,120,2,0.072,0.019,0.005,T
+2432,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.51,119,2,0.071,0.019,0.012,T
+2433,fan,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.51,117,2,0.069,0.018,0.032,T
+2434,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.514,113,2,0.068,0.019,0.01,R
+2438,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.521,116,2,0.069,0.019,0.007,R
+2439,fan,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.531,115,2,0.068,0.023,0.011,R
+2441,fan,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.529,116,2,0.066,0.019,0.011,R
+2444,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,S,0,1,4,0.546,118,2,0.071,0.018,0.009,S
+2445,fan,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.552,117,2,0.072,0.019,0.014,R
+2448,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,T,0,1,5,0.537,122,2,0.075,0.023,0.009,T
+2453,fan,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.559,121,2,0.07,0.022,0.017,T
+2458,fan,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.563,118,2,0.07,0.019,0.01,T
+2460,fan,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.562,121,2,0.073,0.019,0.015,T
+2462,fan,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.563,120,2,0.069,0.019,0.01,R
+2463,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.551,124,2,0.07,0.019,0.009,R
+2469,fan,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.55,120,2,0.071,0.018,0.011,R
+2470,fan,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.51,119,2,0.076,0.019,0.012,R
+2471,fan,simple_pert,qwen3.5:2b,zero_shot,,T,T,1,1,5,0.509,123,2,0.073,0.019,0.012,T
+2476,fan,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,3,0.497,108,2,0.067,0.019,0.018,R
+2482,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,5,0.504,148,2,0.084,0.02,0.01,P
+2483,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,5,0.545,146,2,0.083,0.019,0.009,P
+2487,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,5,0.559,149,2,0.082,0.019,0.008,R
+2490,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,P,0,1,5,0.584,149,2,0.096,0.02,0.009,P
+2491,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,5,0.579,147,2,0.08,0.02,0.008,P
+2492,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.576,148,2,0.082,0.019,0.009,T
+2496,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,T,0,1,5,0.566,129,2,0.084,0.021,0.013,T
+2497,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,P,0,1,5,0.56,133,2,0.082,0.019,0.017,P
+2504,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,P,0,1,5,0.58,134,2,0.087,0.024,0.007,P
+2505,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,P,0,1,5,0.581,138,2,0.083,0.021,0.007,P
+2509,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,S,1,1,5,0.58,129,2,0.072,0.019,0.006,S
+2512,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,P,0,1,5,0.585,137,2,0.079,0.019,0.027,P
+2515,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.566,127,2,0.071,0.018,0.009,R
+2516,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,S,0,1,5,0.576,140,2,0.082,0.021,0.012,S
+2517,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,5,0.596,138,2,0.084,0.02,0.009,P
+2518,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,P,0,1,5,0.6,133,2,0.085,0.019,0.016,P
+2520,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,P,0,1,5,0.595,130,2,0.073,0.019,0.012,P
+2529,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,P,0,1,5,0.583,134,2,0.081,0.02,0.013,P
+2535,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,5,0.572,144,2,0.082,0.02,0.009,P
+2536,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.558,128,2,0.074,0.019,0.014,R
+2543,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,P,0,1,5,0.554,133,2,0.081,0.02,0.006,P
+2547,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,P,0,1,5,0.558,134,2,0.08,0.019,0.007,P
+2550,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,5,0.563,134,2,0.09,0.02,0.012,P
+2551,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,P,0,1,5,0.541,137,2,0.087,0.019,0.023,P
+2552,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.554,141,2,0.08,0.02,0.005,R
+2554,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,P,0,1,5,0.554,132,2,0.071,0.02,0.015,P
+2555,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,5,0.539,130,2,0.071,0.021,0.007,R
+2556,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,5,0.563,126,2,0.071,0.019,0.012,R
+2557,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,5,0.563,129,2,0.073,0.021,0.008,P
+2560,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,P,0,1,5,0.556,132,2,0.071,0.019,0.009,P
+2562,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.561,135,2,0.083,0.02,0.007,T
+2564,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.566,136,2,0.083,0.019,0.02,T
+2566,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,5,0.561,133,2,0.08,0.019,0.011,P
+2567,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,T,0,1,5,0.565,135,2,0.081,0.02,0.008,T
+2570,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,P,0,1,5,0.566,137,2,0.081,0.019,0.005,P
+2576,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,S,0,1,5,0.563,133,2,0.087,0.021,0.017,S
+2580,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,P,1,1,5,0.597,137,2,0.09,0.02,0.008,P
+2582,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.587,130,2,0.076,0.02,0.009,R
+2583,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,P,0,1,5,0.594,143,2,0.081,0.019,0.009,P
+2585,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.592,132,2,0.077,0.019,0.018,R
+2590,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,R,0,1,5,0.584,137,2,0.084,0.019,0.01,R
+2593,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,T,0,1,5,0.607,131,2,0.076,0.021,0.01,T
+2594,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,5,0.607,140,2,0.081,0.021,0.013,P
+2595,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,P,0,1,5,0.629,147,2,0.081,0.019,0.014,P
+2596,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,R,1,1,5,0.611,152,2,0.085,0.022,0.012,R
+2611,power transformer,simple_pert,qwen3.5:2b,zero_shot,,T,P,0,1,5,0.608,141,2,0.082,0.02,0.013,P
+2615,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,5,0.599,142,2,0.082,0.019,0.01,Q
+2617,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,5,0.587,136,2,0.081,0.019,0.021,P
+2619,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,P,0,1,5,0.585,138,2,0.08,0.019,0.005,P
+2621,power transformer,simple_pert,qwen3.5:2b,zero_shot,,S,R,0,1,4,0.562,130,2,0.073,0.019,0.005,R
+2624,power transformer,simple_pert,qwen3.5:2b,zero_shot,,R,P,0,1,4,0.566,131,2,0.076,0.025,0.011,P
+2626,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.548,128,2,0.07,0.02,0.021,R
+2629,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,R,0,1,4,0.534,131,2,0.072,0.018,0.009,R
+2632,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,R,0,1,4,0.544,133,2,0.079,0.019,0.013,R
+2640,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.526,110,2,0.066,0.019,0.028,Q
+2642,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.534,110,2,0.081,0.02,0.01,B
+2646,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,Q,0,1,2,0.532,105,2,0.07,0.019,0.008,Q
+2649,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.544,111,2,0.069,0.019,0.014,Q
+2657,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.544,112,2,0.068,0.021,0.019,B
+2658,power transformer,simple_pert,qwen3.5:2b,zero_shot,,P,,0,0,2,0.551,109,2,0.069,0.02,0.009,B
+2660,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,P,0,1,2,0.546,108,2,0.067,0.019,0.009,P
+2661,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.521,112,2,0.067,0.018,0.014,Q
+2663,power transformer,simple_pert,qwen3.5:2b,zero_shot,,Q,Q,1,1,2,0.512,107,2,0.068,0.019,0.021,Q

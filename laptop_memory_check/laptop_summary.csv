@@ -1,0 +1,2 @@
+model,condition,n,accuracy,parse_rate,median_latency_s,p95_latency_s,gen_tokens_per_s,prompt_tokens_per_s,cold_start_s,peak_ollama_ram_gb,min_free_ram_gb,cpu,cores_logical,ram_total_gb,os
+qwen3.5:2b,rag,20,0.6,1.0,9.576,13.896,17.857142857142858,55.45119656664953,6.25,0.02,0.03,"AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",8,7.9,Windows 11

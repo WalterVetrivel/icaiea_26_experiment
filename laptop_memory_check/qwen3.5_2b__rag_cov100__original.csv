@@ -1,0 +1,21 @@
+id,asset,variant,model,condition,rag_coverage,answer,pred,correct,parsed,n_options,wall_s,prompt_tokens,output_tokens,prompt_s,gen_s,load_s,raw
+20,electric motor,original,qwen3.5:2b,rag,1.0,E,E,1,1,5,12.611,364,2,9.744,0.48,0.015,E
+57,steam turbine,original,qwen3.5:2b,rag,1.0,A,A,1,1,3,9.575,342,2,7.005,0.112,0.09,A
+102,aero gas turbine,original,qwen3.5:2b,rag,1.0,C,B,0,1,3,9.225,382,2,6.966,0.109,0.024,B
+109,aero gas turbine,original,qwen3.5:2b,rag,1.0,B,B,1,1,5,10.19,434,2,7.941,0.113,0.021,B
+241,compressor,original,qwen3.5:2b,rag,1.0,C,B,0,1,3,8.845,344,2,6.652,0.119,0.01,B
+299,reciprocating internal combustion engine,original,qwen3.5:2b,rag,1.0,D,D,1,1,5,10.332,436,2,8.115,0.118,0.014,D
+323,electric generator,original,qwen3.5:2b,rag,1.0,A,A,1,1,5,8.692,367,2,6.484,0.113,0.009,A
+645,pump,original,qwen3.5:2b,rag,1.0,B,B,1,1,5,8.568,361,2,6.392,0.111,0.01,B
+844,power transformer,original,qwen3.5:2b,rag,1.0,C,E,0,1,5,13.896,651,2,11.661,0.115,0.01,E
+1202,industrial gas turbine,original,qwen3.5:2b,rag,1.0,B,D,0,1,5,9.577,411,2,7.373,0.111,0.011,D
+1320,compressor,original,qwen3.5:2b,rag,1.0,D,D,1,1,4,9.247,367,2,7.053,0.11,0.01,D
+1452,reciprocating internal combustion engine,original,qwen3.5:2b,rag,1.0,A,B,0,1,2,9.353,415,2,7.179,0.109,0.008,B
+1472,electric generator,original,qwen3.5:2b,rag,1.0,D,D,1,1,5,8.804,377,2,6.61,0.105,0.012,D
+1638,power transformer,original,qwen3.5:2b,rag,1.0,C,A,0,1,5,13.115,614,2,10.914,0.114,0.013,A
+1691,power transformer,original,qwen3.5:2b,rag,1.0,A,A,1,1,5,10.813,486,2,8.609,0.108,0.008,A
+1808,electric motor,original,qwen3.5:2b,rag,1.0,B,B,1,1,2,9.066,375,2,6.842,0.108,0.013,B
+2069,industrial gas turbine,original,qwen3.5:2b,rag,1.0,A,B,0,1,5,9.646,409,2,7.415,0.12,0.013,B
+2300,reciprocating internal combustion engine,original,qwen3.5:2b,rag,1.0,D,B,0,1,4,10.179,449,2,7.992,0.106,0.008,B
+2420,fan,original,qwen3.5:2b,rag,1.0,B,B,1,1,2,8.624,347,2,6.441,0.112,0.013,B
+2554,power transformer,original,qwen3.5:2b,rag,1.0,B,B,1,1,5,13.98,657,2,11.767,0.114,0.007,B

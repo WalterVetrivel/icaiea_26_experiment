@@ -1,0 +1,1001 @@
+id,asset,variant,model,condition,rag_coverage,answer,pred,correct,parsed,n_options,wall_s,prompt_tokens,output_tokens,prompt_s,gen_s,load_s,raw
+1,electric motor,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.835,372,2,0.611,0.041,0.018,A
+7,electric motor,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.811,374,2,0.612,0.041,0.019,A
+5,electric motor,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.867,380,2,0.647,0.04,0.024,E
+6,electric motor,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.867,373,2,0.23,0.042,0.026,D
+15,electric motor,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.704,373,2,0.533,0.041,0.014,C
+16,electric motor,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.706,303,2,0.534,0.041,0.019,B
+20,electric motor,original,gemma4:e2b,rag,0.5,E,A,0,1,5,0.673,302,2,0.534,0.041,0.014,A
+19,electric motor,original,gemma4:e2b,rag,0.5,E,A,0,1,5,0.694,335,2,0.569,0.034,0.018,A
+32,electric motor,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.634,330,2,0.488,0.039,0.014,D
+41,steam turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.648,317,2,0.488,0.04,0.009,B
+44,steam turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,4,0.632,286,2,0.489,0.04,0.005,B
+35,electric motor,original,gemma4:e2b,rag,0.5,A,B,0,1,5,0.676,360,2,0.522,0.036,0.012,B
+47,steam turbine,original,gemma4:e2b,rag,0.5,B,C,0,1,4,0.645,298,2,0.484,0.04,0.016,C
+51,steam turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.619,352,2,0.486,0.041,0.004,D
+49,steam turbine,original,gemma4:e2b,rag,0.5,B,C,0,1,4,0.647,297,2,0.485,0.04,0.006,C
+48,steam turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,4,0.675,297,2,0.521,0.042,0.02,C
+57,steam turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.733,336,2,0.582,0.041,0.013,A
+53,steam turbine,original,gemma4:e2b,rag,0.5,E,B,0,1,5,0.737,331,2,0.581,0.041,0.015,B
+54,steam turbine,original,gemma4:e2b,rag,0.5,C,,0,0,3,0.748,341,2,0.583,0.041,0.016,D
+63,steam turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,4,0.746,355,2,0.619,0.038,0.014,C
+64,steam turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,4,0.746,364,2,0.573,0.045,0.023,A
+69,steam turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.714,304,2,0.575,0.048,0.017,B
+68,steam turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,4,0.755,360,2,0.574,0.045,0.012,D
+67,steam turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,4,0.785,352,2,0.614,0.045,0.013,D
+82,aero gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.743,357,2,0.549,0.045,0.01,D
+76,steam turbine,original,gemma4:e2b,rag,0.5,E,B,0,1,5,0.787,317,2,0.551,0.046,0.038,B
+70,steam turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.806,309,2,0.552,0.047,0.036,C
+79,aero gas turbine,original,gemma4:e2b,rag,0.5,D,E,0,1,5,0.845,366,2,0.592,0.071,0.037,E
+93,aero gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.881,388,2,0.616,0.048,0.024,A
+89,aero gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.909,368,2,0.617,0.048,0.027,B
+94,aero gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.947,393,2,0.213,0.066,0.026,A
+95,aero gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,3,0.899,376,2,0.658,0.065,0.016,B
+106,aero gas turbine,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.727,385,2,0.537,0.044,0.008,E
+109,aero gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.733,370,2,0.538,0.045,0.013,B
+102,aero gas turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.803,370,2,0.538,0.047,0.025,C
+104,aero gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.838,391,2,0.567,0.054,0.021,D
+110,aero gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.906,377,2,0.67,0.05,0.03,D
+113,aero gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.896,398,2,0.669,0.05,0.013,B
+111,aero gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.941,388,2,0.71,0.048,0.026,D
+114,aero gas turbine,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.907,387,2,0.265,0.049,0.018,E
+115,aero gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.897,383,2,0.653,0.047,0.016,A
+117,aero gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.904,376,2,0.652,0.048,0.025,A
+118,aero gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.913,382,2,0.688,0.051,0.025,A
+119,aero gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.908,376,2,0.239,0.053,0.013,A
+128,aero gas turbine,original,gemma4:e2b,rag,0.5,A,B,0,1,5,0.856,381,2,0.659,0.051,0.031,B
+127,aero gas turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.863,388,2,0.657,0.052,0.027,C
+122,aero gas turbine,original,gemma4:e2b,rag,0.5,C,B,0,1,5,0.952,402,2,0.7,0.057,0.011,B
+121,aero gas turbine,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.97,392,2,0.251,0.058,0.019,E
+129,aero gas turbine,original,gemma4:e2b,rag,0.5,B,E,0,1,5,0.872,402,2,0.644,0.046,0.014,E
+133,aero gas turbine,original,gemma4:e2b,rag,0.5,C,E,0,1,5,0.885,397,2,0.643,0.049,0.015,E
+134,aero gas turbine,original,gemma4:e2b,rag,0.5,C,B,0,1,5,0.886,390,2,0.681,0.066,0.014,B
+139,aero gas turbine,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.878,354,2,0.218,0.072,0.014,E
+140,aero gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.869,347,2,0.597,0.049,0.023,B
+148,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.816,346,2,0.595,0.051,0.021,B
+142,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.877,351,2,0.597,0.05,0.02,B
+149,industrial gas turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.834,352,2,0.637,0.043,0.012,C
+151,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.81,333,2,0.569,0.045,0.017,B
+159,industrial gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,4,0.826,368,2,0.566,0.051,0.026,A
+169,industrial gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.801,367,2,0.57,0.048,0.014,D
+153,industrial gas turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,4,0.855,354,2,0.603,0.041,0.025,C
+171,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.815,358,2,0.642,0.062,0.03,B
+173,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.86,338,2,0.467,0.07,0.043,B
+181,industrial gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.853,364,2,0.471,0.069,0.035,A
+182,industrial gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.843,343,2,0.469,0.07,0.04,D
+183,industrial gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.836,340,2,0.646,0.072,0.011,A
+192,pump,original,gemma4:e2b,rag,0.5,D,E,0,1,5,0.813,343,2,0.493,0.073,0.009,E
+184,pump,original,gemma4:e2b,rag,0.5,C,,0,0,3,0.847,336,2,0.491,0.08,0.03,E
+191,pump,original,gemma4:e2b,rag,0.5,B,B,1,1,3,0.83,332,2,0.495,0.075,0.007,B
+193,pump,original,gemma4:e2b,rag,0.5,C,B,0,1,5,0.826,341,2,0.64,0.048,0.015,B
+199,pump,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.791,342,2,0.46,0.054,0.029,E
+202,pump,original,gemma4:e2b,rag,0.5,A,B,0,1,5,0.794,336,2,0.462,0.053,0.023,B
+198,pump,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.814,344,2,0.463,0.054,0.029,B
+203,pump,original,gemma4:e2b,rag,0.5,C,,0,0,3,0.868,351,2,0.698,0.048,0.012,D
+205,pump,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.85,350,2,0.501,0.05,0.022,C
+204,pump,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.87,355,2,0.501,0.05,0.026,A
+209,pump,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.852,342,2,0.5,0.05,0.029,A
+213,pump,original,gemma4:e2b,rag,0.5,A,D,0,1,5,0.755,345,2,0.534,0.041,0.02,D
+212,pump,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.81,372,2,0.533,0.041,0.011,C
+218,pump,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.757,305,2,0.532,0.041,0.037,D
+217,pump,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.794,314,2,0.562,0.031,0.039,D
+224,compressor,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.675,324,2,0.506,0.045,0.019,A
+223,compressor,original,gemma4:e2b,rag,0.5,B,B,1,1,3,0.679,329,2,0.508,0.046,0.021,B
+225,compressor,original,gemma4:e2b,rag,0.5,C,B,0,1,3,0.673,324,2,0.508,0.045,0.005,B
+226,compressor,original,gemma4:e2b,rag,0.5,C,,0,0,3,0.693,328,2,0.546,0.048,0.02,D
+227,compressor,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.753,333,2,0.575,0.042,0.015,A
+230,compressor,original,gemma4:e2b,rag,0.5,A,E,0,1,5,0.75,386,2,0.576,0.043,0.017,E
+232,compressor,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.779,373,2,0.613,0.043,0.015,C
+233,compressor,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.741,346,2,0.176,0.044,0.006,C
+240,compressor,original,gemma4:e2b,rag,0.5,A,,0,0,3,0.639,350,2,0.498,0.042,0.019,D
+239,compressor,original,gemma4:e2b,rag,0.5,B,,0,0,3,0.682,351,2,0.499,0.042,0.014,D
+241,compressor,original,gemma4:e2b,rag,0.5,C,,0,0,3,0.645,341,2,0.501,0.042,0.011,D
+237,compressor,original,gemma4:e2b,rag,0.5,C,E,0,1,5,0.709,331,2,0.536,0.032,0.009,E
+247,compressor,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.71,373,2,0.559,0.041,0.022,D
+246,compressor,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.72,342,2,0.56,0.042,0.027,A
+250,compressor,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.689,359,2,0.56,0.042,0.008,E
+249,compressor,original,gemma4:e2b,rag,0.5,D,B,0,1,5,0.74,366,2,0.595,0.034,0.012,B
+259,compressor,original,gemma4:e2b,rag,0.5,C,A,0,1,5,0.686,328,2,0.533,0.041,0.005,A
+252,compressor,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.702,333,2,0.534,0.041,0.019,D
+254,compressor,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.702,347,2,0.534,0.042,0.012,A
+261,compressor,original,gemma4:e2b,rag,0.5,A,B,0,1,5,0.704,359,2,0.569,0.037,0.01,B
+267,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,C,A,0,1,5,0.674,353,2,0.512,0.041,0.016,A
+269,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.65,355,2,0.515,0.042,0.007,A
+266,compressor,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.687,341,2,0.514,0.042,0.024,C
+262,compressor,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.705,336,2,0.55,0.032,0.021,A
+277,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,B,0,1,5,0.738,359,2,0.585,0.04,0.012,B
+278,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,C,A,0,1,5,0.719,368,2,0.586,0.04,0.008,A
+276,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,C,A,0,1,5,0.749,353,2,0.582,0.042,0.024,A
+271,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,E,C,0,1,5,0.786,368,2,0.616,0.037,0.019,C
+286,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.759,363,2,0.602,0.041,0.005,D
+292,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,E,A,0,1,5,0.773,360,2,0.603,0.042,0.01,A
+293,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.777,360,2,0.207,0.044,0.005,D
+287,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.804,364,2,0.639,0.041,0.006,B
+296,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.778,363,2,0.579,0.04,0.013,A
+295,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,A,0,1,5,0.786,371,2,0.58,0.041,0.014,A
+300,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.772,360,2,0.615,0.042,0.015,A
+299,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.772,373,2,0.202,0.044,0.02,D
+304,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.693,365,2,0.569,0.042,0.006,D
+305,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.696,369,2,0.571,0.042,0.005,B
+301,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,C,E,0,1,5,0.774,359,2,0.608,0.043,0.021,E
+302,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.771,362,2,0.2,0.044,0.004,B
+308,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.772,369,2,0.585,0.04,0.009,A
+311,electric generator,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.762,373,2,0.586,0.041,0.013,A
+317,electric generator,original,gemma4:e2b,rag,0.5,C,D,0,1,5,0.736,343,2,0.587,0.042,0.004,D
+312,electric generator,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.771,365,2,0.621,0.037,0.014,D
+329,electric generator,original,gemma4:e2b,rag,0.5,A,B,0,1,5,0.723,311,2,0.561,0.041,0.012,B
+332,electric generator,original,gemma4:e2b,rag,0.5,D,B,0,1,5,0.7,352,2,0.56,0.041,0.008,B
+322,electric generator,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.747,341,2,0.562,0.041,0.014,A
+323,electric generator,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.766,343,2,0.598,0.031,0.014,A
+334,electric generator,original,gemma4:e2b,rag,0.5,D,B,0,1,5,0.729,333,2,0.559,0.041,0.01,B
+342,electric generator,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.73,310,2,0.56,0.041,0.015,B
+338,electric generator,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.733,366,2,0.56,0.041,0.018,D
+343,electric generator,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.738,309,2,0.596,0.035,0.004,A
+352,fan,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.793,347,2,0.587,0.045,0.006,A
+349,fan,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.789,330,2,0.589,0.046,0.016,A
+347,fan,original,gemma4:e2b,rag,0.5,B,,0,0,3,0.813,335,2,0.59,0.048,0.012,D
+360,fan,original,gemma4:e2b,rag,0.5,C,B,0,1,5,0.813,336,2,0.629,0.047,0.012,B
+367,fan,original,gemma4:e2b,rag,0.5,C,B,0,1,3,0.866,350,2,0.62,0.049,0.019,B
+366,fan,original,gemma4:e2b,rag,0.5,A,B,0,1,3,0.87,341,2,0.622,0.051,0.024,B
+368,fan,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.883,336,2,0.623,0.055,0.026,C
+374,fan,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.91,352,2,0.665,0.065,0.014,A
+383,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.989,434,2,0.731,0.046,0.019,C
+384,power transformer,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.994,450,2,0.732,0.048,0.023,A
+388,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,5,1.036,429,2,0.773,0.061,0.021,C
+389,power transformer,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.99,442,2,0.34,0.062,0.015,D
+392,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.988,436,2,0.73,0.053,0.017,C
+399,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.99,482,2,0.733,0.056,0.011,B
+405,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.978,478,2,0.774,0.059,0.034,B
+406,power transformer,original,gemma4:e2b,rag,0.5,A,C,0,1,5,0.985,493,2,0.377,0.066,0.031,C
+411,power transformer,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.954,530,2,0.729,0.048,0.015,D
+407,power transformer,original,gemma4:e2b,rag,0.5,E,D,0,1,5,1.034,484,2,0.725,0.05,0.026,D
+408,power transformer,original,gemma4:e2b,rag,0.5,E,D,0,1,5,1.064,487,2,0.763,0.048,0.036,D
+410,power transformer,original,gemma4:e2b,rag,0.5,D,C,0,1,5,1.028,534,2,0.357,0.053,0.019,C
+412,power transformer,original,gemma4:e2b,rag,0.5,B,A,0,1,5,0.981,489,2,0.726,0.048,0.024,A
+413,power transformer,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.977,424,2,0.726,0.049,0.016,E
+415,power transformer,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.97,522,2,0.764,0.058,0.011,A
+416,power transformer,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.988,531,2,0.336,0.059,0.012,D
+429,power transformer,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.774,432,2,0.594,0.047,0.006,E
+419,power transformer,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.837,453,2,0.594,0.049,0.014,D
+418,power transformer,original,gemma4:e2b,rag,0.5,E,A,0,1,5,0.832,548,2,0.593,0.05,0.016,A
+423,power transformer,original,gemma4:e2b,rag,0.5,E,B,0,1,5,0.83,470,2,0.627,0.046,0.018,B
+434,power transformer,original,gemma4:e2b,rag,0.5,A,D,0,1,5,0.942,442,2,0.676,0.048,0.009,D
+439,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.921,415,2,0.674,0.048,0.008,C
+440,power transformer,original,gemma4:e2b,rag,0.5,D,C,0,1,5,0.946,379,2,0.712,0.06,0.012,C
+437,power transformer,original,gemma4:e2b,rag,0.5,E,A,0,1,5,0.992,434,2,0.277,0.059,0.021,A
+453,power transformer,original,gemma4:e2b,rag,0.5,A,D,0,1,5,0.905,425,2,0.699,0.047,0.019,D
+446,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.963,437,2,0.697,0.048,0.025,C
+441,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.996,361,2,0.738,0.043,0.012,B
+454,power transformer,original,gemma4:e2b,rag,0.5,D,C,0,1,5,0.955,447,2,0.289,0.048,0.017,C
+456,power transformer,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.941,434,2,0.666,0.048,0.017,A
+461,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.944,490,2,0.666,0.05,0.023,C
+464,power transformer,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.937,468,2,0.7,0.046,0.013,E
+463,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.953,437,2,0.243,0.047,0.007,B
+471,electric motor,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.849,294,2,0.638,0.049,0.007,A
+466,power transformer,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.895,462,2,0.638,0.051,0.017,A
+470,electric motor,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.905,293,2,0.233,0.047,0.009,A
+465,power transformer,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.943,448,2,0.678,0.046,0.021,E
+472,electric motor,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.744,294,2,0.549,0.046,0.014,A
+484,electric motor,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.712,330,2,0.548,0.049,0.021,D
+486,electric motor,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.722,304,2,0.547,0.051,0.022,C
+474,electric motor,original,gemma4:e2b,rag,0.5,B,B,1,1,3,0.8,293,2,0.585,0.043,0.012,B
+491,electric motor,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.792,304,2,0.529,0.045,0.029,C
+492,electric motor,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.787,306,2,0.53,0.046,0.021,A
+488,electric motor,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.811,305,2,0.524,0.05,0.031,C
+493,electric motor,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.791,304,2,0.563,0.05,0.011,C
+501,electric motor,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.663,313,2,0.505,0.042,0.026,C
+498,electric motor,original,gemma4:e2b,rag,0.5,A,B,0,1,5,0.677,312,2,0.506,0.042,0.024,B
+495,electric motor,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.678,311,2,0.506,0.043,0.024,D
+502,electric motor,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.661,312,2,0.543,0.034,0.014,D
+505,electric motor,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.652,312,2,0.495,0.04,0.012,A
+514,steam turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.651,298,2,0.495,0.041,0.015,C
+512,steam turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,4,0.659,308,2,0.494,0.042,0.012,A
+516,steam turbine,original,gemma4:e2b,rag,0.5,D,E,0,1,5,0.663,294,2,0.528,0.046,0.006,E
+529,steam turbine,original,gemma4:e2b,rag,0.5,B,D,0,1,4,0.627,295,2,0.491,0.04,0.009,D
+520,steam turbine,original,gemma4:e2b,rag,0.5,D,B,0,1,5,0.68,305,2,0.491,0.04,0.013,B
+522,steam turbine,original,gemma4:e2b,rag,0.5,A,D,0,1,5,0.679,312,2,0.492,0.04,0.009,D
+525,steam turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.699,309,2,0.526,0.034,0.015,C
+531,steam turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,4,0.647,296,2,0.499,0.04,0.011,C
+537,steam turbine,original,gemma4:e2b,rag,0.5,D,B,0,1,5,0.65,305,2,0.5,0.04,0.021,B
+538,steam turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.645,290,2,0.499,0.04,0.008,A
+539,steam turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.655,285,2,0.533,0.043,0.007,A
+542,aero gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.713,344,2,0.552,0.041,0.011,D
+541,aero gas turbine,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.717,347,2,0.551,0.041,0.02,E
+544,aero gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.715,346,2,0.553,0.042,0.018,A
+548,aero gas turbine,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.707,361,2,0.588,0.035,0.012,E
+561,aero gas turbine,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.713,330,2,0.555,0.041,0.008,E
+570,aero gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.699,347,2,0.556,0.041,0.012,B
+552,aero gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.727,343,2,0.555,0.041,0.019,A
+550,aero gas turbine,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.762,360,2,0.591,0.039,0.012,E
+574,aero gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.766,377,2,0.598,0.042,0.019,B
+575,aero gas turbine,original,gemma4:e2b,rag,0.5,E,B,0,1,5,0.768,378,2,0.598,0.043,0.011,B
+576,aero gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.801,374,2,0.636,0.038,0.02,D
+579,aero gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.773,375,2,0.218,0.042,0.009,D
+581,aero gas turbine,original,gemma4:e2b,rag,0.5,C,D,0,1,5,0.74,347,2,0.566,0.042,0.018,D
+585,aero gas turbine,original,gemma4:e2b,rag,0.5,E,B,0,1,5,0.746,338,2,0.566,0.042,0.021,B
+589,aero gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.711,333,2,0.567,0.043,0.008,A
+586,aero gas turbine,original,gemma4:e2b,rag,0.5,E,A,0,1,5,0.742,332,2,0.601,0.036,0.007,A
+592,aero gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.628,332,2,0.494,0.041,0.011,A
+598,aero gas turbine,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.601,332,2,0.494,0.042,0.005,E
+594,aero gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.639,334,2,0.494,0.043,0.01,B
+593,aero gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.655,332,2,0.529,0.034,0.005,A
+606,industrial gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.706,351,2,0.555,0.041,0.007,D
+600,aero gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.729,331,2,0.553,0.041,0.016,B
+601,aero gas turbine,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.719,363,2,0.554,0.041,0.006,E
+609,industrial gas turbine,original,gemma4:e2b,rag,0.5,A,E,0,1,5,0.729,338,2,0.59,0.047,0.007,E
+610,industrial gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.666,336,2,0.515,0.045,0.017,D
+617,industrial gas turbine,original,gemma4:e2b,rag,0.5,C,B,0,1,4,0.624,311,2,0.515,0.045,0.005,B
+612,industrial gas turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.673,371,2,0.517,0.045,0.008,C
+611,industrial gas turbine,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.701,336,2,0.554,0.038,0.011,E
+621,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,D,0,1,4,0.644,312,2,0.5,0.041,0.01,D
+618,industrial gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,4,0.655,309,2,0.501,0.042,0.008,D
+619,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,4,0.656,309,2,0.5,0.042,0.007,B
+624,industrial gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.655,328,2,0.536,0.039,0.009,A
+628,industrial gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.677,319,2,0.509,0.042,0.02,A
+626,industrial gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.691,318,2,0.51,0.043,0.025,D
+627,industrial gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.686,319,2,0.509,0.043,0.02,D
+629,industrial gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.682,319,2,0.546,0.034,0.007,A
+637,industrial gas turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,4,0.685,325,2,0.528,0.043,0.009,C
+640,industrial gas turbine,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.661,315,2,0.528,0.044,0.008,E
+632,industrial gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,4,0.699,305,2,0.529,0.044,0.018,A
+639,industrial gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.73,356,2,0.566,0.052,0.008,A
+648,pump,original,gemma4:e2b,rag,0.5,B,B,1,1,4,0.661,286,2,0.486,0.044,0.021,B
+645,pump,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.672,298,2,0.486,0.043,0.013,B
+641,industrial gas turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.673,320,2,0.488,0.046,0.016,C
+649,pump,original,gemma4:e2b,rag,0.5,C,B,0,1,4,0.676,286,2,0.524,0.046,0.007,B
+663,pump,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.793,284,2,0.535,0.043,0.028,D
+653,pump,original,gemma4:e2b,rag,0.5,B,E,0,1,5,0.807,286,2,0.533,0.045,0.034,E
+662,pump,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.816,284,2,0.534,0.054,0.024,D
+666,pump,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.828,308,2,0.568,0.078,0.009,A
+670,pump,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.787,299,2,0.541,0.043,0.019,D
+676,compressor,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.774,293,2,0.539,0.043,0.026,B
+677,compressor,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.726,293,2,0.54,0.043,0.023,D
+667,pump,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.827,306,2,0.575,0.032,0.026,E
+683,compressor,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.715,306,2,0.523,0.043,0.028,B
+680,compressor,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.717,292,2,0.522,0.043,0.024,B
+681,compressor,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.736,291,2,0.523,0.046,0.028,D
+687,compressor,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.759,299,2,0.557,0.067,0.02,E
+689,compressor,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.659,300,2,0.425,0.041,0.027,A
+690,compressor,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.654,285,2,0.425,0.042,0.02,C
+691,compressor,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.607,286,2,0.427,0.046,0.012,C
+688,compressor,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.684,302,2,0.422,0.05,0.022,A
+705,compressor,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.737,301,2,0.512,0.044,0.017,D
+697,compressor,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.754,283,2,0.514,0.046,0.016,C
+692,compressor,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.765,285,2,0.512,0.045,0.024,A
+703,compressor,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.788,280,2,0.547,0.048,0.03,A
+713,compressor,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.76,307,2,0.516,0.048,0.032,D
+709,compressor,original,gemma4:e2b,rag,0.5,D,E,0,1,5,0.772,302,2,0.516,0.049,0.038,E
+712,compressor,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.768,309,2,0.512,0.051,0.029,E
+714,compressor,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.773,299,2,0.547,0.053,0.012,D
+723,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,C,A,0,1,5,0.762,356,2,0.534,0.046,0.012,A
+729,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,D,0,1,5,0.723,354,2,0.533,0.048,0.01,D
+727,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,E,A,0,1,5,0.829,365,2,0.57,0.077,0.027,A
+715,compressor,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.835,299,2,0.127,0.08,0.023,B
+735,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,A,0,1,5,0.902,358,2,0.611,0.045,0.024,A
+730,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,A,0,1,5,0.926,358,2,0.609,0.045,0.033,A
+739,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.871,353,2,0.648,0.041,0.015,A
+737,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,A,0,1,5,0.896,355,2,0.192,0.046,0.014,A
+744,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.88,369,2,0.63,0.046,0.017,D
+743,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.897,367,2,0.627,0.047,0.026,D
+754,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,E,0,1,5,0.935,358,2,0.666,0.083,0.017,E
+755,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.926,360,2,0.216,0.084,0.011,D
+764,electric generator,original,gemma4:e2b,rag,0.5,B,B,1,1,4,0.759,320,2,0.569,0.047,0.021,B
+767,electric generator,original,gemma4:e2b,rag,0.5,A,A,1,1,4,0.754,322,2,0.568,0.047,0.021,A
+761,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.837,360,2,0.566,0.048,0.016,D
+756,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,E,C,0,1,5,0.889,359,2,0.606,0.049,0.019,C
+773,electric generator,original,gemma4:e2b,rag,0.5,D,A,0,1,5,0.816,336,2,0.543,0.045,0.019,A
+775,electric generator,original,gemma4:e2b,rag,0.5,A,D,0,1,5,0.815,326,2,0.542,0.048,0.018,D
+774,electric generator,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.827,351,2,0.544,0.053,0.025,D
+779,electric generator,original,gemma4:e2b,rag,0.5,B,B,1,1,3,0.817,318,2,0.582,0.051,0.01,B
+783,electric generator,original,gemma4:e2b,rag,0.5,B,C,0,1,3,0.761,320,2,0.532,0.046,0.023,C
+780,electric generator,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.774,317,2,0.532,0.049,0.031,A
+786,electric generator,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.729,327,2,0.531,0.053,0.013,B
+784,electric generator,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.82,316,2,0.572,0.061,0.027,C
+790,electric generator,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.771,307,2,0.557,0.046,0.016,E
+792,electric generator,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.77,333,2,0.557,0.047,0.011,B
+787,electric generator,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.783,331,2,0.557,0.047,0.018,A
+793,electric generator,original,gemma4:e2b,rag,0.5,B,C,0,1,5,0.755,332,2,0.597,0.055,0.009,C
+799,fan,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.726,292,2,0.498,0.046,0.023,A
+806,fan,original,gemma4:e2b,rag,0.5,C,D,0,1,5,0.723,289,2,0.499,0.047,0.014,D
+805,fan,original,gemma4:e2b,rag,0.5,C,A,0,1,5,0.747,288,2,0.498,0.046,0.021,A
+808,fan,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.702,302,2,0.538,0.037,0.015,B
+814,fan,original,gemma4:e2b,rag,0.5,B,B,1,1,3,0.743,281,2,0.504,0.043,0.033,B
+821,fan,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.727,278,2,0.504,0.046,0.016,C
+816,fan,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.756,281,2,0.504,0.048,0.041,A
+822,fan,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.759,289,2,0.541,0.044,0.019,B
+826,fan,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.749,309,2,0.535,0.042,0.024,E
+828,fan,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.752,310,2,0.533,0.042,0.018,A
+829,fan,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.72,309,2,0.533,0.043,0.018,C
+824,fan,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.79,290,2,0.57,0.032,0.04,A
+831,fan,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.692,299,2,0.536,0.041,0.01,D
+830,fan,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.699,299,2,0.536,0.041,0.015,D
+835,fan,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.695,301,2,0.537,0.042,0.011,C
+836,power transformer,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.699,435,2,0.573,0.033,0.008,D
+840,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.804,427,2,0.643,0.042,0.013,C
+843,power transformer,original,gemma4:e2b,rag,0.5,E,A,0,1,5,0.79,435,2,0.643,0.042,0.008,A
+844,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.819,426,2,0.68,0.048,0.014,C
+838,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.85,441,2,0.267,0.049,0.005,C
+848,power transformer,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.983,485,2,0.78,0.042,0.017,E
+847,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.985,481,2,0.781,0.043,0.017,C
+850,power transformer,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.977,477,2,0.818,0.044,0.018,A
+853,power transformer,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.973,496,2,0.406,0.045,0.011,A
+857,power transformer,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.844,411,2,0.65,0.042,0.013,A
+856,power transformer,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.847,434,2,0.649,0.041,0.012,E
+861,power transformer,original,gemma4:e2b,rag,0.5,A,E,0,1,5,0.847,408,2,0.686,0.046,0.01,E
+863,power transformer,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.847,418,2,0.273,0.048,0.011,E
+866,power transformer,original,gemma4:e2b,rag,0.5,E,A,0,1,5,0.84,413,2,0.671,0.043,0.016,A
+871,power transformer,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.799,441,2,0.672,0.043,0.007,A
+868,power transformer,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.847,446,2,0.709,0.048,0.015,D
+865,power transformer,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.891,414,2,0.294,0.049,0.012,E
+875,power transformer,original,gemma4:e2b,rag,0.5,A,C,0,1,5,0.729,448,2,0.6,0.042,0.011,C
+874,power transformer,original,gemma4:e2b,rag,0.5,B,A,0,1,5,0.773,433,2,0.601,0.042,0.007,A
+872,power transformer,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.815,446,2,0.637,0.041,0.011,A
+877,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.77,408,2,0.231,0.047,0.009,C
+884,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.852,435,2,0.67,0.042,0.021,C
+886,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.809,436,2,0.671,0.042,0.009,C
+885,power transformer,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.856,440,2,0.707,0.044,0.011,E
+883,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.898,429,2,0.307,0.044,0.014,C
+887,power transformer,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.802,425,2,0.687,0.041,0.01,E
+891,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.807,431,2,0.689,0.042,0.013,B
+899,power transformer,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.806,423,2,0.345,0.052,0.019,D
+897,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.815,401,2,0.344,0.053,0.016,B
+908,power transformer,original,gemma4:e2b,rag,0.5,A,D,0,1,5,0.854,365,2,0.703,0.043,0.009,D
+906,power transformer,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.899,372,2,0.702,0.043,0.021,E
+901,power transformer,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.941,441,2,0.741,0.042,0.022,E
+910,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.892,560,2,0.316,0.043,0.016,B
+914,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.877,471,2,0.706,0.043,0.011,B
+915,power transformer,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.851,472,2,0.708,0.043,0.018,D
+923,electric motor,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.877,351,2,0.745,0.043,0.019,E
+912,power transformer,original,gemma4:e2b,rag,0.5,D,A,0,1,5,0.928,560,2,0.355,0.043,0.018,A
+931,electric motor,original,gemma4:e2b,rag,0.5,D,E,0,1,5,0.676,347,2,0.511,0.041,0.014,E
+928,electric motor,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.69,348,2,0.51,0.041,0.008,E
+933,electric motor,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.647,328,2,0.51,0.041,0.005,E
+932,electric motor,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.687,328,2,0.544,0.043,0.01,A
+945,electric motor,original,gemma4:e2b,rag,0.5,B,B,1,1,4,0.654,352,2,0.492,0.04,0.009,B
+944,electric motor,original,gemma4:e2b,rag,0.5,D,D,1,1,4,0.66,351,2,0.491,0.041,0.015,D
+937,electric motor,original,gemma4:e2b,rag,0.5,A,A,1,1,4,0.667,351,2,0.492,0.041,0.012,A
+946,electric motor,original,gemma4:e2b,rag,0.5,B,C,0,1,5,0.653,304,2,0.526,0.032,0.009,C
+950,electric motor,original,gemma4:e2b,rag,0.5,D,A,0,1,5,0.6,328,2,0.43,0.042,0.018,A
+953,electric motor,original,gemma4:e2b,rag,0.5,C,A,0,1,5,0.581,318,2,0.43,0.044,0.005,A
+947,electric motor,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.604,333,2,0.432,0.047,0.013,A
+951,electric motor,original,gemma4:e2b,rag,0.5,E,A,0,1,5,0.611,305,2,0.432,0.051,0.013,A
+956,electric motor,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.868,352,2,0.606,0.047,0.019,A
+959,electric motor,original,gemma4:e2b,rag,0.5,D,B,0,1,5,0.873,352,2,0.607,0.048,0.028,B
+954,electric motor,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.933,367,2,0.647,0.067,0.02,B
+958,electric motor,original,gemma4:e2b,rag,0.5,E,A,0,1,5,0.936,360,2,0.202,0.073,0.022,A
+961,electric motor,original,gemma4:e2b,rag,0.5,B,D,0,1,5,0.832,358,2,0.55,0.047,0.022,D
+966,electric motor,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.777,374,2,0.548,0.047,0.012,A
+960,electric motor,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.861,332,2,0.547,0.056,0.023,C
+962,electric motor,original,gemma4:e2b,rag,0.5,E,A,0,1,5,0.859,381,2,0.587,0.082,0.018,A
+968,electric motor,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.789,363,2,0.54,0.044,0.029,D
+976,electric motor,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.722,331,2,0.536,0.053,0.021,A
+971,electric motor,original,gemma4:e2b,rag,0.5,A,C,0,1,5,0.791,332,2,0.536,0.049,0.023,C
+969,electric motor,original,gemma4:e2b,rag,0.5,D,A,0,1,5,0.857,312,2,0.571,0.078,0.036,A
+980,electric motor,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.852,317,2,0.545,0.043,0.042,A
+983,electric motor,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.838,299,2,0.542,0.046,0.017,A
+985,electric motor,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.781,326,2,0.546,0.043,0.02,A
+984,electric motor,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.912,317,2,0.575,0.091,0.018,B
+991,electric motor,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.634,327,2,0.423,0.041,0.042,A
+994,electric motor,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.565,329,2,0.419,0.044,0.016,B
+987,electric motor,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.646,318,2,0.416,0.051,0.023,B
+986,electric motor,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.667,309,2,0.417,0.048,0.05,B
+996,electric motor,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.798,312,2,0.537,0.046,0.027,A
+1003,steam turbine,original,gemma4:e2b,rag,0.5,D,B,0,1,5,0.789,330,2,0.536,0.052,0.016,B
+1002,steam turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.807,297,2,0.534,0.059,0.012,B
+1001,electric motor,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.854,330,2,0.571,0.065,0.025,B
+1006,steam turbine,original,gemma4:e2b,rag,0.5,A,C,0,1,5,0.722,280,2,0.542,0.044,0.017,C
+1005,steam turbine,original,gemma4:e2b,rag,0.5,B,A,0,1,5,0.74,320,2,0.542,0.047,0.008,A
+1004,steam turbine,original,gemma4:e2b,rag,0.5,B,C,0,1,5,0.766,295,2,0.539,0.052,0.017,C
+1009,steam turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,4,0.745,327,2,0.576,0.064,0.011,C
+1021,steam turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.781,311,2,0.515,0.046,0.024,D
+1026,steam turbine,original,gemma4:e2b,rag,0.5,A,D,0,1,5,0.778,335,2,0.517,0.048,0.014,D
+1016,steam turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.804,329,2,0.516,0.05,0.037,C
+1030,steam turbine,original,gemma4:e2b,rag,0.5,D,C,0,1,5,0.771,305,2,0.554,0.041,0.01,C
+1041,steam turbine,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.767,312,2,0.526,0.046,0.011,B
+1032,steam turbine,original,gemma4:e2b,rag,0.5,E,C,0,1,5,0.789,280,2,0.525,0.046,0.044,C
+1031,steam turbine,original,gemma4:e2b,rag,0.5,B,C,0,1,5,0.8,280,2,0.525,0.047,0.045,C
+1049,steam turbine,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.79,278,2,0.565,0.037,0.009,A
+1051,aero gas turbine,original,gemma4:e2b,rag,0.5,C,D,0,1,5,0.769,363,2,0.505,0.044,0.02,D
+1052,aero gas turbine,original,gemma4:e2b,rag,0.5,D,E,0,1,5,0.765,369,2,0.506,0.045,0.025,E
+1060,aero gas turbine,original,gemma4:e2b,rag,0.5,E,A,0,1,5,0.768,394,2,0.505,0.047,0.016,A
+1063,aero gas turbine,original,gemma4:e2b,rag,0.5,B,A,0,1,4,0.735,388,2,0.503,0.053,0.018,A
+1091,aero gas turbine,original,gemma4:e2b,rag,0.5,C,B,0,1,4,0.953,361,2,0.693,0.05,0.025,B
+1073,aero gas turbine,original,gemma4:e2b,rag,0.5,C,D,0,1,5,0.979,392,2,0.694,0.053,0.041,D
+1084,aero gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,1.033,399,2,0.733,0.071,0.035,D
+1067,aero gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,4,1.06,382,2,0.264,0.078,0.017,D
+1094,aero gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,4,0.946,368,2,0.658,0.047,0.038,D
+1098,aero gas turbine,original,gemma4:e2b,rag,0.5,C,A,0,1,4,0.94,378,2,0.658,0.048,0.024,A
+1103,aero gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,4,0.932,375,2,0.696,0.058,0.022,A
+1106,aero gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.931,390,2,0.237,0.068,0.014,B
+1112,aero gas turbine,original,gemma4:e2b,rag,0.5,B,A,0,1,5,0.911,395,2,0.648,0.047,0.016,A
+1116,aero gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,4,0.855,356,2,0.646,0.047,0.013,A
+1113,aero gas turbine,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.897,385,2,0.687,0.041,0.019,E
+1108,aero gas turbine,original,gemma4:e2b,rag,0.5,D,A,0,1,5,0.967,402,2,0.229,0.041,0.016,A
+1125,aero gas turbine,original,gemma4:e2b,rag,0.5,C,A,0,1,3,0.9,349,2,0.632,0.045,0.02,A
+1117,aero gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,4,0.901,352,2,0.633,0.047,0.02,A
+1129,aero gas turbine,original,gemma4:e2b,rag,0.5,C,B,0,1,3,0.919,356,2,0.673,0.067,0.007,B
+1131,aero gas turbine,original,gemma4:e2b,rag,0.5,B,C,0,1,3,0.917,342,2,0.212,0.068,0.014,C
+1141,aero gas turbine,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.665,341,2,0.519,0.043,0.024,A
+1135,aero gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.727,334,2,0.519,0.042,0.02,B
+1133,aero gas turbine,original,gemma4:e2b,rag,0.5,A,B,0,1,3,0.74,357,2,0.52,0.043,0.02,B
+1139,aero gas turbine,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.707,340,2,0.557,0.041,0.024,B
+1142,aero gas turbine,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.625,329,2,0.485,0.04,0.009,B
+1145,aero gas turbine,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.626,331,2,0.484,0.041,0.012,A
+1149,aero gas turbine,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.598,330,2,0.484,0.044,0.014,A
+1146,aero gas turbine,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.665,334,2,0.519,0.041,0.009,A
+1155,aero gas turbine,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.537,342,2,0.415,0.038,0.01,B
+1156,industrial gas turbine,original,gemma4:e2b,rag,0.5,A,D,0,1,5,0.52,349,2,0.413,0.038,0.008,D
+1154,aero gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.565,330,2,0.413,0.039,0.023,B
+1151,aero gas turbine,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.576,333,2,0.413,0.038,0.011,A
+1161,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,A,0,1,5,0.672,345,2,0.526,0.045,0.01,A
+1160,industrial gas turbine,original,gemma4:e2b,rag,0.5,C,D,0,1,5,0.676,349,2,0.526,0.048,0.007,D
+1157,industrial gas turbine,original,gemma4:e2b,rag,0.5,C,E,0,1,5,0.69,352,2,0.526,0.05,0.012,E
+1165,industrial gas turbine,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.706,337,2,0.564,0.043,0.008,E
+1174,industrial gas turbine,original,gemma4:e2b,rag,0.5,D,B,0,1,5,0.731,360,2,0.553,0.041,0.019,B
+1170,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,D,0,1,5,0.745,357,2,0.555,0.042,0.031,D
+1176,industrial gas turbine,original,gemma4:e2b,rag,0.5,A,D,0,1,5,0.706,379,2,0.554,0.042,0.01,D
+1169,industrial gas turbine,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.77,386,2,0.589,0.032,0.016,E
+1177,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,E,0,1,5,0.713,360,2,0.553,0.041,0.008,E
+1183,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,4,0.713,345,2,0.554,0.041,0.009,B
+1182,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,D,0,1,4,0.718,344,2,0.554,0.042,0.015,D
+1189,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.721,356,2,0.588,0.042,0.008,B
+1202,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,D,0,1,5,0.661,349,2,0.516,0.041,0.014,D
+1205,industrial gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,4,0.656,366,2,0.514,0.042,0.007,D
+1201,industrial gas turbine,original,gemma4:e2b,rag,0.5,D,A,0,1,5,0.692,339,2,0.516,0.042,0.01,A
+1192,industrial gas turbine,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.72,363,2,0.551,0.036,0.016,E
+1220,industrial gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.658,306,2,0.515,0.042,0.014,A
+1209,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,4,0.672,366,2,0.517,0.042,0.017,B
+1219,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.665,310,2,0.516,0.042,0.02,A
+1224,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.675,302,2,0.554,0.043,0.004,B
+1230,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.66,311,2,0.512,0.043,0.021,B
+1237,pump,original,gemma4:e2b,rag,0.5,C,B,0,1,5,0.658,354,2,0.513,0.043,0.018,B
+1239,pump,original,gemma4:e2b,rag,0.5,B,A,0,1,5,0.628,344,2,0.514,0.043,0.009,A
+1227,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.697,301,2,0.551,0.033,0.017,A
+1244,pump,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.732,334,2,0.571,0.041,0.013,B
+1246,pump,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.732,364,2,0.573,0.042,0.014,E
+1245,pump,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.747,326,2,0.572,0.042,0.012,D
+1248,pump,original,gemma4:e2b,rag,0.5,B,D,0,1,5,0.747,366,2,0.61,0.04,0.005,D
+1252,pump,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.702,302,2,0.524,0.041,0.012,B
+1254,pump,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.701,301,2,0.525,0.042,0.012,B
+1257,pump,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.678,319,2,0.526,0.043,0.016,B
+1250,pump,original,gemma4:e2b,rag,0.5,B,D,0,1,5,0.75,358,2,0.562,0.046,0.013,D
+1260,pump,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.596,329,2,0.444,0.038,0.017,A
+1265,pump,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.593,302,2,0.446,0.039,0.021,B
+1259,pump,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.605,302,2,0.445,0.038,0.022,B
+1267,pump,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.563,322,2,0.444,0.04,0.014,B
+1271,pump,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.639,291,2,0.484,0.044,0.007,A
+1272,pump,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.631,316,2,0.483,0.042,0.008,C
+1270,pump,original,gemma4:e2b,rag,0.5,B,B,1,1,3,0.646,288,2,0.483,0.046,0.011,B
+1274,pump,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.687,314,2,0.518,0.058,0.012,C
+1281,compressor,original,gemma4:e2b,rag,0.5,C,D,0,1,5,0.737,371,2,0.558,0.042,0.022,D
+1278,compressor,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.736,331,2,0.559,0.043,0.012,C
+1280,compressor,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.761,385,2,0.596,0.041,0.013,D
+1285,compressor,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.736,338,2,0.174,0.042,0.008,E
+1291,compressor,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.676,366,2,0.48,0.044,0.018,C
+1293,compressor,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.685,370,2,0.48,0.045,0.02,A
+1300,compressor,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.651,337,2,0.48,0.048,0.011,B
+1294,compressor,original,gemma4:e2b,rag,0.5,C,A,0,1,5,0.703,367,2,0.514,0.07,0.01,A
+1302,compressor,original,gemma4:e2b,rag,0.5,C,E,0,1,5,0.802,332,2,0.524,0.046,0.029,E
+1304,compressor,original,gemma4:e2b,rag,0.5,E,A,0,1,5,0.796,331,2,0.526,0.047,0.028,A
+1303,compressor,original,gemma4:e2b,rag,0.5,B,E,0,1,5,0.812,296,2,0.527,0.052,0.022,E
+1305,compressor,original,gemma4:e2b,rag,0.5,D,E,0,1,5,0.82,298,2,0.564,0.081,0.018,E
+1320,compressor,original,gemma4:e2b,rag,0.5,D,A,0,1,4,0.753,320,2,0.489,0.042,0.029,A
+1322,compressor,original,gemma4:e2b,rag,0.5,D,D,1,1,4,0.698,340,2,0.487,0.043,0.011,D
+1313,compressor,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.786,318,2,0.482,0.048,0.034,B
+1309,compressor,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.783,309,2,0.484,0.046,0.038,A
+1328,compressor,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.731,357,2,0.463,0.04,0.014,B
+1331,compressor,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.722,358,2,0.462,0.041,0.011,B
+1335,compressor,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.717,345,2,0.456,0.043,0.017,A
+1332,compressor,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.727,329,2,0.459,0.042,0.016,A
+1344,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,C,0,1,5,0.88,360,2,0.59,0.044,0.025,C
+1343,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,A,0,1,5,0.895,365,2,0.589,0.047,0.032,A
+1339,compressor,original,gemma4:e2b,rag,0.5,B,B,1,1,3,0.896,324,2,0.588,0.05,0.033,B
+1346,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,E,D,0,1,5,0.962,371,2,0.625,0.09,0.013,D
+1347,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,D,0,1,5,0.812,361,2,0.569,0.047,0.027,D
+1357,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,B,0,1,5,0.807,364,2,0.567,0.049,0.03,B
+1360,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.742,347,2,0.569,0.053,0.008,C
+1348,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,C,A,0,1,5,0.86,362,2,0.609,0.059,0.028,A
+1363,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.879,355,2,0.635,0.046,0.028,A
+1366,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,C,0,1,3,0.881,365,2,0.637,0.047,0.039,C
+1362,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.956,351,2,0.674,0.069,0.026,C
+1373,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,B,0,1,4,0.905,367,2,0.222,0.074,0.017,B
+1378,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,B,1,1,4,0.884,355,2,0.604,0.047,0.015,B
+1379,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,A,1,1,4,0.826,356,2,0.606,0.048,0.038,A
+1381,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,D,1,1,4,0.832,356,2,0.603,0.048,0.02,D
+1375,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,C,A,0,1,4,0.943,367,2,0.642,0.048,0.022,A
+1388,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,A,0,1,5,0.915,367,2,0.677,0.047,0.023,A
+1386,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,E,0,1,5,0.935,365,2,0.678,0.049,0.026,E
+1392,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,E,B,0,1,5,0.966,366,2,0.717,0.065,0.021,B
+1394,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.948,360,2,0.238,0.066,0.011,D
+1396,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,A,0,1,5,0.813,373,2,0.572,0.046,0.016,A
+1398,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.769,365,2,0.571,0.047,0.019,C
+1402,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.763,352,2,0.57,0.055,0.02,B
+1397,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,E,A,0,1,5,0.875,373,2,0.61,0.068,0.019,A
+1407,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.859,356,2,0.604,0.047,0.026,B
+1413,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,A,0,1,3,0.845,363,2,0.603,0.048,0.019,A
+1406,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.883,352,2,0.602,0.049,0.028,B
+1414,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.846,358,2,0.641,0.044,0.012,C
+1427,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.831,349,2,0.593,0.052,0.028,A
+1428,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,C,A,0,1,3,0.803,359,2,0.594,0.051,0.01,A
+1423,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.844,351,2,0.595,0.052,0.019,A
+1416,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,B,1,1,3,0.891,363,2,0.637,0.045,0.035,B
+1433,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.771,350,2,0.56,0.047,0.025,A
+1431,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.772,352,2,0.56,0.047,0.019,A
+1429,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,B,1,1,3,0.775,351,2,0.561,0.047,0.026,B
+1442,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.761,355,2,0.602,0.048,0.013,B
+1450,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.81,345,2,0.553,0.049,0.021,A
+1452,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.813,345,2,0.55,0.055,0.027,A
+1455,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.801,343,2,0.551,0.052,0.014,B
+1456,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.81,337,2,0.592,0.052,0.013,A
+1469,electric generator,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.812,346,2,0.576,0.047,0.024,B
+1459,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.835,335,2,0.578,0.048,0.026,B
+1470,electric generator,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.823,378,2,0.577,0.054,0.021,C
+1472,electric generator,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.813,345,2,0.616,0.053,0.011,D
+1476,electric generator,original,gemma4:e2b,rag,0.5,E,B,0,1,5,0.735,323,2,0.539,0.047,0.011,B
+1478,electric generator,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.744,346,2,0.541,0.049,0.012,A
+1479,electric generator,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.721,329,2,0.541,0.048,0.011,B
+1474,electric generator,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.79,325,2,0.58,0.044,0.016,A
+1495,electric generator,original,gemma4:e2b,rag,0.5,D,A,0,1,5,0.729,313,2,0.537,0.043,0.009,A
+1482,electric generator,original,gemma4:e2b,rag,0.5,D,D,1,1,4,0.767,329,2,0.538,0.042,0.028,D
+1480,electric generator,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.778,356,2,0.537,0.043,0.022,B
+1494,electric generator,original,gemma4:e2b,rag,0.5,E,C,0,1,5,0.793,309,2,0.574,0.037,0.019,C
+1499,electric generator,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.732,327,2,0.562,0.04,0.018,C
+1503,electric generator,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.704,339,2,0.564,0.042,0.009,E
+1501,electric generator,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.734,330,2,0.563,0.041,0.018,D
+1500,electric generator,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.764,352,2,0.6,0.036,0.021,E
+1504,electric generator,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.73,352,2,0.576,0.042,0.028,E
+1507,electric generator,original,gemma4:e2b,rag,0.5,B,D,0,1,5,0.722,346,2,0.577,0.042,0.015,D
+1510,electric generator,original,gemma4:e2b,rag,0.5,E,B,0,1,5,0.741,348,2,0.613,0.047,0.007,B
+1505,electric generator,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.777,355,2,0.194,0.048,0.016,A
+1515,electric generator,original,gemma4:e2b,rag,0.5,B,D,0,1,4,0.701,302,2,0.53,0.042,0.015,D
+1518,electric generator,original,gemma4:e2b,rag,0.5,C,D,0,1,4,0.657,334,2,0.532,0.043,0.007,D
+1513,electric generator,original,gemma4:e2b,rag,0.5,A,C,0,1,5,0.708,346,2,0.532,0.043,0.017,C
+1516,electric generator,original,gemma4:e2b,rag,0.5,C,C,1,1,4,0.704,346,2,0.568,0.045,0.012,C
+1527,electric generator,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.693,322,2,0.503,0.043,0.006,A
+1528,electric generator,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.692,298,2,0.504,0.045,0.013,B
+1529,electric generator,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.652,308,2,0.504,0.044,0.008,A
+1523,electric generator,original,gemma4:e2b,rag,0.5,B,A,0,1,4,0.724,320,2,0.54,0.035,0.011,A
+1537,electric generator,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.655,307,2,0.503,0.041,0.015,B
+1538,electric generator,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.651,303,2,0.505,0.042,0.008,B
+1532,electric generator,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.67,309,2,0.505,0.044,0.016,B
+1539,electric generator,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.668,312,2,0.54,0.034,0.017,A
+1544,electric generator,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.616,308,2,0.481,0.04,0.007,A
+1542,electric generator,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.624,327,2,0.48,0.039,0.013,A
+1545,electric generator,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.597,326,2,0.48,0.04,0.005,B
+1540,electric generator,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.661,311,2,0.514,0.032,0.015,A
+1554,fan,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.691,338,2,0.519,0.041,0.018,D
+1550,fan,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.693,335,2,0.521,0.042,0.016,E
+1555,fan,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.688,319,2,0.521,0.043,0.006,B
+1556,fan,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.691,319,2,0.557,0.032,0.011,B
+1560,fan,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.648,305,2,0.507,0.04,0.013,A
+1558,fan,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.655,328,2,0.51,0.04,0.011,B
+1559,fan,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.65,297,2,0.509,0.04,0.017,B
+1562,fan,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.658,319,2,0.545,0.039,0.005,A
+1566,fan,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.686,343,2,0.505,0.043,0.017,B
+1564,fan,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.685,345,2,0.506,0.043,0.021,C
+1569,fan,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.69,352,2,0.506,0.044,0.015,D
+1575,fan,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.683,325,2,0.543,0.034,0.007,B
+1576,fan,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.573,307,2,0.423,0.038,0.009,A
+1586,fan,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.545,316,2,0.423,0.039,0.005,A
+1583,fan,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.562,329,2,0.422,0.041,0.01,A
+1580,fan,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.59,319,2,0.421,0.043,0.024,A
+1589,fan,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.66,308,2,0.496,0.042,0.019,A
+1587,fan,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.676,332,2,0.496,0.043,0.011,A
+1590,fan,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.658,331,2,0.496,0.043,0.013,B
+1588,fan,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.708,330,2,0.531,0.043,0.008,B
+1593,fan,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.492,327,2,0.347,0.038,0.018,B
+1595,fan,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.5,304,2,0.347,0.038,0.017,B
+1591,fan,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.507,331,2,0.345,0.041,0.021,A
+1596,fan,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.468,319,2,0.345,0.04,0.004,B
+1604,fan,original,gemma4:e2b,rag,0.5,A,B,0,1,3,0.555,299,2,0.406,0.038,0.01,B
+1598,fan,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.563,312,2,0.406,0.037,0.006,B
+1597,fan,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.568,317,2,0.406,0.037,0.023,B
+1605,fan,original,gemma4:e2b,rag,0.5,B,B,1,1,3,0.56,297,2,0.406,0.038,0.007,B
+1609,fan,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.703,320,2,0.538,0.042,0.006,C
+1610,power transformer,original,gemma4:e2b,rag,0.5,D,C,0,1,5,0.705,473,2,0.54,0.043,0.021,C
+1607,fan,original,gemma4:e2b,rag,0.5,B,A,0,1,3,0.712,330,2,0.538,0.043,0.026,A
+1612,power transformer,original,gemma4:e2b,rag,0.5,C,D,0,1,5,0.731,471,2,0.576,0.032,0.032,D
+1621,power transformer,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.946,477,2,0.758,0.047,0.009,A
+1619,power transformer,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.953,454,2,0.76,0.053,0.018,A
+1622,power transformer,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.97,437,2,0.801,0.053,0.01,A
+1617,power transformer,original,gemma4:e2b,rag,0.5,D,D,1,1,5,1.008,468,2,0.389,0.058,0.022,D
+1627,power transformer,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.893,475,2,0.612,0.046,0.027,D
+1630,power transformer,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.843,472,2,0.609,0.05,0.019,E
+1629,power transformer,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.864,462,2,0.606,0.054,0.017,E
+1625,power transformer,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.988,465,2,0.638,0.088,0.027,E
+1638,power transformer,original,gemma4:e2b,rag,0.5,C,D,0,1,5,1.085,491,2,0.787,0.048,0.026,D
+1631,power transformer,original,gemma4:e2b,rag,0.5,E,E,1,1,5,1.108,505,2,0.784,0.052,0.041,E
+1633,power transformer,original,gemma4:e2b,rag,0.5,E,E,1,1,5,1.147,526,2,0.823,0.068,0.031,E
+1639,power transformer,original,gemma4:e2b,rag,0.5,C,A,0,1,5,1.082,495,2,0.405,0.072,0.005,A
+1641,power transformer,original,gemma4:e2b,rag,0.5,D,A,0,1,5,0.964,491,2,0.709,0.046,0.018,A
+1655,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.912,403,2,0.706,0.055,0.006,C
+1652,power transformer,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.978,447,2,0.743,0.074,0.014,A
+1640,power transformer,original,gemma4:e2b,rag,0.5,D,B,0,1,5,1.047,435,2,0.282,0.078,0.018,B
+1656,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.955,410,2,0.688,0.046,0.015,B
+1658,power transformer,original,gemma4:e2b,rag,0.5,B,A,0,1,5,0.95,439,2,0.686,0.046,0.012,A
+1659,power transformer,original,gemma4:e2b,rag,0.5,E,A,0,1,5,0.937,414,2,0.722,0.053,0.01,A
+1661,power transformer,original,gemma4:e2b,rag,0.5,B,D,0,1,5,0.938,464,2,0.288,0.06,0.014,D
+1664,power transformer,original,gemma4:e2b,rag,0.5,E,B,0,1,5,0.915,404,2,0.644,0.046,0.016,B
+1668,power transformer,original,gemma4:e2b,rag,0.5,C,E,0,1,5,0.915,368,2,0.645,0.047,0.028,E
+1670,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.917,353,2,0.681,0.051,0.013,C
+1671,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.914,379,2,0.24,0.056,0.015,C
+1675,power transformer,original,gemma4:e2b,rag,0.5,D,C,0,1,5,0.824,353,2,0.644,0.05,0.014,C
+1686,power transformer,original,gemma4:e2b,rag,0.5,B,E,0,1,5,0.828,432,2,0.645,0.051,0.018,E
+1672,power transformer,original,gemma4:e2b,rag,0.5,C,E,0,1,5,0.916,356,2,0.685,0.049,0.042,E
+1674,power transformer,original,gemma4:e2b,rag,0.5,B,E,0,1,5,0.921,354,2,0.253,0.054,0.021,E
+1691,power transformer,original,gemma4:e2b,rag,0.5,A,C,0,1,5,0.949,432,2,0.708,0.048,0.019,C
+1688,power transformer,original,gemma4:e2b,rag,0.5,B,D,0,1,5,0.972,428,2,0.711,0.05,0.016,D
+1692,power transformer,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.996,428,2,0.749,0.079,0.014,A
+1695,power transformer,original,gemma4:e2b,rag,0.5,A,D,0,1,5,0.988,414,2,0.325,0.079,0.021,D
+1706,power transformer,original,gemma4:e2b,rag,0.5,B,C,0,1,5,0.984,437,2,0.688,0.048,0.015,C
+1696,power transformer,original,gemma4:e2b,rag,0.5,E,C,0,1,5,0.994,437,2,0.688,0.054,0.019,C
+1707,power transformer,original,gemma4:e2b,rag,0.5,C,B,0,1,5,0.958,424,2,0.728,0.05,0.012,B
+1709,power transformer,original,gemma4:e2b,rag,0.5,E,D,0,1,5,0.965,444,2,0.299,0.05,0.017,D
+1711,power transformer,original,gemma4:e2b,rag,0.5,C,A,0,1,4,0.918,438,2,0.655,0.047,0.011,A
+1710,power transformer,original,gemma4:e2b,rag,0.5,C,A,0,1,4,0.933,460,2,0.656,0.052,0.017,A
+1717,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,4,0.941,429,2,0.245,0.059,0.023,B
+1712,power transformer,original,gemma4:e2b,rag,0.5,A,A,1,1,4,0.937,430,2,0.693,0.059,0.022,A
+1718,power transformer,original,gemma4:e2b,rag,0.5,A,A,1,1,4,0.868,472,2,0.665,0.087,0.022,A
+1719,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,4,0.878,434,2,0.664,0.087,0.024,B
+1721,power transformer,original,gemma4:e2b,rag,0.5,A,B,0,1,4,0.884,458,2,0.398,0.074,0.009,B
+1720,power transformer,original,gemma4:e2b,rag,0.5,D,A,0,1,4,0.886,457,2,0.408,0.072,0.01,A
+1726,power transformer,original,gemma4:e2b,rag,0.5,A,B,0,1,4,0.848,428,2,0.615,0.048,0.01,B
+1723,power transformer,original,gemma4:e2b,rag,0.5,C,D,0,1,4,0.862,442,2,0.613,0.049,0.018,D
+1734,power transformer,original,gemma4:e2b,rag,0.5,B,A,0,1,4,0.798,448,2,0.608,0.051,0.022,A
+1731,power transformer,original,gemma4:e2b,rag,0.5,A,B,0,1,4,0.824,482,2,0.645,0.05,0.027,B
+1742,power transformer,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.782,437,2,0.562,0.047,0.016,B
+1741,power transformer,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.803,455,2,0.558,0.054,0.024,B
+1735,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,4,0.818,439,2,0.561,0.049,0.024,C
+1745,power transformer,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.839,437,2,0.588,0.095,0.014,A
+1752,power transformer,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.969,423,2,0.694,0.042,0.018,B
+1757,power transformer,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.901,423,2,0.693,0.042,0.009,A
+1747,power transformer,original,gemma4:e2b,rag,0.5,A,B,0,1,2,1.028,423,2,0.726,0.039,0.021,B
+1756,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,2,1.002,432,2,0.313,0.044,0.017,B
+1761,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.862,458,2,0.681,0.044,0.021,B
+1764,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.831,434,2,0.682,0.044,0.013,B
+1765,power transformer,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.855,451,2,0.719,0.043,0.01,B
+1763,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.903,414,2,0.317,0.046,0.014,B
+1767,power transformer,original,gemma4:e2b,rag,0.5,B,A,0,1,3,0.881,434,2,0.685,0.042,0.01,A
+1771,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.884,445,2,0.686,0.042,0.01,C
+1774,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.873,461,2,0.721,0.04,0.023,C
+1779,power transformer,original,gemma4:e2b,rag,0.5,B,A,0,1,3,0.884,460,2,0.328,0.043,0.012,A
+1786,power transformer,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.825,500,2,0.695,0.044,0.009,B
+1784,power transformer,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.853,502,2,0.696,0.044,0.007,A
+1780,power transformer,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.903,500,2,0.734,0.045,0.013,A
+1785,power transformer,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.868,467,2,0.326,0.046,0.005,A
+1788,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.711,504,2,0.543,0.041,0.008,B
+1800,electric motor,original,gemma4:e2b,rag,0.5,D,D,1,1,4,0.677,302,2,0.543,0.041,0.029,D
+1796,electric motor,original,gemma4:e2b,rag,0.5,C,D,0,1,5,0.707,301,2,0.543,0.041,0.009,D
+1802,electric motor,original,gemma4:e2b,rag,0.5,B,D,0,1,4,0.703,299,2,0.577,0.03,0.024,D
+1803,electric motor,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.668,287,2,0.502,0.04,0.01,B
+1817,electric motor,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.64,320,2,0.503,0.04,0.005,A
+1816,electric motor,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.669,324,2,0.503,0.04,0.009,B
+1808,electric motor,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.725,289,2,0.536,0.052,0.027,B
+1822,electric motor,original,gemma4:e2b,rag,0.5,A,B,0,1,3,0.678,295,2,0.505,0.04,0.017,B
+1820,electric motor,original,gemma4:e2b,rag,0.5,B,B,1,1,3,0.683,294,2,0.506,0.04,0.022,B
+1818,electric motor,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.696,320,2,0.506,0.041,0.014,B
+1824,electric motor,original,gemma4:e2b,rag,0.5,B,C,0,1,3,0.66,293,2,0.538,0.033,0.011,C
+1831,electric motor,original,gemma4:e2b,rag,0.5,B,D,0,1,4,0.647,290,2,0.496,0.038,0.005,D
+1830,electric motor,original,gemma4:e2b,rag,0.5,B,D,0,1,4,0.661,291,2,0.497,0.038,0.014,D
+1826,electric motor,original,gemma4:e2b,rag,0.5,C,D,0,1,4,0.667,293,2,0.497,0.039,0.012,D
+1832,electric motor,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.658,289,2,0.528,0.031,0.008,B
+1839,electric motor,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.623,285,2,0.486,0.038,0.008,B
+1833,electric motor,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.653,286,2,0.487,0.038,0.017,B
+1837,electric motor,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.635,290,2,0.486,0.038,0.01,B
+1836,electric motor,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.685,304,2,0.518,0.03,0.011,B
+1848,electric motor,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.683,301,2,0.514,0.041,0.013,B
+1843,electric motor,original,gemma4:e2b,rag,0.5,E,C,0,1,5,0.685,304,2,0.513,0.041,0.013,C
+1840,electric motor,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.701,306,2,0.511,0.042,0.019,A
+1849,electric motor,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.687,298,2,0.546,0.03,0.011,B
+1853,electric motor,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.51,297,2,0.378,0.04,0.013,B
+1854,electric motor,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.505,298,2,0.379,0.04,0.008,B
+1860,electric motor,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.495,286,2,0.378,0.043,0.015,B
+1852,electric motor,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.522,300,2,0.379,0.047,0.01,A
+1868,electric motor,original,gemma4:e2b,rag,0.5,D,D,1,1,4,0.649,298,2,0.475,0.039,0.013,D
+1874,steam turbine,original,gemma4:e2b,rag,0.5,C,B,0,1,5,0.643,288,2,0.475,0.04,0.012,B
+1875,steam turbine,original,gemma4:e2b,rag,0.5,A,D,0,1,5,0.64,285,2,0.475,0.041,0.018,D
+1877,steam turbine,original,gemma4:e2b,rag,0.5,B,D,0,1,4,0.664,290,2,0.51,0.04,0.02,D
+1890,steam turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,3,0.622,296,2,0.489,0.04,0.006,B
+1886,steam turbine,original,gemma4:e2b,rag,0.5,A,C,0,1,4,0.664,280,2,0.491,0.041,0.025,C
+1889,steam turbine,original,gemma4:e2b,rag,0.5,C,A,0,1,3,0.661,294,2,0.49,0.041,0.016,A
+1888,steam turbine,original,gemma4:e2b,rag,0.5,A,D,0,1,4,0.692,303,2,0.526,0.035,0.017,D
+1897,steam turbine,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.646,268,2,0.494,0.04,0.009,B
+1893,steam turbine,original,gemma4:e2b,rag,0.5,B,A,0,1,3,0.651,293,2,0.494,0.04,0.021,A
+1900,steam turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.652,275,2,0.495,0.041,0.01,B
+1901,steam turbine,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.647,268,2,0.53,0.031,0.008,B
+1904,steam turbine,original,gemma4:e2b,rag,0.5,A,E,0,1,5,0.663,283,2,0.497,0.044,0.022,E
+1903,steam turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.669,271,2,0.497,0.044,0.021,A
+1902,steam turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.664,268,2,0.496,0.043,0.023,B
+1910,steam turbine,original,gemma4:e2b,rag,0.5,D,C,0,1,5,0.675,304,2,0.534,0.039,0.006,C
+1914,steam turbine,original,gemma4:e2b,rag,0.5,E,D,0,1,5,0.771,298,2,0.526,0.045,0.012,D
+1913,steam turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.781,301,2,0.526,0.046,0.013,D
+1912,steam turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.781,301,2,0.526,0.047,0.02,D
+1917,steam turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.796,280,2,0.565,0.044,0.014,C
+1921,steam turbine,original,gemma4:e2b,rag,0.5,B,A,0,1,3,0.599,279,2,0.352,0.041,0.02,A
+1922,steam turbine,original,gemma4:e2b,rag,0.5,B,A,0,1,3,0.563,278,2,0.344,0.046,0.017,A
+1919,steam turbine,original,gemma4:e2b,rag,0.5,A,B,0,1,3,0.624,281,2,0.345,0.045,0.044,B
+1918,steam turbine,original,gemma4:e2b,rag,0.5,C,A,0,1,3,0.624,278,2,0.346,0.047,0.036,A
+1923,aero gas turbine,original,gemma4:e2b,rag,0.5,E,C,0,1,5,0.9,349,2,0.634,0.044,0.022,C
+1929,aero gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.899,348,2,0.636,0.047,0.024,B
+1928,aero gas turbine,original,gemma4:e2b,rag,0.5,C,B,0,1,5,0.906,355,2,0.635,0.044,0.03,B
+1931,aero gas turbine,original,gemma4:e2b,rag,0.5,C,D,0,1,5,0.953,348,2,0.67,0.063,0.02,D
+1934,aero gas turbine,original,gemma4:e2b,rag,0.5,A,E,0,1,5,0.855,364,2,0.581,0.045,0.025,E
+1936,aero gas turbine,original,gemma4:e2b,rag,0.5,D,E,0,1,5,0.848,366,2,0.577,0.047,0.02,E
+1935,aero gas turbine,original,gemma4:e2b,rag,0.5,E,B,0,1,5,0.861,364,2,0.579,0.051,0.022,B
+1940,aero gas turbine,original,gemma4:e2b,rag,0.5,A,B,0,1,5,0.858,349,2,0.616,0.067,0.005,B
+1952,aero gas turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.891,375,2,0.631,0.047,0.024,C
+1953,aero gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.894,376,2,0.63,0.05,0.036,D
+1955,aero gas turbine,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.892,378,2,0.669,0.069,0.014,E
+1945,aero gas turbine,original,gemma4:e2b,rag,0.5,E,D,0,1,5,0.973,351,2,0.202,0.072,0.03,D
+1956,aero gas turbine,original,gemma4:e2b,rag,0.5,E,B,0,1,5,0.835,376,2,0.631,0.046,0.02,B
+1957,aero gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.838,378,2,0.631,0.048,0.028,B
+1958,aero gas turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.848,376,2,0.669,0.081,0.009,C
+1960,aero gas turbine,original,gemma4:e2b,rag,0.5,D,B,0,1,5,0.855,335,2,0.215,0.082,0.015,B
+1961,aero gas turbine,original,gemma4:e2b,rag,0.5,D,C,0,1,5,0.853,335,2,0.553,0.046,0.024,C
+1964,aero gas turbine,original,gemma4:e2b,rag,0.5,B,D,0,1,4,0.783,344,2,0.551,0.052,0.032,D
+1965,aero gas turbine,original,gemma4:e2b,rag,0.5,C,B,0,1,4,0.783,342,2,0.549,0.053,0.043,B
+1962,aero gas turbine,original,gemma4:e2b,rag,0.5,A,D,0,1,5,0.91,333,2,0.587,0.069,0.014,D
+1973,aero gas turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,4,0.741,345,2,0.548,0.045,0.02,C
+1969,aero gas turbine,original,gemma4:e2b,rag,0.5,B,A,0,1,4,0.763,347,2,0.548,0.047,0.021,A
+1968,aero gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,4,0.777,345,2,0.549,0.047,0.022,B
+1974,aero gas turbine,original,gemma4:e2b,rag,0.5,D,C,0,1,4,0.732,343,2,0.583,0.046,0.026,C
+1976,aero gas turbine,original,gemma4:e2b,rag,0.5,A,B,0,1,5,0.847,362,2,0.622,0.048,0.017,B
+1975,aero gas turbine,original,gemma4:e2b,rag,0.5,C,D,0,1,5,0.853,359,2,0.623,0.05,0.014,D
+1978,aero gas turbine,original,gemma4:e2b,rag,0.5,D,E,0,1,5,0.87,361,2,0.212,0.054,0.011,E
+1977,aero gas turbine,original,gemma4:e2b,rag,0.5,D,B,0,1,5,0.904,360,2,0.664,0.048,0.019,B
+1979,aero gas turbine,original,gemma4:e2b,rag,0.5,D,B,0,1,5,0.862,358,2,0.596,0.046,0.031,B
+1982,aero gas turbine,original,gemma4:e2b,rag,0.5,D,A,0,1,4,0.872,346,2,0.597,0.05,0.026,A
+1983,aero gas turbine,original,gemma4:e2b,rag,0.5,A,B,0,1,4,0.813,348,2,0.596,0.045,0.01,B
+1987,aero gas turbine,original,gemma4:e2b,rag,0.5,A,B,0,1,4,0.864,348,2,0.634,0.047,0.015,B
+1992,aero gas turbine,original,gemma4:e2b,rag,0.5,C,A,0,1,4,0.778,335,2,0.514,0.053,0.027,A
+1993,aero gas turbine,original,gemma4:e2b,rag,0.5,D,B,0,1,4,0.783,335,2,0.516,0.057,0.027,B
+1995,aero gas turbine,original,gemma4:e2b,rag,0.5,D,A,0,1,4,0.779,334,2,0.516,0.06,0.024,A
+1996,aero gas turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,4,0.769,334,2,0.562,0.044,0.015,C
+2002,aero gas turbine,original,gemma4:e2b,rag,0.5,A,C,0,1,4,0.682,333,2,0.513,0.046,0.02,C
+2000,aero gas turbine,original,gemma4:e2b,rag,0.5,D,A,0,1,4,0.693,337,2,0.514,0.047,0.023,A
+2005,aero gas turbine,original,gemma4:e2b,rag,0.5,D,C,0,1,5,0.664,330,2,0.516,0.048,0.015,C
+1998,aero gas turbine,original,gemma4:e2b,rag,0.5,A,C,0,1,4,0.733,335,2,0.554,0.039,0.026,C
+2011,aero gas turbine,original,gemma4:e2b,rag,0.5,D,E,0,1,5,0.777,317,2,0.545,0.044,0.024,E
+2014,aero gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.755,312,2,0.547,0.046,0.008,A
+2012,aero gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.787,315,2,0.548,0.046,0.023,D
+2013,aero gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.808,316,2,0.583,0.035,0.028,A
+2025,aero gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,3,0.776,356,2,0.53,0.045,0.026,A
+2019,aero gas turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.798,357,2,0.532,0.046,0.029,C
+2030,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,3,0.794,309,2,0.531,0.047,0.021,B
+2034,industrial gas turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.803,305,2,0.566,0.054,0.015,C
+2038,industrial gas turbine,original,gemma4:e2b,rag,0.5,D,A,0,1,5,0.816,325,2,0.546,0.051,0.021,A
+2041,industrial gas turbine,original,gemma4:e2b,rag,0.5,E,D,0,1,5,0.787,321,2,0.548,0.054,0.007,D
+2037,industrial gas turbine,original,gemma4:e2b,rag,0.5,C,D,0,1,5,0.851,324,2,0.55,0.06,0.014,D
+2039,industrial gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.883,325,2,0.588,0.08,0.017,A
+2045,industrial gas turbine,original,gemma4:e2b,rag,0.5,C,B,0,1,4,0.87,335,2,0.562,0.042,0.019,B
+2049,industrial gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.863,360,2,0.559,0.042,0.029,D
+2051,industrial gas turbine,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.859,359,2,0.559,0.044,0.019,E
+2052,industrial gas turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.821,358,2,0.594,0.034,0.028,C
+2055,industrial gas turbine,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.596,323,2,0.446,0.037,0.007,E
+2057,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,C,0,1,3,0.58,322,2,0.446,0.038,0.012,C
+2053,industrial gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.598,356,2,0.446,0.04,0.017,D
+2054,industrial gas turbine,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.614,326,2,0.445,0.039,0.018,E
+2061,industrial gas turbine,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.577,325,2,0.445,0.036,0.013,C
+2059,industrial gas turbine,original,gemma4:e2b,rag,0.5,C,B,0,1,3,0.585,320,2,0.445,0.036,0.012,B
+2062,industrial gas turbine,original,gemma4:e2b,rag,0.5,A,C,0,1,3,0.583,321,2,0.444,0.038,0.009,C
+2060,industrial gas turbine,original,gemma4:e2b,rag,0.5,C,A,0,1,3,0.59,323,2,0.443,0.037,0.019,A
+2069,industrial gas turbine,original,gemma4:e2b,rag,0.5,A,D,0,1,5,0.708,319,2,0.515,0.041,0.011,D
+2070,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.71,318,2,0.516,0.041,0.016,B
+2066,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,A,0,1,5,0.723,319,2,0.515,0.041,0.006,A
+2067,industrial gas turbine,original,gemma4:e2b,rag,0.5,E,A,0,1,5,0.745,321,2,0.551,0.032,0.018,A
+2074,industrial gas turbine,original,gemma4:e2b,rag,0.5,C,A,0,1,3,0.652,308,2,0.511,0.042,0.015,A
+2071,industrial gas turbine,original,gemma4:e2b,rag,0.5,D,B,0,1,5,0.664,317,2,0.512,0.042,0.018,B
+2073,industrial gas turbine,original,gemma4:e2b,rag,0.5,C,A,0,1,3,0.661,311,2,0.511,0.042,0.015,A
+2076,industrial gas turbine,original,gemma4:e2b,rag,0.5,A,B,0,1,3,0.671,307,2,0.548,0.044,0.008,B
+2089,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.672,301,2,0.51,0.043,0.012,A
+2090,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,4,0.673,318,2,0.512,0.044,0.006,B
+2087,industrial gas turbine,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.684,302,2,0.511,0.043,0.014,A
+2091,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,4,0.677,317,2,0.549,0.051,0.008,B
+2093,industrial gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,4,0.606,321,2,0.445,0.038,0.011,D
+2095,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,A,0,1,4,0.563,317,2,0.443,0.039,0.013,A
+2092,industrial gas turbine,original,gemma4:e2b,rag,0.5,D,D,1,1,4,0.618,320,2,0.444,0.039,0.011,D
+2094,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,B,1,1,4,0.611,320,2,0.444,0.042,0.018,B
+2105,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.667,312,2,0.5,0.041,0.012,A
+2107,pump,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.664,288,2,0.5,0.042,0.009,B
+2108,pump,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.665,286,2,0.5,0.041,0.017,B
+2104,industrial gas turbine,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.702,312,2,0.535,0.033,0.018,A
+2113,pump,original,gemma4:e2b,rag,0.5,D,B,0,1,5,0.548,292,2,0.396,0.038,0.014,B
+2117,pump,original,gemma4:e2b,rag,0.5,C,D,0,1,4,0.541,269,2,0.395,0.039,0.007,D
+2118,pump,original,gemma4:e2b,rag,0.5,A,A,1,1,4,0.526,271,2,0.396,0.042,0.009,A
+2111,pump,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.564,285,2,0.396,0.041,0.025,A
+2124,pump,original,gemma4:e2b,rag,0.5,A,A,1,1,4,0.65,298,2,0.487,0.041,0.012,A
+2123,pump,original,gemma4:e2b,rag,0.5,C,C,1,1,4,0.652,298,2,0.488,0.042,0.012,C
+2131,pump,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.651,273,2,0.487,0.042,0.009,C
+2132,pump,original,gemma4:e2b,rag,0.5,A,B,0,1,5,0.674,276,2,0.523,0.032,0.01,B
+2138,pump,original,gemma4:e2b,rag,0.5,B,D,0,1,4,0.577,297,2,0.407,0.037,0.016,D
+2140,pump,original,gemma4:e2b,rag,0.5,C,C,1,1,4,0.58,296,2,0.404,0.038,0.011,C
+2135,pump,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.59,311,2,0.407,0.038,0.02,A
+2144,pump,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.557,286,2,0.404,0.039,0.007,B
+2152,compressor,original,gemma4:e2b,rag,0.5,A,D,0,1,4,0.662,296,2,0.516,0.04,0.014,D
+2158,compressor,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.656,293,2,0.515,0.04,0.012,E
+2157,compressor,original,gemma4:e2b,rag,0.5,C,A,0,1,4,0.665,299,2,0.515,0.04,0.012,A
+2146,pump,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.705,286,2,0.549,0.037,0.018,B
+2164,compressor,original,gemma4:e2b,rag,0.5,C,A,0,1,4,0.579,294,2,0.434,0.037,0.012,A
+2159,compressor,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.587,293,2,0.434,0.037,0.015,E
+2163,compressor,original,gemma4:e2b,rag,0.5,C,C,1,1,4,0.59,297,2,0.434,0.039,0.019,C
+2165,compressor,original,gemma4:e2b,rag,0.5,D,D,1,1,4,0.563,298,2,0.433,0.041,0.009,D
+2181,compressor,original,gemma4:e2b,rag,0.5,A,B,0,1,5,0.558,290,2,0.442,0.036,0.006,B
+2169,compressor,original,gemma4:e2b,rag,0.5,A,D,0,1,4,0.574,297,2,0.443,0.037,0.014,D
+2170,compressor,original,gemma4:e2b,rag,0.5,D,D,1,1,4,0.571,296,2,0.442,0.037,0.014,D
+2182,compressor,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.559,289,2,0.443,0.036,0.011,E
+2185,compressor,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.651,308,2,0.503,0.04,0.015,A
+2183,compressor,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.664,294,2,0.503,0.041,0.016,D
+2184,compressor,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.666,294,2,0.503,0.044,0.011,E
+2187,compressor,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.688,306,2,0.538,0.041,0.011,E
+2189,compressor,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.657,304,2,0.498,0.041,0.019,E
+2194,compressor,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.657,310,2,0.498,0.042,0.015,D
+2203,compressor,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.661,287,2,0.498,0.042,0.011,B
+2204,compressor,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.662,288,2,0.533,0.044,0.011,A
+2215,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,B,0,1,4,0.712,352,2,0.49,0.044,0.006,B
+2214,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,A,0,1,4,0.727,352,2,0.492,0.046,0.009,A
+2217,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,A,1,1,4,0.695,349,2,0.49,0.052,0.009,A
+2210,compressor,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.803,288,2,0.525,0.075,0.017,A
+2225,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,A,0,1,5,0.812,360,2,0.568,0.046,0.024,A
+2221,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,D,1,1,4,0.827,349,2,0.567,0.051,0.016,D
+2227,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,C,D,0,1,5,0.816,360,2,0.567,0.051,0.018,D
+2232,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,E,0,1,5,0.788,359,2,0.604,0.047,0.012,E
+2245,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,C,A,0,1,3,0.815,343,2,0.562,0.048,0.014,A
+2242,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.806,346,2,0.56,0.046,0.017,C
+2235,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,C,C,1,1,3,0.848,343,2,0.562,0.052,0.014,C
+2251,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.862,342,2,0.597,0.086,0.008,B
+2259,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,C,E,0,1,5,0.772,362,2,0.535,0.046,0.022,E
+2256,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.804,340,2,0.536,0.049,0.04,A
+2260,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,E,0,1,5,0.72,359,2,0.538,0.056,0.01,E
+2258,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.873,338,2,0.574,0.088,0.022,A
+2262,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,E,0,1,5,0.795,361,2,0.554,0.047,0.029,E
+2268,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,D,0,1,5,0.797,360,2,0.556,0.054,0.019,D
+2261,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,E,C,0,1,5,0.823,362,2,0.555,0.059,0.023,C
+2271,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,C,B,0,1,4,0.798,349,2,0.591,0.08,0.012,B
+2274,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,C,0,1,4,0.777,349,2,0.539,0.047,0.017,C
+2279,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,A,0,1,4,0.717,343,2,0.53,0.049,0.015,A
+2276,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,C,0,1,4,0.782,344,2,0.541,0.048,0.024,C
+2272,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,D,0,1,4,0.846,346,2,0.569,0.05,0.013,D
+2287,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,E,0,1,5,0.82,356,2,0.57,0.046,0.013,E
+2283,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,E,B,0,1,5,0.837,358,2,0.57,0.046,0.017,B
+2280,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,E,D,0,1,5,0.847,359,2,0.571,0.046,0.033,D
+2288,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,D,0,1,5,0.822,359,2,0.606,0.057,0.029,D
+2289,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,E,B,0,1,5,0.853,356,2,0.605,0.047,0.024,B
+2290,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,A,0,1,5,0.86,356,2,0.606,0.048,0.03,A
+2292,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,C,B,0,1,5,0.895,356,2,0.645,0.057,0.022,B
+2296,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,B,1,1,4,0.866,352,2,0.19,0.057,0.02,B
+2299,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,A,1,1,4,0.842,355,2,0.612,0.046,0.014,A
+2301,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,D,1,1,4,0.8,355,2,0.614,0.047,0.014,D
+2297,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,A,0,1,4,0.896,352,2,0.197,0.042,0.025,A
+2300,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,D,1,1,4,0.848,354,2,0.641,0.043,0.019,D
+2303,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,D,1,1,4,0.801,354,2,0.605,0.044,0.026,D
+2305,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,A,1,1,4,0.802,351,2,0.606,0.045,0.03,A
+2306,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,A,0,1,5,0.77,355,2,0.606,0.048,0.009,A
+2308,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,D,E,0,1,5,0.809,355,2,0.643,0.044,0.013,E
+2309,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,C,D,0,1,5,0.779,352,2,0.575,0.045,0.017,D
+2311,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,C,E,0,1,5,0.782,353,2,0.571,0.046,0.023,E
+2313,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,E,0,1,5,0.739,351,2,0.575,0.046,0.015,E
+2310,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,E,C,0,1,5,0.824,350,2,0.61,0.049,0.018,C
+2316,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,E,0,1,5,0.89,351,2,0.601,0.045,0.036,E
+2323,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,B,0,1,5,0.879,348,2,0.599,0.046,0.024,B
+2318,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,C,0,1,5,0.884,354,2,0.6,0.045,0.028,C
+2324,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.873,349,2,0.637,0.036,0.012,B
+2326,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.827,350,2,0.596,0.047,0.022,B
+2332,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.807,350,2,0.595,0.047,0.026,B
+2330,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.828,350,2,0.598,0.047,0.022,A
+2329,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.879,347,2,0.636,0.048,0.032,A
+2333,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.754,347,2,0.573,0.045,0.015,B
+2335,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.774,348,2,0.575,0.047,0.03,B
+2341,electric generator,original,gemma4:e2b,rag,0.5,A,A,1,1,4,0.745,315,2,0.569,0.05,0.024,A
+2336,reciprocating internal combustion engine,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.814,346,2,0.607,0.054,0.015,B
+2343,electric generator,original,gemma4:e2b,rag,0.5,D,D,1,1,4,0.792,292,2,0.521,0.046,0.02,D
+2344,electric generator,original,gemma4:e2b,rag,0.5,B,B,1,1,4,0.778,294,2,0.52,0.044,0.023,B
+2342,electric generator,original,gemma4:e2b,rag,0.5,A,B,0,1,4,0.818,293,2,0.522,0.046,0.024,B
+2347,electric generator,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.802,282,2,0.558,0.053,0.022,A
+2353,electric generator,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.758,277,2,0.537,0.046,0.027,B
+2355,electric generator,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.722,320,2,0.539,0.048,0.013,B
+2354,electric generator,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.771,317,2,0.539,0.046,0.019,B
+2348,electric generator,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.805,301,2,0.579,0.042,0.032,B
+2360,electric generator,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.651,316,2,0.491,0.041,0.021,B
+2358,electric generator,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.687,316,2,0.493,0.041,0.021,B
+2356,electric generator,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.696,316,2,0.493,0.041,0.022,A
+2359,electric generator,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.713,319,2,0.527,0.04,0.026,B
+2365,electric generator,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.657,277,2,0.494,0.039,0.018,A
+2362,electric generator,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.67,279,2,0.496,0.04,0.019,A
+2364,electric generator,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.662,280,2,0.495,0.039,0.015,B
+2369,electric generator,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.66,278,2,0.53,0.033,0.005,A
+2374,electric generator,original,gemma4:e2b,rag,0.5,C,A,0,1,3,0.655,283,2,0.486,0.045,0.018,A
+2377,electric generator,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.658,287,2,0.488,0.046,0.012,B
+2382,electric generator,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.652,287,2,0.49,0.045,0.015,B
+2385,electric generator,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.666,292,2,0.529,0.045,0.008,C
+2399,electric generator,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.668,292,2,0.501,0.042,0.017,B
+2387,electric generator,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.683,320,2,0.502,0.043,0.023,D
+2393,electric generator,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.678,294,2,0.501,0.043,0.016,B
+2402,electric generator,original,gemma4:e2b,rag,0.5,B,D,0,1,4,0.67,312,2,0.539,0.033,0.007,D
+2416,electric generator,original,gemma4:e2b,rag,0.5,C,C,1,1,4,0.653,290,2,0.484,0.04,0.014,C
+2411,electric generator,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.661,287,2,0.485,0.04,0.035,A
+2419,electric generator,original,gemma4:e2b,rag,0.5,B,C,0,1,4,0.648,291,2,0.486,0.042,0.015,C
+2420,fan,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.661,284,2,0.521,0.039,0.008,B
+2427,fan,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.551,284,2,0.401,0.037,0.019,B
+2429,fan,original,gemma4:e2b,rag,0.5,A,E,0,1,5,0.545,294,2,0.401,0.037,0.017,E
+2432,fan,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.52,294,2,0.402,0.038,0.005,D
+2424,fan,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.563,287,2,0.403,0.039,0.024,B
+2439,fan,original,gemma4:e2b,rag,0.5,D,A,0,1,4,0.662,289,2,0.503,0.04,0.007,A
+2438,fan,original,gemma4:e2b,rag,0.5,C,D,0,1,4,0.667,289,2,0.503,0.04,0.016,D
+2434,fan,original,gemma4:e2b,rag,0.5,C,C,1,1,4,0.672,287,2,0.504,0.04,0.023,C
+2433,fan,original,gemma4:e2b,rag,0.5,A,B,0,1,5,0.703,293,2,0.539,0.034,0.02,B
+2441,fan,original,gemma4:e2b,rag,0.5,D,C,0,1,4,0.562,298,2,0.412,0.038,0.012,C
+2444,fan,original,gemma4:e2b,rag,0.5,C,C,1,1,4,0.569,301,2,0.409,0.038,0.016,C
+2448,fan,original,gemma4:e2b,rag,0.5,D,B,0,1,5,0.549,292,2,0.411,0.039,0.007,B
+2445,fan,original,gemma4:e2b,rag,0.5,A,A,1,1,4,0.567,299,2,0.41,0.039,0.011,A
+2458,fan,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.64,292,2,0.483,0.04,0.007,A
+2462,fan,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.638,311,2,0.483,0.04,0.012,C
+2460,fan,original,gemma4:e2b,rag,0.5,B,A,0,1,5,0.637,314,2,0.483,0.041,0.011,A
+2453,fan,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.686,291,2,0.517,0.048,0.014,E
+2463,fan,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.662,314,2,0.502,0.042,0.026,D
+2470,fan,original,gemma4:e2b,rag,0.5,E,D,0,1,5,0.656,302,2,0.502,0.042,0.017,D
+2469,fan,original,gemma4:e2b,rag,0.5,D,A,0,1,5,0.664,302,2,0.502,0.042,0.023,A
+2471,fan,original,gemma4:e2b,rag,0.5,A,A,1,1,5,0.643,306,2,0.539,0.035,0.006,A
+2482,power transformer,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.773,457,2,0.595,0.041,0.009,E
+2483,power transformer,original,gemma4:e2b,rag,0.5,D,B,0,1,5,0.77,455,2,0.594,0.041,0.011,B
+2476,fan,original,gemma4:e2b,rag,0.5,B,A,0,1,3,0.786,294,2,0.594,0.041,0.013,A
+2487,power transformer,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.779,458,2,0.63,0.036,0.015,D
+2491,power transformer,original,gemma4:e2b,rag,0.5,E,B,0,1,5,0.794,456,2,0.649,0.045,0.013,B
+2490,power transformer,original,gemma4:e2b,rag,0.5,B,A,0,1,5,0.79,458,2,0.65,0.044,0.021,A
+2492,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.829,457,2,0.262,0.048,0.022,B
+2496,power transformer,original,gemma4:e2b,rag,0.5,E,B,0,1,5,0.801,428,2,0.686,0.047,0.007,B
+2497,power transformer,original,gemma4:e2b,rag,0.5,B,E,0,1,5,0.716,433,2,0.525,0.044,0.019,E
+2505,power transformer,original,gemma4:e2b,rag,0.5,C,A,0,1,5,0.671,437,2,0.521,0.045,0.007,A
+2504,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.723,434,2,0.522,0.046,0.012,B
+2509,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,5,0.706,498,2,0.556,0.038,0.008,B
+2516,power transformer,original,gemma4:e2b,rag,0.5,E,B,0,1,5,0.879,438,2,0.695,0.042,0.015,B
+2515,power transformer,original,gemma4:e2b,rag,0.5,B,E,0,1,5,0.889,428,2,0.697,0.042,0.01,E
+2512,power transformer,original,gemma4:e2b,rag,0.5,C,B,0,1,5,0.927,486,2,0.32,0.04,0.019,B
+2517,power transformer,original,gemma4:e2b,rag,0.5,D,B,0,1,5,0.895,438,2,0.732,0.039,0.018,B
+2520,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.839,430,2,0.675,0.047,0.018,C
+2518,power transformer,original,gemma4:e2b,rag,0.5,A,E,0,1,5,0.846,434,2,0.677,0.049,0.025,E
+2535,power transformer,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.854,425,2,0.718,0.061,0.009,D
+2529,power transformer,original,gemma4:e2b,rag,0.5,C,D,0,1,5,0.862,415,2,0.315,0.062,0.011,D
+2543,power transformer,original,gemma4:e2b,rag,0.5,B,A,0,1,5,0.925,433,2,0.636,0.05,0.02,A
+2536,power transformer,original,gemma4:e2b,rag,0.5,A,D,0,1,5,0.941,439,2,0.636,0.054,0.024,D
+2547,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.897,433,2,0.631,0.059,0.027,C
+2550,power transformer,original,gemma4:e2b,rag,0.5,E,C,0,1,5,0.96,434,2,0.673,0.098,0.012,C
+2554,power transformer,original,gemma4:e2b,rag,0.5,B,D,0,1,5,0.897,433,2,0.643,0.048,0.028,D
+2555,power transformer,original,gemma4:e2b,rag,0.5,B,C,0,1,5,0.831,428,2,0.645,0.051,0.013,C
+2552,power transformer,original,gemma4:e2b,rag,0.5,A,D,0,1,5,0.99,441,2,0.679,0.085,0.029,D
+2551,power transformer,original,gemma4:e2b,rag,0.5,A,A,1,1,5,1.008,438,2,0.239,0.089,0.024,A
+2556,power transformer,original,gemma4:e2b,rag,0.5,E,E,1,1,5,0.913,427,2,0.639,0.047,0.029,E
+2557,power transformer,original,gemma4:e2b,rag,0.5,D,E,0,1,5,0.919,426,2,0.641,0.049,0.026,E
+2560,power transformer,original,gemma4:e2b,rag,0.5,B,A,0,1,5,0.899,433,2,0.669,0.07,0.012,A
+2562,power transformer,original,gemma4:e2b,rag,0.5,B,D,0,1,5,0.899,436,2,0.251,0.071,0.013,D
+2567,power transformer,original,gemma4:e2b,rag,0.5,B,A,0,1,5,0.888,436,2,0.703,0.047,0.008,A
+2570,power transformer,original,gemma4:e2b,rag,0.5,C,D,0,1,5,0.892,438,2,0.704,0.053,0.015,D
+2564,power transformer,original,gemma4:e2b,rag,0.5,B,E,0,1,5,1.025,436,2,0.74,0.078,0.012,E
+2566,power transformer,original,gemma4:e2b,rag,0.5,D,D,1,1,5,1.026,434,2,0.3,0.08,0.019,D
+2576,power transformer,original,gemma4:e2b,rag,0.5,C,A,0,1,5,1.015,442,2,0.695,0.048,0.014,A
+2580,power transformer,original,gemma4:e2b,rag,0.5,E,E,1,1,5,1.015,433,2,0.695,0.052,0.015,E
+2582,power transformer,original,gemma4:e2b,rag,0.5,A,D,0,1,5,1.015,437,2,0.732,0.077,0.01,D
+2583,power transformer,original,gemma4:e2b,rag,0.5,A,B,0,1,5,1.012,451,2,0.279,0.082,0.02,B
+2590,power transformer,original,gemma4:e2b,rag,0.5,A,B,0,1,5,0.963,379,2,0.652,0.048,0.013,B
+2585,power transformer,original,gemma4:e2b,rag,0.5,A,D,0,1,5,0.98,373,2,0.654,0.048,0.01,D
+2594,power transformer,original,gemma4:e2b,rag,0.5,D,E,0,1,5,0.936,383,2,0.239,0.052,0.006,E
+2593,power transformer,original,gemma4:e2b,rag,0.5,C,B,0,1,5,0.948,372,2,0.695,0.051,0.014,B
+2596,power transformer,original,gemma4:e2b,rag,0.5,C,B,0,1,5,1.048,553,2,0.773,0.048,0.022,B
+2595,power transformer,original,gemma4:e2b,rag,0.5,A,D,0,1,5,1.055,388,2,0.773,0.049,0.027,D
+2615,power transformer,original,gemma4:e2b,rag,0.5,E,D,0,1,5,1.054,481,2,0.813,0.05,0.02,D
+2611,power transformer,original,gemma4:e2b,rag,0.5,A,E,0,1,5,1.054,494,2,0.412,0.055,0.011,E
+2621,power transformer,original,gemma4:e2b,rag,0.5,A,B,0,1,4,0.873,368,2,0.692,0.049,0.011,B
+2624,power transformer,original,gemma4:e2b,rag,0.5,B,D,0,1,4,0.891,368,2,0.693,0.051,0.021,D
+2619,power transformer,original,gemma4:e2b,rag,0.5,C,C,1,1,5,0.979,476,2,0.734,0.061,0.023,C
+2617,power transformer,original,gemma4:e2b,rag,0.5,D,D,1,1,5,0.985,473,2,0.279,0.062,0.019,D
+2626,power transformer,original,gemma4:e2b,rag,0.5,D,B,0,1,4,0.856,366,2,0.698,0.045,0.008,B
+2629,power transformer,original,gemma4:e2b,rag,0.5,C,B,0,1,4,0.85,369,2,0.698,0.046,0.011,B
+2632,power transformer,original,gemma4:e2b,rag,0.5,D,D,1,1,4,0.847,359,2,0.379,0.053,0.017,D
+2640,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.837,386,2,0.378,0.055,0.02,B
+2649,power transformer,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.883,388,2,0.685,0.048,0.007,A
+2642,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.937,385,2,0.686,0.049,0.026,B
+2657,power transformer,original,gemma4:e2b,rag,0.5,B,A,0,1,2,0.946,413,2,0.726,0.075,0.014,A
+2646,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.999,381,2,0.27,0.077,0.02,B
+2658,power transformer,original,gemma4:e2b,rag,0.5,B,B,1,1,2,0.848,411,2,0.59,0.046,0.017,B
+2661,power transformer,original,gemma4:e2b,rag,0.5,A,A,1,1,2,0.781,402,2,0.592,0.046,0.012,A
+2660,power transformer,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.85,409,2,0.591,0.048,0.021,B
+2663,power transformer,original,gemma4:e2b,rag,0.5,A,B,0,1,2,0.804,409,2,0.622,0.035,0.013,B

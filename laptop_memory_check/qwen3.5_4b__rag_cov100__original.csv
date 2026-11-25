@@ -1,0 +1,21 @@
+id,asset,variant,model,condition,rag_coverage,answer,pred,correct,parsed,n_options,wall_s,prompt_tokens,output_tokens,prompt_s,gen_s,load_s,raw
+20,electric motor,original,qwen3.5:4b,rag,1.0,E,E,1,1,5,11.943,364,2,9.18,0.235,0.012,E
+57,steam turbine,original,qwen3.5:4b,rag,1.0,A,A,1,1,3,11.038,342,2,8.744,0.201,0.009,A
+102,aero gas turbine,original,qwen3.5:4b,rag,1.0,C,C,1,1,3,15.014,382,2,12.31,0.531,0.012,C
+109,aero gas turbine,original,qwen3.5:4b,rag,1.0,B,B,1,1,5,12.836,434,2,10.398,0.182,0.015,B
+241,compressor,original,qwen3.5:4b,rag,1.0,C,C,1,1,3,10.351,344,2,8.079,0.161,0.008,C
+299,reciprocating internal combustion engine,original,qwen3.5:4b,rag,1.0,D,D,1,1,5,13.108,436,2,10.814,0.166,0.01,D
+323,electric generator,original,qwen3.5:4b,rag,1.0,A,A,1,1,5,11.914,367,2,9.616,0.184,0.009,A
+645,pump,original,qwen3.5:4b,rag,1.0,B,B,1,1,5,11.589,361,2,9.285,0.169,0.007,B
+844,power transformer,original,qwen3.5:4b,rag,1.0,C,C,1,1,5,19.535,651,2,17.152,0.192,0.01,C
+1202,industrial gas turbine,original,qwen3.5:4b,rag,1.0,B,B,1,1,5,12.098,411,2,9.759,0.162,0.015,B
+1320,compressor,original,qwen3.5:4b,rag,1.0,D,D,1,1,4,10.976,367,2,8.695,0.166,0.008,D
+1452,reciprocating internal combustion engine,original,qwen3.5:4b,rag,1.0,A,A,1,1,2,12.561,415,2,10.284,0.165,0.009,A
+1472,electric generator,original,qwen3.5:4b,rag,1.0,D,D,1,1,5,11.317,377,2,9.037,0.164,0.009,D
+1638,power transformer,original,qwen3.5:4b,rag,1.0,C,C,1,1,5,17.893,614,2,15.517,0.168,0.024,C
+1691,power transformer,original,qwen3.5:4b,rag,1.0,A,A,1,1,5,14.034,486,2,11.749,0.169,0.009,A
+1808,electric motor,original,qwen3.5:4b,rag,1.0,B,B,1,1,2,11.36,375,2,9.049,0.201,0.008,B
+2069,industrial gas turbine,original,qwen3.5:4b,rag,1.0,A,A,1,1,5,13.951,409,2,11.68,0.161,0.014,A
+2300,reciprocating internal combustion engine,original,qwen3.5:4b,rag,1.0,D,D,1,1,4,13.104,449,2,10.83,0.166,0.009,D
+2420,fan,original,qwen3.5:4b,rag,1.0,B,B,1,1,2,11.3,347,2,9.012,0.163,0.009,B
+2554,power transformer,original,qwen3.5:4b,rag,1.0,B,B,1,1,5,19.058,657,2,16.795,0.157,0.009,B

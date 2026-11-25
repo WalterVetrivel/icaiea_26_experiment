@@ -1,0 +1,101 @@
+id,asset,variant,model,condition,rag_coverage,answer,pred,correct,parsed,n_options,wall_s,prompt_tokens,output_tokens,prompt_s,gen_s,load_s,raw
+20,electric motor,original,qwen3.5:2b,zero_shot,,E,B,0,1,5,5.409,119,2,2.778,0.145,0.062,B
+32,electric motor,original,qwen3.5:2b,zero_shot,,D,D,1,1,5,4.963,114,2,2.463,0.132,0.044,D
+47,steam turbine,original,qwen3.5:2b,zero_shot,,B,A,0,1,4,5.099,110,2,2.454,0.161,0.061,A
+63,steam turbine,original,qwen3.5:2b,zero_shot,,C,C,1,1,4,5.12,110,2,2.533,0.163,0.048,C
+102,aero gas turbine,original,qwen3.5:2b,zero_shot,,C,B,0,1,3,4.807,107,2,2.302,0.136,0.051,B
+104,aero gas turbine,original,qwen3.5:2b,zero_shot,,D,C,0,1,5,5.281,120,2,2.627,0.157,0.047,C
+117,aero gas turbine,original,qwen3.5:2b,zero_shot,,A,A,1,1,5,5.517,141,2,3.057,0.125,0.017,A
+198,pump,original,qwen3.5:2b,zero_shot,,B,B,1,1,5,4.889,125,2,2.442,0.136,0.012,B
+240,compressor,original,qwen3.5:2b,zero_shot,,A,B,0,1,3,4.469,113,2,2.268,0.111,0.013,B
+278,reciprocating internal combustion engine,original,qwen3.5:2b,zero_shot,,C,D,0,1,5,5.266,138,2,2.826,0.153,0.04,D
+302,reciprocating internal combustion engine,original,qwen3.5:2b,zero_shot,,B,A,0,1,5,5.007,122,2,2.546,0.142,0.045,A
+305,reciprocating internal combustion engine,original,qwen3.5:2b,zero_shot,,B,B,1,1,5,4.935,123,2,2.489,0.113,0.012,B
+308,reciprocating internal combustion engine,original,qwen3.5:2b,zero_shot,,A,A,1,1,5,5.059,136,2,2.758,0.15,0.017,A
+408,power transformer,original,qwen3.5:2b,zero_shot,,E,D,0,1,5,5.722,153,2,3.125,0.145,0.014,D
+412,power transformer,original,qwen3.5:2b,zero_shot,,B,D,0,1,5,6.084,164,2,3.464,0.184,0.043,D
+415,power transformer,original,qwen3.5:2b,zero_shot,,A,C,0,1,5,6.029,134,2,3.532,0.169,0.018,C
+419,power transformer,original,qwen3.5:2b,zero_shot,,D,E,0,1,5,7.096,160,2,3.961,0.162,0.119,E
+423,power transformer,original,qwen3.5:2b,zero_shot,,E,E,1,1,5,5.682,139,2,3.095,0.152,0.047,E
+439,power transformer,original,qwen3.5:2b,zero_shot,,C,C,1,1,5,5.37,126,2,2.75,0.15,0.05,C
+440,power transformer,original,qwen3.5:2b,zero_shot,,D,C,0,1,5,5.683,147,2,3.156,0.125,0.112,C
+441,power transformer,original,qwen3.5:2b,zero_shot,,B,B,1,1,5,5.778,149,2,3.245,0.131,0.013,B
+472,electric motor,original,qwen3.5:2b,zero_shot,,A,A,1,1,3,5.021,105,2,2.369,0.138,0.046,A
+539,steam turbine,original,qwen3.5:2b,zero_shot,,A,A,1,1,5,5.029,116,2,2.445,0.12,0.047,A
+542,aero gas turbine,original,qwen3.5:2b,zero_shot,,D,D,1,1,5,4.774,118,2,2.339,0.14,0.013,D
+609,industrial gas turbine,original,qwen3.5:2b,zero_shot,,A,A,1,1,5,4.591,121,2,2.397,0.116,0.013,A
+627,industrial gas turbine,original,qwen3.5:2b,zero_shot,,D,B,0,1,5,4.598,121,2,2.362,0.124,0.012,B
+628,industrial gas turbine,original,qwen3.5:2b,zero_shot,,A,A,1,1,5,5.076,121,2,2.465,0.134,0.047,A
+677,compressor,original,qwen3.5:2b,zero_shot,,D,C,0,1,5,4.771,117,2,2.413,0.118,0.012,C
+691,compressor,original,qwen3.5:2b,zero_shot,,C,D,0,1,5,4.413,113,2,2.188,0.117,0.012,D
+713,compressor,original,qwen3.5:2b,zero_shot,,D,D,1,1,5,4.443,115,2,2.246,0.112,0.012,D
+754,reciprocating internal combustion engine,original,qwen3.5:2b,zero_shot,,D,D,1,1,5,4.56,121,2,2.292,0.124,0.013,D
+805,fan,original,qwen3.5:2b,zero_shot,,C,C,1,1,5,4.863,116,2,2.322,0.112,0.011,C
+822,fan,original,qwen3.5:2b,zero_shot,,B,B,1,1,5,4.888,117,2,2.47,0.133,0.046,B
+831,fan,original,qwen3.5:2b,zero_shot,,D,D,1,1,5,5.068,117,2,2.564,0.123,0.019,D
+844,power transformer,original,qwen3.5:2b,zero_shot,,C,D,0,1,5,4.732,126,2,2.48,0.126,0.013,D
+877,power transformer,original,qwen3.5:2b,zero_shot,,C,B,0,1,5,5.065,129,2,2.512,0.127,0.015,B
+897,power transformer,original,qwen3.5:2b,zero_shot,,B,B,1,1,5,4.931,125,2,2.535,0.112,0.012,B
+928,electric motor,original,qwen3.5:2b,zero_shot,,E,C,0,1,5,4.672,117,2,2.235,0.111,0.048,C
+1006,steam turbine,original,qwen3.5:2b,zero_shot,,A,D,0,1,5,4.48,113,2,2.246,0.12,0.013,D
+1052,aero gas turbine,original,qwen3.5:2b,zero_shot,,D,B,0,1,5,4.856,126,2,2.475,0.111,0.011,B
+1073,aero gas turbine,original,qwen3.5:2b,zero_shot,,C,B,0,1,5,5.417,146,2,3.003,0.118,0.044,B
+1135,aero gas turbine,original,qwen3.5:2b,zero_shot,,B,B,1,1,2,4.562,108,2,2.153,0.118,0.012,B
+1141,aero gas turbine,original,qwen3.5:2b,zero_shot,,B,A,0,1,2,4.793,119,2,2.4,0.119,0.051,A
+1142,aero gas turbine,original,qwen3.5:2b,zero_shot,,A,B,0,1,2,4.341,102,2,2.145,0.116,0.012,B
+1145,aero gas turbine,original,qwen3.5:2b,zero_shot,,B,A,0,1,2,4.645,108,2,2.213,0.128,0.036,A
+1205,industrial gas turbine,original,qwen3.5:2b,zero_shot,,D,D,1,1,4,4.69,114,2,2.437,0.136,0.013,D
+1260,pump,original,qwen3.5:2b,zero_shot,,A,A,1,1,2,4.642,101,2,2.265,0.116,0.01,A
+1265,pump,original,qwen3.5:2b,zero_shot,,A,A,1,1,2,4.483,105,2,2.139,0.121,0.041,A
+1281,compressor,original,qwen3.5:2b,zero_shot,,C,D,0,1,5,4.735,117,2,2.436,0.127,0.012,D
+1357,reciprocating internal combustion engine,original,qwen3.5:2b,zero_shot,,A,D,0,1,5,4.871,122,2,2.466,0.121,0.013,D
+1362,reciprocating internal combustion engine,original,qwen3.5:2b,zero_shot,,C,B,0,1,3,4.742,113,2,2.343,0.121,0.012,B
+1398,reciprocating internal combustion engine,original,qwen3.5:2b,zero_shot,,C,D,0,1,5,4.91,126,2,2.492,0.127,0.013,D
+1455,reciprocating internal combustion engine,original,qwen3.5:2b,zero_shot,,A,A,1,1,2,5.146,111,2,2.585,0.127,0.014,A
+1459,reciprocating internal combustion engine,original,qwen3.5:2b,zero_shot,,B,B,1,1,2,4.537,103,2,2.176,0.121,0.012,B
+1479,electric generator,original,qwen3.5:2b,zero_shot,,B,C,0,1,5,4.906,122,2,2.664,0.12,0.013,C
+1501,electric generator,original,qwen3.5:2b,zero_shot,,D,D,1,1,5,4.892,115,2,2.448,0.124,0.015,D
+1504,electric generator,original,qwen3.5:2b,zero_shot,,E,D,0,1,5,4.909,115,2,2.406,0.129,0.011,D
+1516,electric generator,original,qwen3.5:2b,zero_shot,,C,C,1,1,4,4.863,114,2,2.408,0.125,0.012,C
+1538,electric generator,original,qwen3.5:2b,zero_shot,,B,B,1,1,2,4.494,98,2,2.127,0.113,0.013,B
+1544,electric generator,original,qwen3.5:2b,zero_shot,,A,B,0,1,2,4.664,104,2,2.274,0.132,0.046,B
+1545,electric generator,original,qwen3.5:2b,zero_shot,,B,B,1,1,2,4.509,102,2,2.139,0.12,0.011,B
+1580,fan,original,qwen3.5:2b,zero_shot,,A,B,0,1,2,4.518,102,2,2.147,0.112,0.012,B
+1638,power transformer,original,qwen3.5:2b,zero_shot,,C,A,0,1,5,5.604,152,2,3.181,0.12,0.043,A
+1668,power transformer,original,qwen3.5:2b,zero_shot,,C,D,0,1,5,5.675,136,2,3.051,0.129,0.011,D
+1691,power transformer,original,qwen3.5:2b,zero_shot,,A,D,0,1,5,5.519,131,2,3.119,0.158,0.013,D
+1709,power transformer,original,qwen3.5:2b,zero_shot,,E,B,0,1,5,6.424,159,2,3.867,0.134,0.046,B
+1717,power transformer,original,qwen3.5:2b,zero_shot,,B,C,0,1,4,4.887,110,2,2.453,0.113,0.011,C
+1763,power transformer,original,qwen3.5:2b,zero_shot,,B,A,0,1,2,4.47,107,2,2.281,0.116,0.012,A
+1784,power transformer,original,qwen3.5:2b,zero_shot,,B,A,0,1,2,5.154,127,2,2.847,0.121,0.011,A
+1803,electric motor,original,qwen3.5:2b,zero_shot,,A,A,1,1,2,4.446,106,2,2.117,0.114,0.012,A
+1824,electric motor,original,qwen3.5:2b,zero_shot,,B,B,1,1,3,4.758,111,2,2.353,0.129,0.043,B
+1830,electric motor,original,qwen3.5:2b,zero_shot,,B,B,1,1,4,5.034,115,2,2.533,0.117,0.013,B
+1840,electric motor,original,qwen3.5:2b,zero_shot,,A,C,0,1,5,5.009,124,2,2.51,0.117,0.011,C
+1868,electric motor,original,qwen3.5:2b,zero_shot,,D,D,1,1,4,5.021,121,2,2.586,0.117,0.013,D
+1877,steam turbine,original,qwen3.5:2b,zero_shot,,B,C,0,1,4,4.925,113,2,2.442,0.112,0.011,C
+1917,steam turbine,original,qwen3.5:2b,zero_shot,,C,B,0,1,3,4.761,110,2,2.366,0.118,0.043,B
+1923,aero gas turbine,original,qwen3.5:2b,zero_shot,,E,C,0,1,5,4.888,123,2,2.578,0.12,0.012,C
+1976,aero gas turbine,original,qwen3.5:2b,zero_shot,,A,D,0,1,5,5.313,126,2,2.656,0.137,0.013,D
+2012,aero gas turbine,original,qwen3.5:2b,zero_shot,,D,D,1,1,5,5.15,124,2,2.609,0.123,0.012,D
+2062,industrial gas turbine,original,qwen3.5:2b,zero_shot,,A,B,0,1,3,4.769,110,2,2.351,0.114,0.011,B
+2067,industrial gas turbine,original,qwen3.5:2b,zero_shot,,E,C,0,1,5,5.264,122,2,2.742,0.163,0.019,C
+2069,industrial gas turbine,original,qwen3.5:2b,zero_shot,,A,C,0,1,5,6.562,119,2,4.006,0.148,0.047,C
+2089,industrial gas turbine,original,qwen3.5:2b,zero_shot,,B,A,0,1,2,6.001,107,2,3.229,0.592,0.04,A
+2095,industrial gas turbine,original,qwen3.5:2b,zero_shot,,B,C,0,1,4,6.08,117,2,3.639,0.161,0.045,C
+2107,pump,original,qwen3.5:2b,zero_shot,,B,A,0,1,2,5.538,105,2,2.754,0.14,0.056,A
+2123,pump,original,qwen3.5:2b,zero_shot,,C,C,1,1,4,5.332,115,2,3.049,0.118,0.037,C
+2131,pump,original,qwen3.5:2b,zero_shot,,C,C,1,1,5,5.449,117,2,2.903,0.134,0.025,C
+2157,compressor,original,qwen3.5:2b,zero_shot,,C,C,1,1,4,5.024,116,2,2.744,0.112,0.011,C
+2164,compressor,original,qwen3.5:2b,zero_shot,,C,B,0,1,4,5.232,112,2,2.839,0.138,0.045,B
+2183,compressor,original,qwen3.5:2b,zero_shot,,D,B,0,1,5,4.968,117,2,2.473,0.112,0.02,B
+2215,reciprocating internal combustion engine,original,qwen3.5:2b,zero_shot,,A,B,0,1,4,4.914,123,2,2.61,0.106,0.015,B
+2306,reciprocating internal combustion engine,original,qwen3.5:2b,zero_shot,,B,B,1,1,5,4.886,129,2,2.463,0.114,0.044,B
+2335,reciprocating internal combustion engine,original,qwen3.5:2b,zero_shot,,A,A,1,1,2,4.738,109,2,2.304,0.114,0.011,A
+2355,electric generator,original,qwen3.5:2b,zero_shot,,B,A,0,1,2,4.656,108,2,2.322,0.113,0.043,A
+2364,electric generator,original,qwen3.5:2b,zero_shot,,A,B,0,1,2,4.367,106,2,2.169,0.123,0.01,B
+2420,fan,original,qwen3.5:2b,zero_shot,,B,A,0,1,2,4.611,104,2,2.199,0.117,0.013,A
+2432,fan,original,qwen3.5:2b,zero_shot,,D,D,1,1,5,5.145,119,2,2.626,0.11,0.044,D
+2448,fan,original,qwen3.5:2b,zero_shot,,D,C,0,1,5,4.951,122,2,2.566,0.111,0.015,C
+2504,power transformer,original,qwen3.5:2b,zero_shot,,B,A,0,1,5,5.139,134,2,2.894,0.116,0.012,A
+2554,power transformer,original,qwen3.5:2b,zero_shot,,B,A,0,1,5,5.635,132,2,3.332,0.11,0.012,A

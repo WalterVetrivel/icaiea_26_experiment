@@ -1,0 +1,1004 @@
+id,asset,variant,model,condition,rag_coverage,answer,pred,correct,parsed,n_options,wall_s,prompt_tokens,output_tokens,prompt_s,gen_s,load_s,raw
+5,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,0.468,383,2,0.325,0.023,0.009,P
+7,electric motor,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,0.816,384,2,0.336,0.022,0.007,T
+1,electric motor,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.199,382,2,0.331,0.023,0.012,T
+6,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.553,383,2,0.334,0.025,0.012,Q
+15,electric motor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.539,371,2,0.323,0.022,0.009,R
+16,electric motor,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.62,380,2,0.324,0.022,0.007,S
+19,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.624,383,2,0.337,0.023,0.006,P
+20,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.619,379,2,0.334,0.023,0.005,P
+32,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.624,374,2,0.326,0.024,0.005,Q
+35,electric motor,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.625,383,2,0.325,0.022,0.005,T
+41,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.714,361,2,0.318,0.023,0.01,S
+44,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,1.798,364,2,0.322,0.022,0.01,R
+47,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,1.797,365,2,0.322,0.024,0.009,R
+48,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,1.791,351,2,0.317,0.024,0.006,Q
+49,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,1.702,351,2,0.334,0.024,0.005,R
+51,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.746,383,2,0.33,0.03,0.008,Q
+53,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.775,365,2,0.329,0.027,0.004,P
+54,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,1.807,347,2,0.321,0.024,0.008,Q
+57,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,1.961,360,2,0.323,0.028,0.004,R
+63,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,1.897,331,2,0.298,0.024,0.016,Q
+64,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,1.928,370,2,0.328,0.025,0.008,S
+67,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,1.823,355,2,0.333,0.026,0.007,P
+68,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,1.81,355,2,0.336,0.025,0.006,P
+69,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.835,359,2,0.329,0.025,0.015,S
+70,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.825,375,2,0.333,0.025,0.008,R
+76,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.97,382,2,0.338,0.025,0.01,P
+79,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,P,0,1,5,1.994,441,2,0.375,0.027,0.007,P
+82,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.945,420,2,0.373,0.026,0.013,Q
+89,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,1.966,418,2,0.369,0.025,0.011,P
+93,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.032,415,2,0.375,0.025,0.008,Q
+94,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,2.014,412,2,0.368,0.026,0.015,R
+95,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,2.01,403,2,0.367,0.026,0.015,P
+102,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.016,429,2,0.371,0.022,0.012,Q
+104,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.908,387,2,0.329,0.023,0.006,Q
+106,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,T,0,1,5,1.9,403,2,0.352,0.022,0.013,T
+109,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.973,434,2,0.361,0.024,0.007,S
+110,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.841,424,2,0.37,0.023,0.006,Q
+111,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.897,457,2,0.396,0.024,0.006,Q
+113,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.913,414,2,0.359,0.022,0.004,S
+114,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.946,429,2,0.366,0.023,0.009,P
+115,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.029,426,2,0.363,0.022,0.006,T
+117,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.897,416,2,0.365,0.023,0.007,T
+118,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.88,435,2,0.371,0.022,0.006,T
+119,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.85,416,2,0.36,0.022,0.01,T
+121,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.857,429,2,0.362,0.022,0.004,P
+122,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.866,437,2,0.375,0.022,0.004,R
+127,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.891,439,2,0.369,0.022,0.006,R
+128,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,S,0,1,5,1.805,424,2,0.366,0.023,0.012,S
+129,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.827,431,2,0.369,0.022,0.011,S
+133,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.823,412,2,0.367,0.024,0.008,R
+134,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,S,0,1,5,1.789,448,2,0.37,0.024,0.004,S
+139,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.891,433,2,0.364,0.022,0.01,P
+140,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.89,427,2,0.361,0.023,0.004,S
+142,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.98,412,2,0.365,0.026,0.009,S
+148,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.019,408,2,0.368,0.025,0.009,S
+149,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.059,421,2,0.372,0.025,0.008,R
+151,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,Q,0,1,5,2.1,398,2,0.362,0.025,0.016,Q
+153,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.118,399,2,0.362,0.025,0.007,Q
+159,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,2.104,391,2,0.361,0.024,0.009,S
+169,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.095,420,2,0.372,0.025,0.003,Q
+171,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.057,395,2,0.36,0.025,0.012,S
+173,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.074,396,2,0.364,0.024,0.008,S
+181,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.064,385,2,0.339,0.026,0.011,T
+182,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.096,414,2,0.369,0.025,0.009,Q
+183,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.106,412,2,0.374,0.025,0.015,T
+184,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.052,337,2,0.305,0.027,0.013,Q
+191,pump,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,2.039,349,2,0.324,0.027,0.009,P
+192,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.963,356,2,0.327,0.025,0.009,Q
+193,pump,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.893,336,2,0.302,0.023,0.008,R
+198,pump,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.869,352,2,0.318,0.025,0.009,S
+199,pump,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.742,349,2,0.329,0.024,0.009,P
+202,pump,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.603,344,2,0.323,0.022,0.012,T
+203,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,1.608,357,2,0.322,0.023,0.008,Q
+204,pump,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,1.632,362,2,0.322,0.023,0.008,R
+205,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,1.742,356,2,0.32,0.025,0.012,Q
+209,pump,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,1.853,346,2,0.315,0.023,0.004,R
+212,pump,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.842,362,2,0.321,0.023,0.006,R
+213,pump,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.725,361,2,0.328,0.023,0.005,T
+217,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.739,411,2,0.357,0.022,0.011,Q
+218,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.787,420,2,0.36,0.023,0.01,Q
+223,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,1.781,355,2,0.318,0.022,0.004,P
+224,compressor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,1.845,330,2,0.297,0.023,0.013,R
+225,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,1.699,330,2,0.309,0.022,0.006,Q
+226,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,1.519,338,2,0.303,0.024,0.004,Q
+227,compressor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,1.549,350,2,0.315,0.023,0.005,R
+230,compressor,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.563,348,2,0.32,0.022,0.005,T
+232,compressor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.676,360,2,0.32,0.023,0.011,R
+233,compressor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.834,374,2,0.322,0.023,0.004,R
+237,compressor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.799,347,2,0.315,0.023,0.008,R
+239,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,1.802,357,2,0.32,0.023,0.013,P
+240,compressor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,1.711,356,2,0.328,0.023,0.013,R
+241,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,1.689,345,2,0.316,0.022,0.005,Q
+246,compressor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,1.615,346,2,0.326,0.026,0.012,R
+247,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.639,345,2,0.324,0.025,0.003,Q
+249,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.801,358,2,0.326,0.026,0.006,Q
+250,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.826,336,2,0.304,0.026,0.004,P
+252,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.983,423,2,0.374,0.025,0.015,Q
+254,compressor,complex_pert,qwen3.5:4b,rag,1.0,T,S,0,1,5,2.066,423,2,0.39,0.024,0.006,S
+259,compressor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.056,372,2,0.331,0.025,0.008,R
+261,compressor,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.06,387,2,0.341,0.026,0.011,T
+262,compressor,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.924,383,2,0.346,0.026,0.016,T
+266,compressor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.903,353,2,0.324,0.025,0.009,R
+267,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.914,411,2,0.372,0.026,0.008,R
+269,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.963,429,2,0.374,0.025,0.008,T
+271,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.135,447,2,0.393,0.027,0.013,P
+276,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,T,0,1,5,2.034,445,2,0.382,0.026,0.011,T
+277,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.934,437,2,0.384,0.025,0.009,T
+278,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.81,447,2,0.385,0.022,0.01,R
+286,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.709,376,2,0.325,0.024,0.016,Q
+287,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.648,377,2,0.335,0.025,0.009,S
+292,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.724,429,2,0.366,0.022,0.008,P
+293,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.714,429,2,0.376,0.022,0.008,Q
+295,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.746,426,2,0.364,0.022,0.004,S
+296,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.876,433,2,0.369,0.023,0.016,T
+299,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.868,428,2,0.362,0.023,0.004,Q
+300,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.951,422,2,0.36,0.023,0.008,T
+301,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.868,452,2,0.376,0.022,0.007,R
+302,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.767,424,2,0.367,0.022,0.009,S
+304,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.778,422,2,0.362,0.024,0.008,Q
+305,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.699,432,2,0.378,0.023,0.009,S
+308,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.785,423,2,0.369,0.022,0.007,T
+311,electric generator,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.844,386,2,0.331,0.024,0.009,T
+312,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.709,373,2,0.335,0.023,0.007,Q
+317,electric generator,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.755,377,2,0.325,0.022,0.004,R
+322,electric generator,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.716,376,2,0.325,0.022,0.009,T
+323,electric generator,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.623,378,2,0.334,0.022,0.009,T
+329,electric generator,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.707,373,2,0.323,0.022,0.007,T
+332,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.701,371,2,0.324,0.022,0.004,Q
+334,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.605,370,2,0.328,0.023,0.008,Q
+338,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.728,413,2,0.361,0.023,0.014,Q
+342,electric generator,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.785,380,2,0.337,0.028,0.006,S
+343,electric generator,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.813,370,2,0.332,0.026,0.01,T
+347,fan,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,1.912,340,2,0.307,0.024,0.012,P
+349,fan,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,1.798,343,2,0.335,0.024,0.011,R
+352,fan,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,1.811,361,2,0.33,0.024,0.01,R
+360,fan,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.798,342,2,0.323,0.025,0.005,R
+366,fan,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,1.8,331,2,0.303,0.025,0.007,R
+367,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,1.941,360,2,0.33,0.025,0.012,Q
+368,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,1.932,353,2,0.327,0.026,0.013,Q
+374,fan,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.947,363,2,0.328,0.024,0.013,T
+383,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.057,420,2,0.369,0.025,0.008,R
+384,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.073,421,2,0.38,0.026,0.016,T
+388,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.186,489,2,0.419,0.025,0.011,R
+389,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.316,469,2,0.409,0.025,0.008,Q
+392,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.187,463,2,0.411,0.022,0.004,R
+399,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.255,528,2,0.479,0.022,0.012,S
+405,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.208,617,2,0.546,0.023,0.006,S
+406,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.311,665,2,0.492,0.024,0.005,T
+407,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.523,515,2,0.388,0.023,0.004,P
+408,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.346,519,2,0.392,0.024,0.009,P
+410,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.497,522,2,0.482,0.023,0.007,Q
+411,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.303,517,2,0.478,0.023,0.005,Q
+412,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.297,530,2,0.478,0.024,0.012,S
+413,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.575,500,2,0.464,0.022,0.01,P
+415,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.404,615,2,0.528,0.023,0.005,T
+416,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.518,519,2,0.419,0.024,0.009,Q
+418,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.401,641,2,0.496,0.024,0.009,P
+419,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.354,527,2,0.415,0.022,0.01,Q
+423,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.522,550,2,0.487,0.023,0.007,P
+429,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.572,517,2,0.472,0.022,0.011,P
+434,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.729,532,2,0.47,0.026,0.009,T
+437,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.605,511,2,0.495,0.025,0.01,P
+439,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.645,554,2,0.498,0.026,0.007,R
+440,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.742,498,2,0.474,0.026,0.006,Q
+441,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.838,506,2,0.485,0.026,0.012,S
+446,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,3.109,539,2,0.498,0.025,0.013,R
+453,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,3.116,496,2,0.419,0.025,0.005,T
+454,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,3.042,618,2,0.53,0.025,0.004,Q
+456,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.901,496,2,0.425,0.026,0.008,T
+461,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.77,546,2,0.498,0.025,0.012,R
+463,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.67,470,2,0.446,0.023,0.008,S
+464,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.467,501,2,0.462,0.023,0.008,P
+465,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.493,612,2,0.504,0.023,0.012,P
+466,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.454,444,2,0.421,0.022,0.011,T
+470,electric motor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,2.306,375,2,0.324,0.024,0.007,R
+471,electric motor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,2.272,374,2,0.326,0.023,0.006,R
+472,electric motor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,2.056,361,2,0.323,0.025,0.004,R
+474,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,1.898,371,2,0.326,0.022,0.004,P
+484,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.874,391,2,0.353,0.023,0.011,Q
+486,electric motor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.864,382,2,0.327,0.023,0.007,R
+488,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,1.89,374,2,0.326,0.023,0.007,Q
+491,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,1.784,372,2,0.337,0.025,0.011,Q
+492,electric motor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,1.653,376,2,0.337,0.023,0.009,R
+493,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,1.645,365,2,0.323,0.023,0.008,Q
+495,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.648,381,2,0.328,0.023,0.006,Q
+498,electric motor,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.725,376,2,0.329,0.022,0.008,T
+501,electric motor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.84,390,2,0.355,0.023,0.012,R
+502,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.767,388,2,0.338,0.022,0.008,Q
+505,electric motor,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.8,392,2,0.357,0.024,0.005,T
+512,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,1.796,355,2,0.32,0.022,0.009,S
+514,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.768,378,2,0.326,0.023,0.009,R
+516,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.768,376,2,0.337,0.024,0.01,Q
+520,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.709,382,2,0.334,0.026,0.007,Q
+522,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.765,379,2,0.337,0.025,0.007,T
+525,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.796,357,2,0.33,0.025,0.01,R
+529,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,1.932,372,2,0.337,0.032,0.007,R
+531,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,1.855,374,2,0.339,0.025,0.006,Q
+537,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.87,395,2,0.363,0.024,0.008,Q
+538,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.871,377,2,0.335,0.024,0.009,T
+539,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.868,374,2,0.336,0.027,0.013,T
+541,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.071,467,2,0.413,0.026,0.013,P
+542,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.013,469,2,0.416,0.026,0.004,Q
+544,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.997,469,2,0.436,0.025,0.01,T
+548,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.081,444,2,0.383,0.027,0.017,P
+550,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,S,0,1,5,1.917,443,2,0.387,0.026,0.01,S
+552,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,Q,0,1,5,2.027,416,2,0.37,0.025,0.015,Q
+561,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.072,404,2,0.363,0.023,0.009,P
+570,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.026,470,2,0.403,0.024,0.007,S
+574,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.127,439,2,0.365,0.022,0.009,S
+575,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.97,443,2,0.376,0.023,0.022,P
+576,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,S,0,1,5,1.853,432,2,0.372,0.023,0.007,S
+579,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.725,435,2,0.376,0.022,0.009,Q
+581,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,Q,0,1,5,1.736,473,2,0.404,0.023,0.008,Q
+585,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.847,453,2,0.393,0.023,0.009,P
+586,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.946,430,2,0.368,0.024,0.009,P
+589,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.032,408,2,0.361,0.023,0.01,T
+592,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.911,408,2,0.378,0.022,0.006,T
+593,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.912,429,2,0.365,0.023,0.011,T
+594,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.921,407,2,0.36,0.024,0.005,S
+598,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.908,406,2,0.359,0.023,0.007,P
+600,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.902,407,2,0.369,0.024,0.009,S
+601,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.881,416,2,0.363,0.025,0.011,P
+606,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.857,402,2,0.359,0.022,0.008,Q
+609,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.867,427,2,0.363,0.022,0.007,T
+610,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.873,425,2,0.37,0.022,0.004,Q
+611,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,R,0,1,5,1.78,427,2,0.376,0.023,0.015,R
+612,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.8,451,2,0.376,0.023,0.006,R
+617,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,1.797,406,2,0.359,0.023,0.01,Q
+618,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,1.794,403,2,0.373,0.024,0.005,P
+619,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,1.932,397,2,0.371,0.025,0.01,R
+621,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,1.849,406,2,0.381,0.027,0.008,R
+624,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.903,439,2,0.378,0.026,0.009,T
+626,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.05,415,2,0.377,0.027,0.013,Q
+627,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.917,417,2,0.376,0.025,0.013,Q
+628,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.903,415,2,0.374,0.025,0.01,T
+629,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.874,408,2,0.372,0.025,0.008,T
+632,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,1.843,392,2,0.369,0.024,0.007,S
+637,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,1.94,388,2,0.339,0.026,0.013,Q
+639,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.049,404,2,0.369,0.025,0.008,T
+640,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.074,395,2,0.369,0.026,0.008,P
+641,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.085,412,2,0.372,0.026,0.008,R
+645,pump,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.075,363,2,0.334,0.026,0.014,S
+648,pump,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.028,366,2,0.33,0.023,0.009,R
+649,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,1.849,363,2,0.33,0.024,0.007,Q
+653,pump,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.767,335,2,0.297,0.023,0.007,S
+662,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.744,412,2,0.366,0.022,0.018,Q
+663,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.735,358,2,0.324,0.023,0.004,Q
+666,pump,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.806,387,2,0.314,0.024,0.005,T
+667,pump,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.734,380,2,0.337,0.023,0.01,P
+670,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.694,373,2,0.326,0.023,0.013,Q
+676,compressor,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.706,373,2,0.338,0.022,0.007,S
+677,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.634,372,2,0.332,0.023,0.004,Q
+680,compressor,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.631,369,2,0.332,0.024,0.007,S
+681,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.555,369,2,0.338,0.023,0.009,Q
+683,compressor,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.564,368,2,0.325,0.023,0.008,S
+687,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.653,381,2,0.328,0.023,0.01,P
+688,compressor,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.654,383,2,0.337,0.022,0.006,T
+689,compressor,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.652,382,2,0.336,0.024,0.007,T
+690,compressor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.661,369,2,0.328,0.024,0.008,R
+691,compressor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.652,364,2,0.323,0.023,0.004,R
+692,compressor,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.759,369,2,0.325,0.025,0.011,T
+697,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,1.84,360,2,0.325,0.023,0.011,Q
+703,compressor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,1.707,357,2,0.327,0.022,0.009,R
+705,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.763,390,2,0.355,0.024,0.008,Q
+709,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.688,390,2,0.367,0.022,0.006,Q
+712,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.687,382,2,0.33,0.022,0.013,P
+713,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.728,382,2,0.364,0.026,0.007,Q
+714,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.734,378,2,0.334,0.025,0.008,Q
+715,compressor,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.714,373,2,0.339,0.025,0.01,S
+723,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.837,477,2,0.418,0.025,0.018,R
+727,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.023,463,2,0.409,0.026,0.011,P
+729,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.049,442,2,0.379,0.025,0.006,T
+730,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.257,461,2,0.41,0.026,0.009,S
+735,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.256,461,2,0.427,0.026,0.01,S
+737,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.251,484,2,0.419,0.024,0.008,Q
+739,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.181,477,2,0.423,0.024,0.006,T
+743,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.162,437,2,0.38,0.024,0.009,Q
+744,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.016,443,2,0.385,0.025,0.014,Q
+754,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.011,457,2,0.412,0.025,0.009,Q
+755,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.013,457,2,0.434,0.026,0.01,Q
+756,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.893,456,2,0.407,0.023,0.004,P
+761,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.002,461,2,0.403,0.023,0.017,Q
+764,electric generator,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,1.896,380,2,0.332,0.022,0.009,R
+767,electric generator,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,1.88,379,2,0.33,0.022,0.007,S
+773,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.898,382,2,0.327,0.023,0.007,Q
+774,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.906,455,2,0.4,0.022,0.012,Q
+775,electric generator,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.901,378,2,0.329,0.022,0.011,T
+779,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,1.91,371,2,0.328,0.022,0.008,P
+780,electric generator,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,1.819,370,2,0.334,0.023,0.009,R
+783,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,1.77,379,2,0.33,0.022,0.01,P
+784,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,1.778,373,2,0.328,0.023,0.009,Q
+786,electric generator,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.792,380,2,0.328,0.023,0.008,S
+787,electric generator,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.795,385,2,0.337,0.023,0.007,T
+790,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.778,393,2,0.358,0.022,0.013,P
+792,electric generator,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.847,461,2,0.403,0.022,0.007,S
+793,electric generator,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.852,390,2,0.356,0.023,0.006,S
+799,fan,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.946,375,2,0.331,0.022,0.009,T
+805,fan,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.917,359,2,0.323,0.022,0.005,R
+806,fan,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.826,346,2,0.322,0.023,0.011,R
+808,fan,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.806,383,2,0.331,0.023,0.01,S
+814,fan,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,1.791,347,2,0.32,0.023,0.004,P
+816,fan,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,1.703,346,2,0.326,0.026,0.012,R
+821,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,1.777,359,2,0.329,0.024,0.008,Q
+822,fan,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.811,359,2,0.347,0.025,0.004,S
+824,fan,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.889,413,2,0.373,0.025,0.008,T
+826,fan,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.052,390,2,0.364,0.024,0.02,P
+828,fan,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.928,387,2,0.362,0.026,0.006,T
+829,fan,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.846,389,2,0.377,0.024,0.007,R
+830,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.824,376,2,0.335,0.026,0.01,Q
+831,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.69,383,2,0.357,0.025,0.022,Q
+835,fan,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.806,370,2,0.336,0.026,0.01,R
+836,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.047,514,2,0.492,0.026,0.012,Q
+838,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.107,519,2,0.518,0.026,0.01,R
+840,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.554,654,2,0.58,0.027,0.009,R
+843,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.768,517,2,0.407,0.026,0.006,P
+844,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.802,530,2,0.388,0.022,0.009,R
+847,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.946,510,2,0.474,0.022,0.01,R
+848,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.614,515,2,0.476,0.023,0.015,P
+850,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.437,595,2,0.518,0.023,0.009,T
+853,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.497,515,2,0.471,0.024,0.006,T
+856,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.525,664,2,0.569,0.023,0.006,P
+857,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.537,666,2,0.487,0.023,0.009,T
+861,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.606,526,2,0.38,0.022,0.005,T
+863,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.598,527,2,0.488,0.023,0.009,P
+865,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.376,517,2,0.479,0.024,0.011,P
+866,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.376,517,2,0.489,0.022,0.009,P
+868,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.534,673,2,0.567,0.023,0.007,Q
+871,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.313,667,2,0.476,0.022,0.005,T
+872,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.32,674,2,0.485,0.024,0.011,T
+874,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.471,543,2,0.391,0.024,0.011,S
+875,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.562,674,2,0.477,0.024,0.006,T
+877,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.823,449,2,0.471,0.026,0.005,R
+883,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,3.12,657,2,0.574,0.025,0.009,R
+884,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,3.253,525,2,0.498,0.026,0.008,R
+885,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,3.218,675,2,0.578,0.025,0.004,P
+886,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,3.152,531,2,0.412,0.024,0.011,R
+887,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,3.179,653,2,0.49,0.026,0.012,P
+891,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,3.096,527,2,0.403,0.026,0.01,S
+897,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,3.06,519,2,0.511,0.025,0.01,S
+899,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,3.084,455,2,0.457,0.023,0.006,Q
+901,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,3.02,669,2,0.565,0.025,0.009,P
+906,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,3.046,527,2,0.489,0.023,0.008,P
+908,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.764,524,2,0.483,0.023,0.019,T
+910,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.839,739,2,0.611,0.022,0.008,S
+912,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.586,737,2,0.488,0.022,0.014,Q
+914,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.655,659,2,0.561,0.023,0.012,S
+915,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.653,670,2,0.48,0.022,0.004,Q
+923,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.498,386,2,0.329,0.024,0.009,P
+928,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.428,368,2,0.324,0.024,0.014,P
+931,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.979,368,2,0.339,0.023,0.012,Q
+932,electric motor,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.832,374,2,0.336,0.023,0.007,T
+933,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.632,379,2,0.328,0.023,0.006,P
+937,electric motor,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,1.674,365,2,0.325,0.024,0.005,S
+944,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,1.744,356,2,0.319,0.022,0.006,P
+945,electric motor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,1.862,366,2,0.326,0.022,0.008,R
+946,electric motor,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.931,386,2,0.382,0.022,0.01,S
+947,electric motor,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.858,384,2,0.39,0.023,0.007,T
+950,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.856,385,2,0.407,0.022,0.01,Q
+951,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.799,387,2,0.393,0.024,0.008,P
+953,electric motor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.854,368,2,0.397,0.025,0.009,R
+954,electric motor,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.996,381,2,0.335,0.028,0.011,S
+956,electric motor,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.934,370,2,0.335,0.024,0.004,T
+958,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.074,381,2,0.399,0.028,0.005,P
+959,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.098,353,2,0.397,0.024,0.006,Q
+960,electric motor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.977,357,2,0.407,0.025,0.005,R
+961,electric motor,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.233,417,2,0.437,0.026,0.009,S
+962,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.307,379,2,0.402,0.026,0.012,P
+966,electric motor,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.339,368,2,0.399,0.026,0.006,T
+968,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.536,380,2,0.415,0.025,0.004,Q
+969,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.509,379,2,0.411,0.025,0.008,Q
+971,electric motor,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.314,376,2,0.419,0.023,0.014,T
+976,electric motor,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.227,389,2,0.385,0.023,0.009,T
+980,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.179,363,2,0.378,0.023,0.011,P
+983,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.105,354,2,0.375,0.024,0.009,P
+984,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.069,350,2,0.386,0.022,0.008,P
+985,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.089,366,2,0.381,0.022,0.005,Q
+986,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,1.915,364,2,0.385,0.023,0.006,Q
+987,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,1.945,351,2,0.372,0.022,0.013,P
+991,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.1,366,2,0.391,0.022,0.015,P
+994,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.056,350,2,0.376,0.023,0.007,P
+996,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.054,360,2,0.383,0.022,0.006,Q
+1001,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,1.902,351,2,0.375,0.022,0.006,P
+1002,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.878,365,2,0.379,0.022,0.008,S
+1003,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.926,378,2,0.383,0.023,0.01,Q
+1004,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.065,348,2,0.371,0.023,0.009,S
+1005,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.07,346,2,0.381,0.023,0.01,S
+1006,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.051,362,2,0.377,0.023,0.01,T
+1009,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.03,377,2,0.389,0.022,0.005,Q
+1016,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.998,337,2,0.355,0.024,0.006,R
+1021,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.126,383,2,0.385,0.023,0.007,Q
+1026,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.023,382,2,0.39,0.024,0.007,T
+1030,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.067,362,2,0.399,0.026,0.007,Q
+1031,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.999,364,2,0.407,0.026,0.004,S
+1032,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.055,367,2,0.405,0.024,0.01,P
+1041,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.263,363,2,0.392,0.024,0.011,Q
+1049,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.103,353,2,0.408,0.025,0.011,P
+1051,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,Q,0,1,5,2.284,430,2,0.447,0.026,0.008,Q
+1052,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.182,408,2,0.456,0.024,0.008,Q
+1060,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,T,0,1,5,2.243,410,2,0.444,0.026,0.012,T
+1063,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,S,0,1,4,2.434,416,2,0.443,0.026,0.008,S
+1067,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.42,389,2,0.411,0.025,0.012,P
+1073,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.581,428,2,0.45,0.024,0.003,R
+1084,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.519,415,2,0.416,0.023,0.014,Q
+1091,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.456,420,2,0.419,0.023,0.009,Q
+1094,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.408,410,2,0.418,0.022,0.009,P
+1098,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.354,430,2,0.423,0.022,0.013,Q
+1103,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,2.3,417,2,0.419,0.024,0.006,S
+1106,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.329,438,2,0.425,0.022,0.007,S
+1108,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.347,414,2,0.417,0.022,0.008,Q
+1112,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.336,445,2,0.429,0.022,0.009,S
+1113,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.347,412,2,0.418,0.022,0.004,P
+1116,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,2.306,386,2,0.385,0.023,0.009,S
+1117,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,2.145,381,2,0.392,0.023,0.009,S
+1125,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.132,399,2,0.417,0.023,0.007,Q
+1129,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.094,370,2,0.379,0.022,0.003,Q
+1131,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,1.994,425,2,0.429,0.023,0.005,P
+1133,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,2.11,371,2,0.384,0.022,0.011,R
+1135,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.126,424,2,0.421,0.022,0.01,P
+1139,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.191,393,2,0.411,0.023,0.008,Q
+1141,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.277,366,2,0.384,0.026,0.004,P
+1142,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.424,419,2,0.449,0.025,0.006,Q
+1145,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.466,389,2,0.412,0.025,0.008,P
+1146,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.53,426,2,0.439,0.025,0.004,P
+1149,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.609,388,2,0.404,0.025,0.008,P
+1151,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.377,391,2,0.419,0.025,0.004,P
+1154,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.413,421,2,0.439,0.025,0.019,P
+1155,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.41,394,2,0.43,0.026,0.009,Q
+1156,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.426,413,2,0.439,0.025,0.01,T
+1157,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.463,416,2,0.448,0.026,0.012,R
+1160,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.285,413,2,0.453,0.026,0.019,R
+1161,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.106,409,2,0.46,0.023,0.012,S
+1165,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.066,414,2,0.423,0.025,0.01,P
+1169,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.189,400,2,0.413,0.023,0.01,P
+1170,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.246,387,2,0.388,0.023,0.016,S
+1174,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.324,408,2,0.418,0.023,0.008,Q
+1176,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.185,415,2,0.419,0.022,0.01,T
+1177,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.155,417,2,0.418,0.023,0.01,S
+1182,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.182,406,2,0.415,0.024,0.008,R
+1183,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.061,404,2,0.422,0.023,0.007,R
+1189,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.195,405,2,0.416,0.022,0.01,S
+1192,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.215,403,2,0.415,0.023,0.005,P
+1201,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.247,408,2,0.416,0.022,0.014,Q
+1202,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.389,397,2,0.409,0.024,0.006,S
+1205,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.344,391,2,0.39,0.023,0.008,P
+1209,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.173,391,2,0.403,0.022,0.006,R
+1219,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.125,389,2,0.386,0.023,0.007,P
+1220,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.082,380,2,0.386,0.023,0.008,Q
+1224,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.097,389,2,0.387,0.024,0.004,P
+1227,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.082,388,2,0.397,0.024,0.007,P
+1230,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.122,371,2,0.406,0.028,0.013,P
+1237,pump,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.213,370,2,0.403,0.025,0.006,R
+1239,pump,complex_pert,qwen3.5:4b,rag,1.0,S,,0,0,5,2.311,335,6,0.373,0.122,0.009,"A
+</think>
+
+A"
+1244,pump,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.511,354,2,0.402,0.026,0.009,S
+1245,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.501,358,2,0.4,0.025,0.01,Q
+1246,pump,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.491,373,2,0.402,0.025,0.011,P
+1248,pump,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.418,336,2,0.379,0.026,0.01,S
+1250,pump,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.423,366,2,0.412,0.025,0.009,S
+1252,pump,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.419,337,2,0.375,0.026,0.012,P
+1254,pump,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.407,343,2,0.378,0.027,0.006,P
+1257,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.445,342,2,0.382,0.025,0.011,Q
+1259,pump,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.432,344,2,0.393,0.022,0.013,P
+1260,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.39,327,2,0.347,0.023,0.016,Q
+1265,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.329,351,2,0.384,0.023,0.01,Q
+1267,pump,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.105,337,2,0.361,0.022,0.012,P
+1270,pump,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,1.896,348,2,0.383,0.022,0.013,P
+1271,pump,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,1.863,337,2,0.354,0.022,0.006,R
+1272,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,1.694,332,2,0.361,0.025,0.006,Q
+1274,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,1.696,330,2,0.362,0.023,0.006,Q
+1278,compressor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.804,342,2,0.354,0.023,0.009,R
+1280,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.842,347,2,0.38,0.023,0.005,Q
+1281,compressor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.839,341,2,0.358,0.023,0.014,R
+1285,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.98,349,2,0.377,0.023,0.006,P
+1291,compressor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.977,336,2,0.35,0.023,0.013,R
+1293,compressor,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.826,336,2,0.363,0.022,0.007,T
+1294,compressor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.823,337,2,0.36,0.022,0.005,R
+1300,compressor,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.83,384,2,0.387,0.022,0.007,S
+1302,compressor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.867,367,2,0.382,0.023,0.012,R
+1303,compressor,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.929,414,2,0.424,0.025,0.012,S
+1304,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.958,366,2,0.386,0.023,0.004,P
+1305,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.866,416,2,0.422,0.022,0.005,Q
+1309,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,1.844,336,2,0.358,0.023,0.015,Q
+1313,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,1.791,339,2,0.368,0.026,0.007,P
+1320,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.025,444,2,0.451,0.026,0.005,P
+1322,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.163,353,2,0.393,0.025,0.012,P
+1328,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.302,353,2,0.406,0.026,0.012,P
+1331,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.345,354,2,0.413,0.027,0.012,Q
+1332,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.33,348,2,0.394,0.024,0.009,P
+1335,compressor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,2.355,360,2,0.398,0.028,0.006,R
+1339,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,2.261,334,2,0.377,0.026,0.016,P
+1343,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.469,423,2,0.449,0.025,0.011,Q
+1344,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.501,439,2,0.451,0.026,0.012,S
+1346,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.382,444,2,0.458,0.025,0.012,P
+1347,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.309,440,2,0.458,0.024,0.016,T
+1348,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.145,441,2,0.466,0.022,0.014,R
+1357,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.064,417,2,0.423,0.022,0.012,T
+1360,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.161,402,2,0.422,0.022,0.007,Q
+1362,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.114,423,2,0.425,0.024,0.008,Q
+1363,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,2.213,411,2,0.426,0.023,0.008,R
+1366,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,2.078,415,2,0.426,0.022,0.009,P
+1373,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.08,433,2,0.432,0.022,0.01,P
+1375,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.092,433,2,0.436,0.022,0.011,Q
+1378,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.088,405,2,0.42,0.022,0.013,R
+1379,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,2.082,405,2,0.423,0.022,0.008,S
+1381,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,1.944,405,2,0.42,0.023,0.012,P
+1386,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.054,412,2,0.42,0.022,0.005,Q
+1388,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.922,430,2,0.432,0.023,0.004,Q
+1392,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.938,428,2,0.429,0.022,0.007,P
+1394,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,T,0,1,5,2.077,427,2,0.423,0.022,0.005,T
+1396,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.083,428,2,0.421,0.022,0.008,Q
+1397,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.087,428,2,0.438,0.022,0.012,P
+1398,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.247,430,2,0.421,0.023,0.01,R
+1402,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.236,403,2,0.417,0.022,0.009,P
+1406,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.117,403,2,0.434,0.026,0.011,Q
+1407,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.153,422,2,0.471,0.025,0.009,P
+1413,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,2.174,416,2,0.44,0.025,0.006,P
+1414,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.267,410,2,0.444,0.025,0.012,Q
+1416,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,2.47,416,2,0.437,0.025,0.011,P
+1423,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,2.604,425,2,0.443,0.027,0.012,R
+1427,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,2.641,405,2,0.442,0.025,0.006,R
+1428,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.616,411,2,0.444,0.027,0.006,Q
+1429,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,2.634,425,2,0.448,0.025,0.009,P
+1431,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,2.502,426,2,0.457,0.026,0.009,R
+1433,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.461,409,2,0.442,0.026,0.007,Q
+1442,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.304,413,2,0.453,0.026,0.008,Q
+1450,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.222,411,2,0.42,0.024,0.009,Q
+1452,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.18,411,2,0.428,0.022,0.012,Q
+1455,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.128,423,2,0.427,0.022,0.015,Q
+1456,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.229,413,2,0.418,0.022,0.008,P
+1459,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.239,414,2,0.415,0.023,0.012,P
+1469,electric generator,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.327,378,2,0.386,0.024,0.007,S
+1470,electric generator,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.313,393,2,0.415,0.025,0.008,R
+1472,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.314,377,2,0.385,0.022,0.006,Q
+1474,electric generator,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.238,381,2,0.387,0.024,0.01,T
+1476,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.114,379,2,0.391,0.023,0.006,P
+1478,electric generator,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.092,377,2,0.39,0.023,0.012,T
+1479,electric generator,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.931,386,2,0.394,0.023,0.008,S
+1480,electric generator,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.001,394,2,0.417,0.022,0.005,S
+1482,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.116,357,2,0.38,0.023,0.007,P
+1494,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.145,388,2,0.388,0.023,0.012,P
+1495,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.262,372,2,0.383,0.022,0.007,Q
+1499,electric generator,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.194,359,2,0.378,0.023,0.006,R
+1500,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.238,370,2,0.382,0.023,0.007,P
+1501,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.08,373,2,0.392,0.026,0.008,Q
+1503,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.001,386,2,0.428,0.025,0.006,P
+1504,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.917,370,2,0.423,0.025,0.006,P
+1505,electric generator,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.96,359,2,0.397,0.025,0.008,T
+1507,electric generator,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.132,370,2,0.409,0.025,0.015,S
+1510,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.12,372,2,0.42,0.025,0.011,P
+1513,electric generator,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.114,369,2,0.413,0.026,0.009,T
+1515,electric generator,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.165,374,2,0.403,0.025,0.008,R
+1516,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.183,374,2,0.425,0.026,0.013,Q
+1518,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.403,391,2,0.419,0.026,0.012,Q
+1523,electric generator,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.603,384,2,0.416,0.025,0.01,R
+1527,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.532,370,2,0.411,0.027,0.012,Q
+1528,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.377,368,2,0.419,0.025,0.015,Q
+1529,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.146,369,2,0.419,0.023,0.011,P
+1532,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,1.925,370,2,0.389,0.025,0.009,Q
+1537,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,1.87,360,2,0.381,0.023,0.01,P
+1538,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,1.985,356,2,0.38,0.022,0.011,P
+1539,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,1.952,366,2,0.386,0.023,0.008,P
+1540,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,1.951,365,2,0.387,0.023,0.008,Q
+1542,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,1.959,352,2,0.375,0.022,0.006,Q
+1544,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,1.804,361,2,0.389,0.025,0.017,Q
+1545,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,1.813,351,2,0.389,0.023,0.012,P
+1550,fan,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.923,350,2,0.379,0.023,0.011,P
+1554,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.779,353,2,0.385,0.022,0.007,Q
+1555,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,1.877,334,2,0.354,0.023,0.018,Q
+1556,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,1.845,332,2,0.361,0.022,0.007,Q
+1558,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,1.854,353,2,0.379,0.023,0.006,Q
+1559,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,1.983,327,2,0.35,0.024,0.006,Q
+1560,fan,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.019,354,2,0.377,0.022,0.012,P
+1562,fan,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.164,334,2,0.354,0.023,0.008,P
+1564,fan,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.128,340,2,0.355,0.022,0.005,R
+1566,fan,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,1.979,338,2,0.36,0.023,0.007,S
+1569,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.949,337,2,0.356,0.024,0.008,Q
+1575,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,1.935,334,2,0.354,0.023,0.009,Q
+1576,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.064,344,2,0.397,0.025,0.005,Q
+1580,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.235,334,2,0.373,0.025,0.006,Q
+1583,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.31,327,2,0.374,0.025,0.007,Q
+1586,fan,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.414,355,2,0.4,0.026,0.011,P
+1587,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.364,341,2,0.384,0.027,0.017,Q
+1588,fan,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.246,339,2,0.409,0.028,0.005,P
+1589,fan,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.242,362,2,0.398,0.025,0.008,P
+1590,fan,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.071,369,2,0.424,0.025,0.009,P
+1591,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.107,340,2,0.377,0.028,0.009,Q
+1593,fan,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.274,334,2,0.377,0.026,0.009,P
+1595,fan,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.272,352,2,0.406,0.025,0.012,P
+1596,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.438,335,2,0.377,0.025,0.011,Q
+1597,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.225,333,2,0.364,0.023,0.016,Q
+1598,fan,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.167,348,2,0.377,0.023,0.009,P
+1604,fan,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,1.982,349,2,0.382,0.024,0.012,R
+1605,fan,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,1.765,347,2,0.379,0.022,0.01,P
+1607,fan,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,1.788,355,2,0.387,0.023,0.013,P
+1609,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,1.745,329,2,0.365,0.022,0.011,Q
+1610,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.985,459,2,0.463,0.023,0.011,Q
+1612,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.085,458,2,0.478,0.023,0.01,R
+1617,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.255,443,2,0.433,0.025,0.005,Q
+1619,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.204,443,2,0.431,0.021,0.013,T
+1621,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.02,446,2,0.438,0.023,0.006,T
+1622,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.975,426,2,0.436,0.023,0.009,T
+1625,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.857,442,2,0.438,0.023,0.017,P
+1627,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.046,495,2,0.484,0.024,0.012,Q
+1629,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.086,489,2,0.476,0.023,0.007,P
+1630,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.275,507,2,0.48,0.022,0.008,P
+1631,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.466,556,2,0.491,0.023,0.011,P
+1633,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.319,528,2,0.47,0.022,0.009,P
+1638,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.537,511,2,0.476,0.024,0.004,R
+1639,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.577,512,2,0.511,0.024,0.006,R
+1640,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.643,558,2,0.509,0.026,0.012,Q
+1641,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.947,511,2,0.51,0.027,0.008,Q
+1652,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.925,520,2,0.52,0.026,0.006,T
+1655,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.763,500,2,0.501,0.024,0.011,R
+1656,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.782,511,2,0.501,0.026,0.007,S
+1658,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.738,514,2,0.502,0.025,0.008,S
+1659,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.581,501,2,0.507,0.025,0.005,P
+1661,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.612,537,2,0.529,0.026,0.006,S
+1664,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.678,550,2,0.51,0.023,0.013,P
+1668,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.612,435,2,0.416,0.022,0.003,R
+1670,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.483,419,2,0.387,0.023,0.008,R
+1671,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.366,445,2,0.427,0.022,0.014,R
+1672,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.266,485,2,0.429,0.024,0.012,R
+1674,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.278,421,2,0.393,0.022,0.011,S
+1675,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.586,484,2,0.436,0.022,0.013,Q
+1686,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.873,591,2,0.493,0.023,0.006,S
+1688,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.901,477,2,0.415,0.023,0.01,S
+1691,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.646,491,2,0.424,0.022,0.007,T
+1692,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.376,477,2,0.425,0.023,0.007,T
+1695,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.09,488,2,0.428,0.022,0.006,T
+1696,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.194,494,2,0.476,0.023,0.009,P
+1706,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.376,498,2,0.475,0.024,0.008,S
+1707,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.555,500,2,0.471,0.022,0.011,R
+1709,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.775,513,2,0.481,0.024,0.008,P
+1710,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.582,506,2,0.491,0.025,0.008,Q
+1711,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.651,472,2,0.487,0.024,0.008,Q
+1712,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,2.752,500,2,0.496,0.025,0.007,S
+1717,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.613,499,2,0.503,0.026,0.007,R
+1718,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,2.691,499,2,0.502,0.026,0.019,S
+1719,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.732,504,2,0.492,0.025,0.005,R
+1720,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.558,504,2,0.53,0.025,0.016,P
+1721,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,2.567,505,2,0.509,0.024,0.009,S
+1723,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.529,466,2,0.488,0.024,0.018,Q
+1726,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,2.486,456,2,0.487,0.026,0.009,S
+1731,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,2.473,482,2,0.506,0.023,0.008,S
+1734,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.59,477,2,0.466,0.024,0.012,R
+1735,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.409,483,2,0.475,0.024,0.007,Q
+1741,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.333,492,2,0.472,0.023,0.013,Q
+1742,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.456,491,2,0.471,0.023,0.007,Q
+1745,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.506,592,2,0.522,0.022,0.005,Q
+1747,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.432,467,2,0.396,0.025,0.008,Q
+1752,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.414,401,2,0.421,0.023,0.006,Q
+1756,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.213,401,2,0.439,0.022,0.009,P
+1757,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,1.954,398,2,0.425,0.023,0.012,Q
+1761,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,1.979,427,2,0.429,0.023,0.007,P
+1763,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,1.834,404,2,0.433,0.022,0.008,P
+1764,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,1.824,407,2,0.426,0.024,0.005,P
+1765,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,1.826,415,2,0.427,0.023,0.011,Q
+1767,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,1.918,364,2,0.385,0.024,0.006,P
+1771,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.133,501,2,0.483,0.023,0.014,Q
+1774,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.138,429,2,0.432,0.023,0.009,Q
+1779,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,2.146,435,2,0.434,0.025,0.005,P
+1780,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.251,474,2,0.471,0.022,0.009,P
+1784,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.266,493,2,0.491,0.026,0.017,P
+1785,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.3,429,2,0.464,0.026,0.009,P
+1786,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.521,481,2,0.495,0.026,0.008,Q
+1788,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.619,495,2,0.509,0.027,0.007,P
+1796,electric motor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.565,396,2,0.439,0.028,0.008,R
+1800,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.702,387,2,0.414,0.025,0.008,P
+1802,electric motor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.485,380,2,0.428,0.028,0.008,R
+1803,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.352,372,2,0.411,0.026,0.007,Q
+1808,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.177,376,2,0.428,0.028,0.018,P
+1816,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.23,441,2,0.463,0.027,0.008,Q
+1817,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.27,442,2,0.469,0.028,0.011,P
+1818,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.152,438,2,0.464,0.023,0.013,Q
+1820,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,2.243,385,2,0.394,0.022,0.014,P
+1822,electric motor,complex_pert,qwen3.5:4b,rag,1.0,R,P,0,1,3,1.976,383,2,0.398,0.022,0.007,P
+1824,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,2.056,379,2,0.388,0.023,0.006,P
+1826,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.101,387,2,0.39,0.023,0.006,Q
+1830,electric motor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.107,384,2,0.396,0.024,0.016,R
+1831,electric motor,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.244,385,2,0.396,0.024,0.004,R
+1832,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.215,377,2,0.388,0.023,0.007,Q
+1833,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.23,373,2,0.388,0.022,0.003,Q
+1836,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.261,373,2,0.404,0.023,0.011,Q
+1837,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.266,379,2,0.389,0.023,0.005,P
+1839,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.288,374,2,0.391,0.023,0.007,P
+1840,electric motor,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.338,394,2,0.421,0.023,0.004,T
+1843,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.311,393,2,0.417,0.023,0.01,P
+1848,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.301,377,2,0.391,0.023,0.009,P
+1849,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.148,371,2,0.394,0.022,0.006,P
+1852,electric motor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,1.971,375,2,0.394,0.025,0.007,Q
+1853,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,1.837,372,2,0.407,0.023,0.015,P
+1854,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,1.704,371,2,0.395,0.023,0.005,P
+1860,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,1.846,362,2,0.397,0.025,0.006,P
+1868,electric motor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.04,390,2,0.415,0.026,0.012,P
+1874,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.227,372,2,0.41,0.026,0.005,R
+1875,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,T,P,0,1,5,2.269,369,2,0.433,0.027,0.008,P
+1877,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.335,369,2,0.421,0.025,0.013,R
+1886,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,2.323,368,2,0.405,0.025,0.015,S
+1888,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,2.356,372,2,0.409,0.027,0.016,S
+1889,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.505,374,2,0.413,0.025,0.006,Q
+1890,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,P,Q,0,1,3,2.336,373,2,0.428,0.025,0.008,Q
+1893,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,2.185,369,2,0.423,0.026,0.008,P
+1897,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.123,352,2,0.397,0.025,0.013,Q
+1900,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.174,365,2,0.417,0.025,0.008,P
+1901,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.293,354,2,0.38,0.023,0.011,Q
+1902,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.251,352,2,0.384,0.022,0.009,P
+1903,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.21,361,2,0.384,0.022,0.006,Q
+1904,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.091,368,2,0.396,0.022,0.014,T
+1910,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.077,380,2,0.391,0.023,0.008,Q
+1912,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.251,393,2,0.416,0.023,0.012,Q
+1913,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.138,393,2,0.426,0.022,0.016,Q
+1914,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.046,395,2,0.424,0.024,0.005,P
+1917,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.042,362,2,0.389,0.022,0.006,Q
+1918,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,1.878,361,2,0.391,0.024,0.009,Q
+1919,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,1.845,362,2,0.391,0.024,0.017,R
+1921,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,1.806,359,2,0.387,0.023,0.006,P
+1922,steam turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,1.686,359,2,0.406,0.024,0.007,P
+1923,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.846,432,2,0.432,0.022,0.01,P
+1928,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.89,434,2,0.435,0.022,0.012,R
+1929,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,P,0,1,5,1.939,432,2,0.436,0.022,0.012,P
+1931,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,S,0,1,5,2.157,475,2,0.473,0.024,0.007,S
+1934,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.182,453,2,0.439,0.024,0.005,T
+1935,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.203,453,2,0.455,0.024,0.008,P
+1936,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.22,455,2,0.447,0.026,0.013,Q
+1940,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.243,454,2,0.464,0.026,0.006,T
+1945,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.125,455,2,0.459,0.026,0.007,P
+1952,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.316,466,2,0.491,0.025,0.006,R
+1953,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.374,466,2,0.508,0.025,0.014,Q
+1955,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.216,467,2,0.498,0.025,0.011,P
+1956,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.258,466,2,0.491,0.025,0.015,P
+1957,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.109,472,2,0.496,0.025,0.006,S
+1958,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.108,470,2,0.502,0.026,0.013,R
+1960,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.285,413,2,0.44,0.027,0.008,Q
+1961,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.437,436,2,0.459,0.027,0.007,Q
+1962,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.418,438,2,0.471,0.027,0.008,T
+1964,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.543,469,2,0.481,0.023,0.019,R
+1965,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.339,461,2,0.471,0.023,0.012,Q
+1968,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.173,468,2,0.474,0.023,0.01,R
+1969,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,S,0,1,4,2.267,425,2,0.427,0.022,0.009,S
+1973,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.255,468,2,0.468,0.024,0.011,Q
+1974,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.246,467,2,0.469,0.022,0.005,P
+1975,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,Q,0,1,5,2.361,440,2,0.433,0.024,0.01,Q
+1976,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.241,434,2,0.448,0.022,0.01,T
+1977,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.058,439,2,0.44,0.023,0.01,Q
+1978,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.028,439,2,0.44,0.024,0.006,Q
+1979,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.88,438,2,0.437,0.024,0.009,Q
+1982,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.016,433,2,0.437,0.022,0.011,P
+1983,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,2.019,429,2,0.443,0.023,0.008,S
+1987,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,2.014,428,2,0.436,0.023,0.007,S
+1992,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.141,447,2,0.439,0.023,0.007,Q
+1993,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,1.999,447,2,0.446,0.022,0.011,P
+1995,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.128,408,2,0.423,0.024,0.006,P
+1996,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.121,409,2,0.428,0.022,0.004,Q
+1998,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,1.98,410,2,0.426,0.024,0.008,S
+2000,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,1.974,413,2,0.433,0.028,0.01,P
+2002,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,1.883,409,2,0.473,0.026,0.006,S
+2005,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.118,409,2,0.459,0.027,0.012,Q
+2011,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.316,421,2,0.458,0.025,0.008,Q
+2012,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.375,420,2,0.494,0.026,0.023,Q
+2013,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.536,406,2,0.442,0.026,0.009,T
+2014,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.334,399,2,0.451,0.026,0.009,T
+2019,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.322,414,2,0.452,0.025,0.01,Q
+2025,aero gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,2.466,421,2,0.449,0.026,0.01,R
+2030,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,2.44,398,2,0.445,0.027,0.008,P
+2034,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.411,391,2,0.428,0.025,0.013,Q
+2037,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.413,406,2,0.446,0.025,0.007,R
+2038,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.223,407,2,0.443,0.022,0.011,Q
+2039,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.048,407,2,0.438,0.022,0.009,T
+2041,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.041,405,2,0.421,0.024,0.009,P
+2045,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,1.985,424,2,0.428,0.023,0.009,Q
+2049,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.113,454,2,0.441,0.023,0.014,Q
+2051,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.141,457,2,0.466,0.022,0.009,P
+2052,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.194,457,2,0.477,0.022,0.006,R
+2053,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.099,457,2,0.466,0.023,0.013,Q
+2054,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.11,410,2,0.419,0.023,0.011,P
+2055,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.202,420,2,0.428,0.023,0.008,P
+2057,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,2.29,425,2,0.428,0.025,0.006,P
+2059,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.377,401,2,0.42,0.024,0.009,Q
+2060,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.223,428,2,0.434,0.024,0.007,Q
+2061,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.103,430,2,0.435,0.024,0.008,Q
+2062,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,2.079,402,2,0.417,0.023,0.005,R
+2066,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.08,401,2,0.421,0.023,0.012,S
+2067,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.207,414,2,0.427,0.022,0.005,P
+2069,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.191,413,2,0.423,0.022,0.007,T
+2070,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.209,399,2,0.425,0.022,0.005,S
+2071,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.105,394,2,0.444,0.026,0.004,Q
+2073,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.151,401,2,0.436,0.025,0.007,Q
+2074,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.186,394,2,0.451,0.025,0.006,Q
+2076,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,3,2.085,395,2,0.45,0.025,0.014,R
+2087,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.208,390,2,0.414,0.027,0.016,Q
+2089,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.04,390,2,0.433,0.027,0.009,P
+2090,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.2,413,2,0.446,0.026,0.014,R
+2091,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.216,412,2,0.467,0.027,0.013,R
+2092,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.261,415,2,0.446,0.025,0.008,P
+2093,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.339,415,2,0.51,0.025,0.007,P
+2094,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.399,412,2,0.448,0.025,0.011,R
+2095,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.374,411,2,0.46,0.024,0.008,R
+2104,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.305,415,2,0.429,0.023,0.007,P
+2105,industrial gas turbine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.335,399,2,0.419,0.022,0.009,P
+2107,pump,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.187,350,2,0.383,0.023,0.012,P
+2108,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.119,348,2,0.384,0.023,0.006,Q
+2111,pump,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,1.95,349,2,0.382,0.022,0.006,P
+2113,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.936,374,2,0.391,0.022,0.007,Q
+2117,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,1.963,354,2,0.384,0.024,0.009,Q
+2118,pump,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,1.974,356,2,0.388,0.024,0.009,S
+2123,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.105,378,2,0.393,0.024,0.007,Q
+2124,pump,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,1.969,375,2,0.401,0.023,0.008,S
+2131,pump,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,1.918,341,2,0.363,0.023,0.007,R
+2132,pump,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.887,339,2,0.365,0.022,0.012,T
+2135,pump,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.903,385,2,0.393,0.023,0.013,T
+2138,pump,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.025,369,2,0.39,0.022,0.01,R
+2140,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,1.917,370,2,0.39,0.023,0.01,Q
+2144,pump,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.065,351,2,0.382,0.023,0.01,P
+2146,pump,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,1.932,351,2,0.398,0.024,0.006,Q
+2152,compressor,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,1.925,360,2,0.384,0.024,0.007,S
+2157,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.056,371,2,0.389,0.024,0.005,Q
+2158,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.087,371,2,0.4,0.025,0.011,P
+2159,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.125,374,2,0.427,0.025,0.008,P
+2163,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.229,367,2,0.412,0.025,0.006,Q
+2164,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.279,365,2,0.408,0.026,0.01,Q
+2165,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.366,368,2,0.405,0.026,0.015,P
+2169,compressor,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,2.354,367,2,0.417,0.025,0.014,S
+2170,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.369,362,2,0.406,0.026,0.011,P
+2181,compressor,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.364,369,2,0.412,0.026,0.01,T
+2182,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.158,367,2,0.412,0.027,0.014,P
+2183,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.313,358,2,0.406,0.026,0.01,Q
+2184,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.111,358,2,0.422,0.025,0.004,P
+2185,compressor,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.168,403,2,0.452,0.026,0.006,T
+2187,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.185,404,2,0.444,0.022,0.01,P
+2189,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.023,396,2,0.424,0.024,0.007,P
+2194,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.156,389,2,0.398,0.022,0.006,Q
+2203,compressor,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.056,363,2,0.39,0.024,0.005,Q
+2204,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.001,356,2,0.387,0.023,0.006,P
+2210,compressor,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,1.972,356,2,0.399,0.023,0.011,P
+2214,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.031,456,2,0.464,0.022,0.008,R
+2215,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,S,Q,0,1,4,1.948,452,2,0.442,0.023,0.007,Q
+2217,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,2.011,450,2,0.452,0.023,0.004,S
+2221,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,Q,0,1,4,2.055,452,2,0.443,0.022,0.008,Q
+2225,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.058,482,2,0.473,0.022,0.008,S
+2227,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.093,480,2,0.476,0.023,0.01,R
+2232,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.125,479,2,0.484,0.022,0.012,T
+2235,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.267,448,2,0.44,0.024,0.007,Q
+2242,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.1,454,2,0.445,0.023,0.009,Q
+2245,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.069,446,2,0.447,0.023,0.013,Q
+2251,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.162,425,2,0.431,0.023,0.013,P
+2256,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.024,425,2,0.441,0.026,0.006,Q
+2258,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.012,424,2,0.435,0.024,0.008,Q
+2259,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,P,0,1,5,2.175,460,2,0.468,0.024,0.01,P
+2260,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.104,458,2,0.495,0.026,0.009,T
+2261,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.163,459,2,0.496,0.025,0.013,P
+2262,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,P,0,1,5,2.226,462,2,0.495,0.024,0.003,P
+2268,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.131,458,2,0.499,0.026,0.005,T
+2271,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.291,471,2,0.491,0.024,0.008,Q
+2272,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.302,471,2,0.509,0.025,0.009,R
+2274,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.315,475,2,0.504,0.027,0.01,R
+2276,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.312,473,2,0.506,0.025,0.006,R
+2279,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.15,466,2,0.498,0.026,0.008,R
+2280,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.316,480,2,0.508,0.026,0.009,P
+2283,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.314,482,2,0.503,0.026,0.005,P
+2287,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.324,480,2,0.517,0.023,0.01,T
+2288,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.304,484,2,0.475,0.023,0.008,S
+2289,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,T,0,1,5,2.095,478,2,0.475,0.023,0.01,T
+2290,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.148,435,2,0.431,0.025,0.009,Q
+2292,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.089,440,2,0.455,0.023,0.007,R
+2296,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.192,451,2,0.441,0.025,0.005,R
+2297,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.194,456,2,0.479,0.024,0.005,R
+2299,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,2.067,450,2,0.443,0.023,0.008,S
+2300,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.067,453,2,0.452,0.023,0.008,P
+2301,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.051,429,2,0.437,0.023,0.009,P
+2303,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.204,449,2,0.436,0.023,0.008,P
+2305,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,2.204,451,2,0.444,0.022,0.007,S
+2306,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.348,480,2,0.473,0.023,0.004,S
+2308,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.249,477,2,0.474,0.023,0.009,Q
+2309,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.11,478,2,0.481,0.023,0.008,R
+2310,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.142,475,2,0.478,0.022,0.005,P
+2311,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.022,476,2,0.477,0.023,0.009,R
+2313,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.04,476,2,0.49,0.025,0.012,T
+2316,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.176,477,2,0.473,0.024,0.007,S
+2318,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.188,481,2,0.485,0.025,0.004,S
+2323,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.223,476,2,0.501,0.025,0.011,T
+2324,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.362,446,2,0.461,0.025,0.006,Q
+2326,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.226,449,2,0.474,0.028,0.014,Q
+2329,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.22,447,2,0.476,0.025,0.014,P
+2330,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.191,447,2,0.475,0.025,0.004,P
+2332,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.023,443,2,0.461,0.026,0.01,Q
+2333,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.02,446,2,0.465,0.026,0.015,Q
+2335,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.013,447,2,0.472,0.026,0.008,Q
+2336,reciprocating internal combustion engine,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.021,447,2,0.479,0.025,0.007,Q
+2341,electric generator,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,2.203,388,2,0.425,0.026,0.014,S
+2342,electric generator,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,2.301,386,2,0.42,0.029,0.011,S
+2343,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.455,383,2,0.419,0.027,0.009,P
+2344,electric generator,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.406,382,2,0.431,0.023,0.012,R
+2347,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.292,372,2,0.388,0.024,0.006,Q
+2348,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.272,370,2,0.39,0.024,0.009,P
+2353,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.182,372,2,0.39,0.023,0.008,Q
+2354,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.306,446,2,0.434,0.023,0.013,P
+2355,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.215,445,2,0.445,0.025,0.006,P
+2356,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.101,446,2,0.441,0.023,0.009,P
+2358,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,1.995,439,2,0.439,0.023,0.009,P
+2359,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,1.887,449,2,0.446,0.025,0.006,Q
+2360,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,1.879,439,2,0.437,0.023,0.014,P
+2362,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,1.996,371,2,0.389,0.023,0.011,Q
+2364,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.071,370,2,0.389,0.024,0.005,Q
+2365,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.18,370,2,0.397,0.024,0.006,Q
+2369,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.279,372,2,0.387,0.024,0.006,Q
+2374,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,3,2.236,381,2,0.396,0.025,0.012,Q
+2377,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.251,376,2,0.39,0.022,0.009,Q
+2382,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.088,379,2,0.399,0.023,0.004,Q
+2385,electric generator,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.117,390,2,0.393,0.024,0.009,R
+2387,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.156,392,2,0.421,0.024,0.01,Q
+2393,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.205,374,2,0.413,0.026,0.007,P
+2399,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.248,373,2,0.43,0.027,0.007,Q
+2402,electric generator,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.272,389,2,0.414,0.025,0.007,R
+2411,electric generator,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.306,371,2,0.409,0.027,0.012,P
+2416,electric generator,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.323,391,2,0.417,0.027,0.008,Q
+2419,electric generator,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.464,388,2,0.411,0.025,0.013,R
+2420,fan,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.472,348,2,0.407,0.026,0.007,P
+2424,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.313,370,2,0.42,0.026,0.024,Q
+2427,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.317,347,2,0.404,0.026,0.006,Q
+2429,fan,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.336,374,2,0.415,0.025,0.008,T
+2432,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.172,372,2,0.421,0.027,0.008,Q
+2433,fan,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.182,372,2,0.432,0.023,0.018,T
+2434,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,2.1,370,2,0.386,0.022,0.008,Q
+2438,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,1.89,368,2,0.389,0.024,0.01,Q
+2439,fan,complex_pert,qwen3.5:4b,rag,1.0,P,R,0,1,4,2.019,373,2,0.387,0.023,0.011,R
+2441,fan,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.093,381,2,0.392,0.023,0.011,P
+2444,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,1.962,379,2,0.393,0.024,0.008,Q
+2445,fan,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,1.969,382,2,0.395,0.024,0.007,S
+2448,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,1.948,371,2,0.393,0.023,0.009,Q
+2453,fan,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.956,368,2,0.388,0.024,0.013,P
+2458,fan,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.086,363,2,0.383,0.022,0.011,T
+2460,fan,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.241,381,2,0.387,0.023,0.009,S
+2462,fan,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.221,389,2,0.392,0.024,0.004,R
+2463,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.119,392,2,0.42,0.023,0.011,Q
+2469,fan,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.127,378,2,0.39,0.024,0.006,Q
+2470,fan,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,1.969,377,2,0.392,0.023,0.004,P
+2471,fan,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.981,376,2,0.387,0.023,0.008,T
+2476,fan,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,3,2.089,367,2,0.39,0.023,0.013,P
+2482,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.182,539,2,0.484,0.024,0.011,P
+2483,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.449,531,2,0.48,0.025,0.004,Q
+2487,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.426,540,2,0.499,0.027,0.005,Q
+2490,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.414,531,2,0.504,0.027,0.009,S
+2491,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.614,538,2,0.504,0.025,0.008,P
+2492,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.722,539,2,0.521,0.027,0.006,S
+2496,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,3.018,653,2,0.564,0.026,0.005,P
+2497,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,P,0,1,5,3.027,663,2,0.512,0.025,0.015,P
+2504,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,3.288,528,2,0.514,0.024,0.007,S
+2505,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,3.301,666,2,0.515,0.026,0.004,R
+2509,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,3.424,591,2,0.552,0.026,0.005,S
+2512,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,3.647,508,2,0.437,0.022,0.01,R
+2515,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,R,0,1,5,3.291,520,2,0.48,0.023,0.007,R
+2516,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.957,455,2,0.446,0.024,0.008,P
+2517,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.748,587,2,0.498,0.023,0.013,Q
+2518,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.744,450,2,0.445,0.023,0.004,T
+2520,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,S,0,1,5,2.497,528,2,0.482,0.024,0.006,S
+2529,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.714,522,2,0.481,0.022,0.007,R
+2535,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.635,478,2,0.433,0.023,0.006,Q
+2536,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.59,539,2,0.484,0.023,0.009,T
+2543,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.805,529,2,0.487,0.023,0.014,S
+2547,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.627,527,2,0.488,0.023,0.006,R
+2550,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.432,448,2,0.435,0.023,0.007,P
+2551,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.17,451,2,0.435,0.023,0.009,T
+2552,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,1.964,537,2,0.488,0.024,0.005,T
+2554,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.235,657,2,0.552,0.024,0.007,S
+2555,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,R,0,1,5,2.451,521,2,0.39,0.026,0.006,R
+2556,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,2.898,651,2,0.501,0.026,0.01,P
+2557,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,3.149,527,2,0.414,0.026,0.004,Q
+2560,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,3.252,662,2,0.571,0.025,0.007,S
+2562,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,3.327,528,2,0.411,0.028,0.012,S
+2564,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,2.891,534,2,0.429,0.027,0.005,S
+2566,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,3.039,658,2,0.505,0.025,0.015,Q
+2567,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,5,3.009,454,2,0.465,0.028,0.006,S
+2570,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.886,450,2,0.365,0.025,0.01,R
+2576,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,3.188,466,2,0.464,0.023,0.008,R
+2580,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,5,3.006,540,2,0.487,0.024,0.018,P
+2582,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.666,537,2,0.49,0.023,0.01,T
+2583,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.842,677,2,0.573,0.023,0.006,T
+2585,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.855,469,2,0.461,0.022,0.008,T
+2590,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.736,450,2,0.435,0.022,0.01,T
+2593,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.903,468,2,0.437,0.024,0.003,R
+2594,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,5,2.829,538,2,0.494,0.023,0.007,Q
+2595,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,T,1,1,5,2.73,479,2,0.466,0.023,0.009,T
+2596,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.954,719,2,0.602,0.023,0.011,R
+2611,power transformer,complex_pert,qwen3.5:4b,rag,1.0,T,P,0,1,5,3.048,550,2,0.497,0.023,0.008,P
+2615,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,Q,0,1,5,3.162,663,2,0.55,0.023,0.006,Q
+2617,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,T,0,1,5,3.001,663,2,0.498,0.024,0.004,T
+2619,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,5,2.674,659,2,0.488,0.025,0.011,R
+2621,power transformer,complex_pert,qwen3.5:4b,rag,1.0,S,S,1,1,4,2.68,464,2,0.436,0.026,0.006,S
+2624,power transformer,complex_pert,qwen3.5:4b,rag,1.0,R,R,1,1,4,2.345,464,2,0.469,0.029,0.007,R
+2626,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.688,583,2,0.513,0.026,0.011,P
+2629,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,4,3.069,467,2,0.45,0.026,0.009,Q
+2632,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,4,2.787,468,2,0.475,0.026,0.012,P
+2640,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,3.036,486,2,0.462,0.028,0.011,P
+2642,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.68,490,2,0.469,0.027,0.009,P
+2646,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.308,494,2,0.496,0.025,0.014,P
+2649,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.312,489,2,0.477,0.026,0.007,Q
+2657,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.401,495,2,0.501,0.026,0.01,P
+2658,power transformer,complex_pert,qwen3.5:4b,rag,1.0,P,P,1,1,2,2.427,491,2,0.496,0.022,0.01,P
+2660,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.398,491,2,0.477,0.025,0.014,Q
+2661,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.634,493,2,0.468,0.023,0.016,Q
+2663,power transformer,complex_pert,qwen3.5:4b,rag,1.0,Q,Q,1,1,2,2.623,624,2,0.52,0.024,0.006,Q

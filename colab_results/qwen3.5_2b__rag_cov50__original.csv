@@ -1,0 +1,1001 @@
+id,asset,variant,model,condition,rag_coverage,answer,pred,correct,parsed,n_options,wall_s,prompt_tokens,output_tokens,prompt_s,gen_s,load_s,raw
+1,electric motor,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.287,376,2,0.149,0.021,0.009,A
+5,electric motor,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.461,384,2,0.152,0.02,0.013,E
+7,electric motor,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.63,378,2,0.153,0.02,0.017,B
+6,electric motor,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.817,377,2,0.153,0.02,0.012,D
+15,electric motor,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.77,375,2,0.151,0.019,0.012,C
+16,electric motor,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.794,312,2,0.128,0.019,0.016,B
+19,electric motor,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.819,341,2,0.134,0.02,0.011,B
+20,electric motor,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.85,311,2,0.127,0.02,0.014,B
+32,electric motor,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.839,336,2,0.137,0.02,0.012,D
+35,electric motor,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.862,365,2,0.151,0.021,0.009,A
+41,steam turbine,original,qwen3.5:2b,rag,0.5,B,D,0,1,5,0.861,320,2,0.134,0.019,0.011,D
+44,steam turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.849,291,2,0.125,0.02,0.014,B
+47,steam turbine,original,qwen3.5:2b,rag,0.5,B,C,0,1,4,0.839,302,2,0.126,0.02,0.008,C
+48,steam turbine,original,qwen3.5:2b,rag,0.5,C,D,0,1,4,0.777,301,2,0.131,0.02,0.006,D
+49,steam turbine,original,qwen3.5:2b,rag,0.5,B,D,0,1,4,0.747,301,2,0.145,0.019,0.014,D
+51,steam turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.772,354,2,0.15,0.02,0.017,D
+53,steam turbine,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.768,334,2,0.135,0.02,0.008,E
+54,steam turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,3,0.814,342,2,0.143,0.019,0.008,C
+57,steam turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,3,0.846,338,2,0.135,0.019,0.012,A
+63,steam turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,4,0.839,358,2,0.145,0.02,0.007,C
+64,steam turbine,original,qwen3.5:2b,rag,0.5,A,D,0,1,4,0.86,365,2,0.156,0.019,0.012,D
+67,steam turbine,original,qwen3.5:2b,rag,0.5,D,C,0,1,4,0.836,353,2,0.146,0.02,0.014,C
+68,steam turbine,original,qwen3.5:2b,rag,0.5,D,C,0,1,4,0.856,363,2,0.144,0.018,0.014,C
+69,steam turbine,original,qwen3.5:2b,rag,0.5,B,C,0,1,5,0.829,311,2,0.126,0.02,0.01,C
+70,steam turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.754,316,2,0.139,0.018,0.012,C
+76,steam turbine,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.822,321,2,0.142,0.019,0.011,B
+79,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,E,0,1,5,0.806,373,2,0.143,0.017,0.017,E
+82,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.781,364,2,0.142,0.017,0.006,D
+89,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.82,373,2,0.138,0.016,0.011,B
+93,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,,0,0,2,0.782,394,2,0.147,0.016,0.008,C
+94,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,3,0.785,397,2,0.148,0.017,0.005,A
+95,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.823,380,2,0.14,0.017,0.005,B
+102,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.78,373,2,0.143,0.017,0.008,B
+104,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.779,395,2,0.147,0.017,0.017,D
+106,aero gas turbine,original,qwen3.5:2b,rag,0.5,E,A,0,1,5,0.736,390,2,0.147,0.016,0.007,A
+109,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.745,377,2,0.138,0.018,0.01,B
+110,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.762,384,2,0.146,0.017,0.016,D
+111,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.767,395,2,0.149,0.017,0.009,D
+113,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.808,404,2,0.148,0.016,0.007,B
+114,aero gas turbine,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.814,394,2,0.15,0.017,0.007,E
+115,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.833,387,2,0.141,0.018,0.007,A
+117,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,D,0,1,5,0.829,381,2,0.146,0.017,0.007,D
+118,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.819,385,2,0.14,0.017,0.013,A
+119,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.768,380,2,0.144,0.017,0.013,A
+121,aero gas turbine,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.775,398,2,0.146,0.016,0.017,E
+122,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.745,408,2,0.155,0.017,0.009,C
+127,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.744,392,2,0.141,0.017,0.008,C
+128,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.781,386,2,0.14,0.017,0.016,B
+129,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,E,0,1,5,0.785,408,2,0.149,0.017,0.006,E
+133,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.815,401,2,0.146,0.016,0.016,C
+134,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,B,0,1,5,0.828,395,2,0.147,0.017,0.004,B
+139,aero gas turbine,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.828,360,2,0.136,0.017,0.008,E
+140,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.809,353,2,0.134,0.017,0.008,B
+142,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.797,358,2,0.136,0.017,0.018,B
+148,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.785,351,2,0.136,0.017,0.014,B
+149,industrial gas turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.787,358,2,0.136,0.017,0.007,C
+151,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.753,340,2,0.135,0.017,0.021,B
+153,industrial gas turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,4,0.764,357,2,0.137,0.018,0.006,C
+159,industrial gas turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,4,0.728,371,2,0.146,0.016,0.007,A
+169,industrial gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.738,371,2,0.147,0.017,0.008,D
+171,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.745,363,2,0.143,0.017,0.014,B
+173,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.738,343,2,0.13,0.017,0.007,B
+181,industrial gas turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.771,368,2,0.139,0.016,0.014,A
+182,industrial gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.768,347,2,0.135,0.017,0.007,D
+183,industrial gas turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.758,345,2,0.133,0.017,0.022,A
+184,pump,original,qwen3.5:2b,rag,0.5,C,C,1,1,3,0.751,344,2,0.129,0.017,0.009,C
+191,pump,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.74,337,2,0.129,0.017,0.007,B
+192,pump,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.725,345,2,0.13,0.017,0.007,D
+193,pump,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.733,343,2,0.141,0.017,0.007,C
+198,pump,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.736,350,2,0.136,0.017,0.007,B
+199,pump,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.747,347,2,0.135,0.017,0.016,E
+202,pump,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.755,342,2,0.13,0.017,0.009,A
+203,pump,original,qwen3.5:2b,rag,0.5,C,C,1,1,3,0.786,352,2,0.135,0.017,0.009,C
+204,pump,original,qwen3.5:2b,rag,0.5,A,B,0,1,3,0.788,356,2,0.135,0.016,0.004,B
+205,pump,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.801,351,2,0.135,0.017,0.006,B
+209,pump,original,qwen3.5:2b,rag,0.5,A,C,0,1,3,0.8,343,2,0.128,0.016,0.007,C
+212,pump,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.812,375,2,0.139,0.017,0.014,C
+213,pump,original,qwen3.5:2b,rag,0.5,A,D,0,1,5,0.772,351,2,0.139,0.019,0.006,D
+217,pump,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.785,321,2,0.134,0.02,0.014,D
+218,pump,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.793,315,2,0.132,0.02,0.014,D
+223,compressor,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.812,334,2,0.136,0.02,0.006,B
+224,compressor,original,qwen3.5:2b,rag,0.5,A,A,1,1,3,0.822,329,2,0.148,0.021,0.02,A
+225,compressor,original,qwen3.5:2b,rag,0.5,C,C,1,1,3,0.783,329,2,0.155,0.02,0.013,C
+226,compressor,original,qwen3.5:2b,rag,0.5,C,C,1,1,3,0.756,334,2,0.155,0.019,0.011,C
+227,compressor,original,qwen3.5:2b,rag,0.5,A,B,0,1,3,0.777,338,2,0.147,0.02,0.008,B
+230,compressor,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.846,388,2,0.149,0.02,0.01,A
+232,compressor,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.851,375,2,0.162,0.019,0.015,C
+233,compressor,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.889,352,2,0.144,0.02,0.009,C
+237,compressor,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.849,338,2,0.133,0.018,0.013,C
+239,compressor,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.849,352,2,0.155,0.018,0.013,B
+240,compressor,original,qwen3.5:2b,rag,0.5,A,A,1,1,3,0.837,351,2,0.146,0.019,0.01,A
+241,compressor,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.827,342,2,0.133,0.018,0.021,B
+246,compressor,original,qwen3.5:2b,rag,0.5,A,A,1,1,3,0.798,343,2,0.143,0.019,0.009,A
+247,compressor,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.786,376,2,0.145,0.018,0.007,D
+249,compressor,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.833,369,2,0.143,0.019,0.011,D
+250,compressor,original,qwen3.5:2b,rag,0.5,E,D,0,1,5,0.854,362,2,0.144,0.02,0.011,D
+252,compressor,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.886,340,2,0.14,0.019,0.022,D
+254,compressor,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.844,352,2,0.157,0.019,0.011,B
+259,compressor,original,qwen3.5:2b,rag,0.5,C,B,0,1,5,0.837,335,2,0.137,0.019,0.007,B
+261,compressor,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.843,365,2,0.147,0.019,0.011,B
+262,compressor,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.844,344,2,0.138,0.019,0.022,A
+266,compressor,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.893,346,2,0.146,0.019,0.013,C
+267,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,C,D,0,1,5,0.889,369,2,0.147,0.02,0.008,D
+269,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.835,371,2,0.154,0.019,0.008,A
+271,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,E,C,0,1,5,0.846,383,2,0.148,0.018,0.014,C
+276,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.8,369,2,0.155,0.02,0.007,C
+277,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.759,371,2,0.152,0.02,0.009,B
+278,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.764,383,2,0.16,0.02,0.008,C
+286,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.77,377,2,0.145,0.019,0.014,D
+287,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.784,378,2,0.168,0.022,0.005,B
+292,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.828,374,2,0.147,0.019,0.01,E
+293,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.824,374,2,0.166,0.019,0.013,D
+295,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.821,386,2,0.149,0.018,0.018,B
+296,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.849,374,2,0.146,0.019,0.013,A
+299,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.848,387,2,0.156,0.019,0.008,D
+300,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.871,371,2,0.146,0.019,0.009,A
+301,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.841,370,2,0.153,0.02,0.009,C
+302,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.801,373,2,0.152,0.02,0.006,B
+304,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.802,378,2,0.147,0.018,0.01,D
+305,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.765,383,2,0.152,0.02,0.012,B
+308,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.826,384,2,0.148,0.018,0.016,A
+311,electric generator,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.87,377,2,0.152,0.019,0.012,A
+312,electric generator,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.822,369,2,0.151,0.02,0.011,D
+317,electric generator,original,qwen3.5:2b,rag,0.5,C,B,0,1,5,0.856,350,2,0.143,0.02,0.007,B
+322,electric generator,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.842,345,2,0.139,0.02,0.012,A
+323,electric generator,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.794,347,2,0.148,0.019,0.013,A
+329,electric generator,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.831,317,2,0.132,0.019,0.007,B
+332,electric generator,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.822,353,2,0.143,0.019,0.015,D
+334,electric generator,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.811,336,2,0.14,0.019,0.008,D
+338,electric generator,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.838,375,2,0.139,0.019,0.011,D
+342,electric generator,original,qwen3.5:2b,rag,0.5,B,D,0,1,5,0.83,317,2,0.125,0.017,0.012,D
+343,electric generator,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.803,316,2,0.126,0.017,0.01,A
+347,fan,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.782,340,2,0.128,0.017,0.009,B
+349,fan,original,qwen3.5:2b,rag,0.5,A,A,1,1,3,0.715,336,2,0.135,0.017,0.011,A
+352,fan,original,qwen3.5:2b,rag,0.5,A,A,1,1,3,0.723,351,2,0.134,0.017,0.009,A
+360,fan,original,qwen3.5:2b,rag,0.5,C,A,0,1,5,0.735,342,2,0.13,0.016,0.009,A
+366,fan,original,qwen3.5:2b,rag,0.5,A,B,0,1,3,0.748,342,2,0.133,0.017,0.016,B
+367,fan,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.792,351,2,0.135,0.017,0.013,B
+368,fan,original,qwen3.5:2b,rag,0.5,C,C,1,1,3,0.757,338,2,0.132,0.018,0.013,C
+374,fan,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.763,357,2,0.136,0.017,0.014,A
+383,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.788,439,2,0.155,0.017,0.008,C
+384,power transformer,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.811,455,2,0.167,0.016,0.01,A
+388,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.873,434,2,0.152,0.016,0.007,C
+389,power transformer,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.864,447,2,0.173,0.017,0.007,D
+392,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.82,440,2,0.159,0.017,0.016,C
+399,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.827,489,2,0.172,0.017,0.019,B
+405,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.807,482,2,0.179,0.016,0.008,B
+406,power transformer,original,qwen3.5:2b,rag,0.5,A,C,0,1,5,0.812,497,2,0.178,0.017,0.007,C
+407,power transformer,original,qwen3.5:2b,rag,0.5,E,C,0,1,5,0.865,488,2,0.171,0.018,0.006,C
+408,power transformer,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.834,492,2,0.179,0.017,0.011,E
+410,power transformer,original,qwen3.5:2b,rag,0.5,D,B,0,1,5,0.886,540,2,0.188,0.017,0.006,B
+411,power transformer,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.898,535,2,0.19,0.018,0.006,D
+412,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.863,495,2,0.177,0.017,0.005,B
+413,power transformer,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.884,434,2,0.152,0.016,0.011,E
+415,power transformer,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.88,527,2,0.188,0.017,0.007,A
+416,power transformer,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.93,537,2,0.189,0.018,0.005,D
+418,power transformer,original,qwen3.5:2b,rag,0.5,E,A,0,1,5,0.994,553,2,0.191,0.021,0.012,A
+419,power transformer,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,1.02,461,2,0.171,0.017,0.02,D
+423,power transformer,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,1.015,473,2,0.171,0.018,0.014,E
+429,power transformer,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.977,441,2,0.159,0.016,0.016,E
+434,power transformer,original,qwen3.5:2b,rag,0.5,A,D,0,1,5,0.948,447,2,0.167,0.018,0.02,D
+437,power transformer,original,qwen3.5:2b,rag,0.5,E,D,0,1,5,0.917,438,2,0.153,0.017,0.009,D
+439,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.891,421,2,0.152,0.017,0.007,C
+440,power transformer,original,qwen3.5:2b,rag,0.5,D,C,0,1,5,0.882,385,2,0.143,0.02,0.013,C
+441,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.85,369,2,0.139,0.017,0.022,B
+446,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.867,444,2,0.166,0.017,0.01,C
+453,power transformer,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.868,424,2,0.151,0.017,0.01,A
+454,power transformer,original,qwen3.5:2b,rag,0.5,D,C,0,1,5,0.889,453,2,0.167,0.017,0.02,C
+456,power transformer,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.911,432,2,0.155,0.016,0.007,A
+461,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.917,492,2,0.174,0.018,0.017,C
+463,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.921,441,2,0.156,0.017,0.007,B
+464,power transformer,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.884,472,2,0.173,0.018,0.012,E
+465,power transformer,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.885,454,2,0.167,0.017,0.007,E
+466,power transformer,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.878,467,2,0.169,0.017,0.007,A
+470,electric motor,original,qwen3.5:2b,rag,0.5,A,A,1,1,3,0.834,303,2,0.118,0.017,0.009,A
+471,electric motor,original,qwen3.5:2b,rag,0.5,A,A,1,1,3,0.778,305,2,0.127,0.017,0.016,A
+472,electric motor,original,qwen3.5:2b,rag,0.5,A,A,1,1,3,0.714,303,2,0.134,0.02,0.01,A
+474,electric motor,original,qwen3.5:2b,rag,0.5,B,A,0,1,3,0.655,302,2,0.133,0.021,0.007,A
+484,electric motor,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.685,337,2,0.135,0.019,0.009,D
+486,electric motor,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.752,313,2,0.129,0.019,0.02,C
+488,electric motor,original,qwen3.5:2b,rag,0.5,C,C,1,1,3,0.803,313,2,0.137,0.02,0.005,C
+491,electric motor,original,qwen3.5:2b,rag,0.5,C,C,1,1,3,0.805,311,2,0.136,0.019,0.012,C
+492,electric motor,original,qwen3.5:2b,rag,0.5,A,A,1,1,3,0.749,313,2,0.133,0.019,0.013,A
+493,electric motor,original,qwen3.5:2b,rag,0.5,C,C,1,1,3,0.7,311,2,0.133,0.02,0.013,C
+495,electric motor,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.705,321,2,0.135,0.023,0.015,D
+498,electric motor,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.707,320,2,0.143,0.019,0.008,B
+501,electric motor,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.756,322,2,0.133,0.02,0.006,C
+502,electric motor,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.761,320,2,0.141,0.02,0.014,D
+505,electric motor,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.753,321,2,0.132,0.019,0.007,A
+512,steam turbine,original,qwen3.5:2b,rag,0.5,A,B,0,1,4,0.785,314,2,0.131,0.019,0.01,B
+514,steam turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.778,308,2,0.126,0.019,0.01,C
+516,steam turbine,original,qwen3.5:2b,rag,0.5,D,B,0,1,5,0.773,305,2,0.139,0.018,0.013,B
+520,steam turbine,original,qwen3.5:2b,rag,0.5,D,B,0,1,5,0.774,315,2,0.136,0.019,0.01,B
+522,steam turbine,original,qwen3.5:2b,rag,0.5,A,C,0,1,5,0.778,318,2,0.135,0.019,0.01,C
+525,steam turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.785,315,2,0.13,0.019,0.012,C
+529,steam turbine,original,qwen3.5:2b,rag,0.5,B,D,0,1,4,0.841,305,2,0.129,0.024,0.015,D
+531,steam turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,4,0.8,306,2,0.143,0.019,0.008,C
+537,steam turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.798,315,2,0.136,0.019,0.01,D
+538,steam turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.796,298,2,0.127,0.02,0.009,A
+539,steam turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.743,293,2,0.136,0.02,0.014,A
+541,aero gas turbine,original,qwen3.5:2b,rag,0.5,E,A,0,1,5,0.789,353,2,0.144,0.02,0.014,A
+542,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.759,351,2,0.145,0.019,0.008,D
+544,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.737,353,2,0.146,0.02,0.014,A
+548,aero gas turbine,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.79,370,2,0.144,0.019,0.016,E
+550,aero gas turbine,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.755,369,2,0.153,0.019,0.004,E
+552,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.793,352,2,0.142,0.019,0.004,A
+561,aero gas turbine,original,qwen3.5:2b,rag,0.5,E,C,0,1,5,0.831,337,2,0.135,0.023,0.007,C
+570,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.831,354,2,0.142,0.019,0.019,B
+574,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.88,384,2,0.15,0.02,0.008,B
+575,aero gas turbine,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.849,388,2,0.154,0.02,0.012,B
+576,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.814,383,2,0.159,0.019,0.008,D
+579,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.788,383,2,0.172,0.019,0.014,D
+581,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.807,353,2,0.149,0.02,0.011,C
+585,aero gas turbine,original,qwen3.5:2b,rag,0.5,E,C,0,1,5,0.826,345,2,0.136,0.018,0.007,C
+586,aero gas turbine,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.849,339,2,0.138,0.019,0.01,B
+589,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.83,340,2,0.143,0.02,0.016,A
+592,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.748,339,2,0.138,0.019,0.009,B
+593,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.722,339,2,0.158,0.021,0.013,B
+594,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.699,342,2,0.15,0.02,0.008,B
+598,aero gas turbine,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.733,339,2,0.134,0.02,0.022,E
+600,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.74,337,2,0.144,0.02,0.013,B
+601,aero gas turbine,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.784,369,2,0.148,0.019,0.012,E
+606,industrial gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.82,357,2,0.144,0.02,0.015,D
+609,industrial gas turbine,original,qwen3.5:2b,rag,0.5,A,E,0,1,5,0.828,348,2,0.142,0.02,0.013,E
+610,industrial gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.827,346,2,0.147,0.02,0.026,D
+611,industrial gas turbine,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.779,345,2,0.148,0.02,0.017,E
+612,industrial gas turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.779,382,2,0.146,0.018,0.007,C
+617,industrial gas turbine,original,qwen3.5:2b,rag,0.5,C,D,0,1,4,0.763,318,2,0.132,0.018,0.009,D
+618,industrial gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,4,0.756,316,2,0.142,0.017,0.015,D
+619,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.727,315,2,0.134,0.016,0.01,B
+621,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.676,318,2,0.133,0.017,0.013,B
+624,industrial gas turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.66,338,2,0.128,0.016,0.004,A
+626,industrial gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.675,326,2,0.126,0.016,0.009,D
+627,industrial gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.682,326,2,0.138,0.016,0.007,D
+628,industrial gas turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.687,326,2,0.136,0.018,0.008,A
+629,industrial gas turbine,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.655,327,2,0.135,0.017,0.013,B
+632,industrial gas turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,4,0.652,312,2,0.121,0.017,0.008,A
+637,industrial gas turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,4,0.684,330,2,0.128,0.017,0.007,C
+639,industrial gas turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.72,360,2,0.138,0.017,0.013,A
+640,industrial gas turbine,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.752,322,2,0.127,0.017,0.011,B
+641,industrial gas turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.757,327,2,0.126,0.016,0.015,C
+645,pump,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.745,311,2,0.118,0.017,0.013,B
+648,pump,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.727,296,2,0.119,0.018,0.012,B
+649,pump,original,qwen3.5:2b,rag,0.5,C,C,1,1,4,0.689,296,2,0.129,0.017,0.008,C
+653,pump,original,qwen3.5:2b,rag,0.5,B,E,0,1,5,0.684,298,2,0.118,0.019,0.019,E
+662,pump,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.688,297,2,0.118,0.017,0.008,D
+663,pump,original,qwen3.5:2b,rag,0.5,D,C,0,1,5,0.653,296,2,0.121,0.017,0.011,C
+666,pump,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.685,320,2,0.124,0.017,0.008,A
+667,pump,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.653,317,2,0.126,0.016,0.013,B
+670,pump,original,qwen3.5:2b,rag,0.5,D,C,0,1,5,0.647,310,2,0.119,0.017,0.014,C
+676,compressor,original,qwen3.5:2b,rag,0.5,B,C,0,1,5,0.685,304,2,0.12,0.018,0.007,C
+677,compressor,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.652,303,2,0.127,0.017,0.01,D
+680,compressor,original,qwen3.5:2b,rag,0.5,B,D,0,1,5,0.65,302,2,0.124,0.018,0.013,D
+681,compressor,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.624,302,2,0.13,0.017,0.007,D
+683,compressor,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.625,315,2,0.125,0.016,0.01,B
+687,compressor,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.659,310,2,0.119,0.018,0.008,E
+688,compressor,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.66,311,2,0.126,0.017,0.005,A
+689,compressor,original,qwen3.5:2b,rag,0.5,A,C,0,1,5,0.66,310,2,0.129,0.018,0.019,C
+690,compressor,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.651,297,2,0.116,0.016,0.005,C
+691,compressor,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.623,297,2,0.134,0.017,0.012,C
+692,compressor,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.62,297,2,0.122,0.017,0.008,A
+697,compressor,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.647,293,2,0.117,0.018,0.016,B
+703,compressor,original,qwen3.5:2b,rag,0.5,A,A,1,1,3,0.618,291,2,0.122,0.017,0.005,A
+705,compressor,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.644,311,2,0.119,0.017,0.007,D
+709,compressor,original,qwen3.5:2b,rag,0.5,D,C,0,1,5,0.651,311,2,0.129,0.017,0.016,C
+712,compressor,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.653,319,2,0.124,0.016,0.013,E
+713,compressor,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.66,318,2,0.13,0.017,0.014,D
+714,compressor,original,qwen3.5:2b,rag,0.5,D,C,0,1,5,0.662,312,2,0.12,0.017,0.009,C
+715,compressor,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.66,310,2,0.128,0.018,0.012,B
+723,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.676,373,2,0.138,0.017,0.01,C
+727,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.724,381,2,0.14,0.017,0.009,B
+729,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,D,0,1,5,0.735,370,2,0.137,0.017,0.004,D
+730,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.784,376,2,0.137,0.017,0.009,B
+735,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,A,0,1,5,0.783,375,2,0.138,0.017,0.016,A
+737,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,A,0,1,5,0.784,372,2,0.139,0.017,0.014,A
+739,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.754,368,2,0.142,0.016,0.011,A
+743,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.761,382,2,0.141,0.016,0.014,D
+744,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.729,384,2,0.144,0.017,0.012,D
+754,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,E,0,1,5,0.727,373,2,0.138,0.017,0.008,E
+755,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.727,377,2,0.142,0.017,0.01,D
+756,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,E,C,0,1,5,0.689,374,2,0.146,0.017,0.012,C
+761,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.726,375,2,0.137,0.017,0.018,D
+764,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.72,328,2,0.129,0.017,0.011,B
+767,electric generator,original,qwen3.5:2b,rag,0.5,A,C,0,1,4,0.719,328,2,0.139,0.017,0.008,C
+773,electric generator,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.741,342,2,0.128,0.016,0.008,D
+774,electric generator,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.736,359,2,0.136,0.017,0.007,D
+775,electric generator,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.742,332,2,0.131,0.02,0.007,A
+779,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.783,324,2,0.132,0.021,0.008,B
+780,electric generator,original,qwen3.5:2b,rag,0.5,A,A,1,1,3,0.776,324,2,0.16,0.019,0.012,A
+783,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.754,325,2,0.146,0.02,0.01,B
+784,electric generator,original,qwen3.5:2b,rag,0.5,C,C,1,1,3,0.728,321,2,0.139,0.019,0.016,C
+786,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.726,335,2,0.133,0.019,0.021,B
+787,electric generator,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.72,340,2,0.147,0.019,0.01,A
+790,electric generator,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.767,317,2,0.135,0.024,0.014,E
+792,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.804,342,2,0.133,0.019,0.01,B
+793,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.779,338,2,0.147,0.019,0.009,B
+799,fan,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.798,305,2,0.125,0.02,0.017,A
+805,fan,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.781,301,2,0.122,0.019,0.008,C
+806,fan,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.726,300,2,0.132,0.019,0.01,C
+808,fan,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.742,312,2,0.126,0.02,0.009,B
+814,fan,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.739,292,2,0.123,0.019,0.017,B
+816,fan,original,qwen3.5:2b,rag,0.5,A,A,1,1,3,0.701,291,2,0.137,0.019,0.012,A
+821,fan,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.7,289,2,0.129,0.021,0.004,B
+822,fan,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.7,302,2,0.124,0.019,0.008,B
+824,fan,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.682,302,2,0.15,0.019,0.014,A
+826,fan,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.733,322,2,0.135,0.019,0.006,E
+828,fan,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.759,322,2,0.156,0.02,0.008,A
+829,fan,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.736,322,2,0.143,0.019,0.009,C
+830,fan,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.759,313,2,0.129,0.019,0.008,D
+831,fan,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.713,312,2,0.136,0.02,0.008,D
+835,fan,original,qwen3.5:2b,rag,0.5,C,B,0,1,5,0.734,313,2,0.128,0.02,0.01,B
+836,power transformer,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.814,431,2,0.16,0.018,0.022,D
+838,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.806,438,2,0.171,0.02,0.006,C
+840,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.873,424,2,0.161,0.02,0.008,C
+843,power transformer,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.867,431,2,0.164,0.02,0.009,B
+844,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.821,423,2,0.165,0.02,0.016,C
+847,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.897,489,2,0.18,0.02,0.005,C
+848,power transformer,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.89,494,2,0.191,0.02,0.005,B
+850,power transformer,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.968,486,2,0.181,0.021,0.011,A
+853,power transformer,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,1.028,503,2,0.18,0.019,0.005,B
+856,power transformer,original,qwen3.5:2b,rag,0.5,E,A,0,1,5,1.001,429,2,0.165,0.02,0.011,A
+857,power transformer,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,1.011,410,2,0.156,0.019,0.009,A
+861,power transformer,original,qwen3.5:2b,rag,0.5,A,D,0,1,5,0.925,407,2,0.167,0.019,0.012,D
+863,power transformer,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.897,425,2,0.162,0.02,0.015,B
+865,power transformer,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.858,422,2,0.173,0.02,0.015,E
+866,power transformer,original,qwen3.5:2b,rag,0.5,E,A,0,1,5,0.826,422,2,0.177,0.019,0.012,A
+868,power transformer,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.886,443,2,0.174,0.02,0.011,D
+871,power transformer,original,qwen3.5:2b,rag,0.5,A,E,0,1,5,0.848,437,2,0.17,0.02,0.013,E
+872,power transformer,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.852,443,2,0.181,0.02,0.011,A
+874,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.885,431,2,0.161,0.02,0.009,B
+875,power transformer,original,qwen3.5:2b,rag,0.5,A,C,0,1,5,0.889,444,2,0.174,0.02,0.011,C
+877,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.934,405,2,0.163,0.019,0.01,C
+883,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.967,426,2,0.163,0.02,0.01,C
+884,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.966,431,2,0.161,0.019,0.01,C
+885,power transformer,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.916,435,2,0.17,0.02,0.016,B
+886,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.882,433,2,0.174,0.019,0.008,C
+887,power transformer,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.83,422,2,0.16,0.02,0.013,E
+891,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.796,428,2,0.17,0.02,0.007,B
+897,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.828,401,2,0.159,0.019,0.01,B
+899,power transformer,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.854,421,2,0.158,0.021,0.012,D
+901,power transformer,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.899,438,2,0.161,0.019,0.014,E
+906,power transformer,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.92,373,2,0.148,0.021,0.008,E
+908,power transformer,original,qwen3.5:2b,rag,0.5,A,D,0,1,5,0.855,370,2,0.148,0.018,0.012,D
+910,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.877,564,2,0.189,0.017,0.005,B
+912,power transformer,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.861,564,2,0.201,0.017,0.014,D
+914,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.875,470,2,0.168,0.018,0.008,B
+915,power transformer,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.901,472,2,0.173,0.017,0.014,D
+923,electric motor,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.847,357,2,0.138,0.018,0.007,E
+928,electric motor,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.819,355,2,0.134,0.017,0.008,E
+931,electric motor,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.751,354,2,0.143,0.017,0.011,D
+932,electric motor,original,qwen3.5:2b,rag,0.5,A,D,0,1,5,0.753,337,2,0.128,0.017,0.013,D
+933,electric motor,original,qwen3.5:2b,rag,0.5,E,D,0,1,5,0.716,337,2,0.138,0.017,0.007,D
+937,electric motor,original,qwen3.5:2b,rag,0.5,A,A,1,1,4,0.723,353,2,0.134,0.017,0.004,A
+944,electric motor,original,qwen3.5:2b,rag,0.5,D,D,1,1,4,0.757,354,2,0.137,0.017,0.015,D
+945,electric motor,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.772,354,2,0.141,0.017,0.006,B
+946,electric motor,original,qwen3.5:2b,rag,0.5,B,D,0,1,5,0.795,312,2,0.12,0.017,0.004,D
+947,electric motor,original,qwen3.5:2b,rag,0.5,A,D,0,1,5,0.784,339,2,0.128,0.017,0.012,D
+950,electric motor,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.742,334,2,0.135,0.017,0.015,D
+951,electric motor,original,qwen3.5:2b,rag,0.5,E,D,0,1,5,0.714,313,2,0.119,0.017,0.01,D
+953,electric motor,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.731,324,2,0.127,0.017,0.017,C
+954,electric motor,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.732,368,2,0.138,0.017,0.012,B
+956,electric motor,original,qwen3.5:2b,rag,0.5,A,D,0,1,5,0.781,353,2,0.134,0.017,0.02,D
+958,electric motor,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.763,361,2,0.147,0.017,0.007,B
+959,electric motor,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.73,353,2,0.14,0.018,0.013,D
+960,electric motor,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.732,335,2,0.13,0.018,0.006,C
+961,electric motor,original,qwen3.5:2b,rag,0.5,B,A,0,1,5,0.729,370,2,0.139,0.018,0.011,A
+962,electric motor,original,qwen3.5:2b,rag,0.5,E,D,0,1,5,0.772,390,2,0.141,0.017,0.007,D
+966,electric motor,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.775,383,2,0.145,0.017,0.015,B
+968,electric motor,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.781,374,2,0.138,0.017,0.011,D
+969,electric motor,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.775,319,2,0.124,0.017,0.005,D
+971,electric motor,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.724,338,2,0.135,0.016,0.005,B
+976,electric motor,original,qwen3.5:2b,rag,0.5,A,D,0,1,5,0.755,338,2,0.138,0.017,0.006,D
+980,electric motor,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.737,324,2,0.127,0.016,0.01,B
+983,electric motor,original,qwen3.5:2b,rag,0.5,B,A,0,1,2,0.726,306,2,0.12,0.018,0.008,A
+984,electric motor,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.762,322,2,0.127,0.017,0.007,B
+985,electric motor,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.721,331,2,0.135,0.019,0.007,B
+986,electric motor,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.73,316,2,0.126,0.019,0.012,B
+987,electric motor,original,qwen3.5:2b,rag,0.5,B,A,0,1,2,0.746,323,2,0.126,0.017,0.007,A
+991,electric motor,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.733,334,2,0.128,0.017,0.009,B
+994,electric motor,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.773,335,2,0.13,0.017,0.012,B
+996,electric motor,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.769,321,2,0.125,0.017,0.014,B
+1001,electric motor,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.768,336,2,0.127,0.017,0.012,B
+1002,steam turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.763,301,2,0.12,0.017,0.012,B
+1003,steam turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.76,333,2,0.128,0.017,0.013,D
+1004,steam turbine,original,qwen3.5:2b,rag,0.5,B,C,0,1,5,0.753,299,2,0.119,0.017,0.017,C
+1005,steam turbine,original,qwen3.5:2b,rag,0.5,B,D,0,1,5,0.758,323,2,0.127,0.017,0.016,D
+1006,steam turbine,original,qwen3.5:2b,rag,0.5,A,D,0,1,5,0.753,285,2,0.114,0.017,0.016,D
+1009,steam turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,4,0.753,330,2,0.13,0.017,0.014,C
+1016,steam turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.755,331,2,0.127,0.017,0.014,C
+1021,steam turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.737,318,2,0.124,0.017,0.011,D
+1026,steam turbine,original,qwen3.5:2b,rag,0.5,A,C,0,1,5,0.76,339,2,0.128,0.016,0.007,C
+1030,steam turbine,original,qwen3.5:2b,rag,0.5,D,C,0,1,5,0.743,309,2,0.119,0.017,0.012,C
+1031,steam turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.745,285,2,0.117,0.017,0.012,B
+1032,steam turbine,original,qwen3.5:2b,rag,0.5,E,D,0,1,5,0.709,285,2,0.127,0.017,0.006,D
+1041,steam turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.709,315,2,0.129,0.02,0.008,A
+1049,steam turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.739,284,2,0.126,0.02,0.006,B
+1051,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,A,0,1,5,0.765,372,2,0.143,0.02,0.014,A
+1052,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.845,376,2,0.144,0.019,0.019,D
+1060,aero gas turbine,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.88,398,2,0.156,0.019,0.009,E
+1063,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.887,393,2,0.147,0.019,0.011,B
+1067,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,4,0.895,387,2,0.147,0.018,0.015,D
+1073,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.92,400,2,0.155,0.019,0.009,C
+1084,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.899,404,2,0.152,0.019,0.008,D
+1091,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,4,0.921,364,2,0.143,0.019,0.006,C
+1094,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,B,0,1,4,0.879,371,2,0.155,0.018,0.017,B
+1098,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,4,0.862,381,2,0.147,0.019,0.006,C
+1103,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,B,0,1,4,0.829,379,2,0.156,0.02,0.008,B
+1106,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,C,0,1,5,0.821,396,2,0.153,0.019,0.011,C
+1108,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,B,0,1,5,0.882,407,2,0.163,0.018,0.018,B
+1112,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,D,0,1,5,0.888,399,2,0.154,0.019,0.009,D
+1113,aero gas turbine,original,qwen3.5:2b,rag,0.5,E,D,0,1,5,0.926,391,2,0.152,0.019,0.01,D
+1116,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,4,0.929,359,2,0.15,0.019,0.011,A
+1117,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,4,0.86,354,2,0.149,0.02,0.008,A
+1125,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,3,0.855,356,2,0.148,0.02,0.007,C
+1129,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,A,0,1,3,0.824,362,2,0.163,0.019,0.008,A
+1131,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.778,349,2,0.152,0.019,0.009,B
+1133,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,B,0,1,3,0.774,363,2,0.155,0.02,0.012,B
+1135,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.77,338,2,0.139,0.021,0.016,B
+1139,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.752,343,2,0.138,0.019,0.013,A
+1141,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,,0,0,2,0.781,346,2,0.143,0.019,0.008,C
+1142,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.816,332,2,0.135,0.019,0.01,B
+1145,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,,0,0,2,0.823,337,2,0.134,0.019,0.011,C
+1146,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.868,340,2,0.136,0.019,0.005,B
+1149,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.869,336,2,0.136,0.018,0.018,B
+1151,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.827,339,2,0.144,0.019,0.01,B
+1154,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.82,335,2,0.134,0.02,0.006,B
+1155,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.79,347,2,0.158,0.019,0.011,A
+1156,industrial gas turbine,original,qwen3.5:2b,rag,0.5,A,D,0,1,5,0.782,357,2,0.145,0.02,0.01,D
+1157,industrial gas turbine,original,qwen3.5:2b,rag,0.5,C,D,0,1,5,0.797,360,2,0.146,0.019,0.009,D
+1160,industrial gas turbine,original,qwen3.5:2b,rag,0.5,C,D,0,1,5,0.763,357,2,0.154,0.019,0.015,D
+1161,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.759,352,2,0.149,0.019,0.014,B
+1165,industrial gas turbine,original,qwen3.5:2b,rag,0.5,E,C,0,1,5,0.752,344,2,0.136,0.019,0.009,C
+1169,industrial gas turbine,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.789,389,2,0.149,0.018,0.014,E
+1170,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,D,0,1,5,0.835,361,2,0.148,0.019,0.005,D
+1174,industrial gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.894,367,2,0.145,0.019,0.02,D
+1176,industrial gas turbine,original,qwen3.5:2b,rag,0.5,A,C,0,1,5,0.871,385,2,0.16,0.019,0.006,C
+1177,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,D,0,1,5,0.869,367,2,0.146,0.019,0.012,D
+1182,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,D,0,1,4,0.867,347,2,0.142,0.019,0.005,D
+1183,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,C,0,1,4,0.802,348,2,0.145,0.019,0.013,C
+1189,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.84,360,2,0.153,0.019,0.004,B
+1192,industrial gas turbine,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.79,367,2,0.147,0.02,0.007,E
+1201,industrial gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.793,343,2,0.135,0.019,0.007,D
+1202,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,D,0,1,5,0.791,353,2,0.153,0.019,0.028,D
+1205,industrial gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,4,0.802,369,2,0.144,0.02,0.007,D
+1209,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.817,369,2,0.164,0.021,0.008,B
+1219,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,,0,0,2,0.804,314,2,0.132,0.02,0.011,C
+1220,industrial gas turbine,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.785,311,2,0.131,0.02,0.006,B
+1224,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,,0,0,2,0.76,308,2,0.127,0.019,0.004,C
+1227,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.73,307,2,0.135,0.02,0.01,B
+1230,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.735,316,2,0.131,0.019,0.008,B
+1237,pump,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.793,356,2,0.145,0.019,0.019,C
+1239,pump,original,qwen3.5:2b,rag,0.5,B,E,0,1,5,0.765,346,2,0.149,0.02,0.008,E
+1244,pump,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.81,342,2,0.138,0.02,0.018,B
+1245,pump,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.794,330,2,0.128,0.017,0.012,D
+1246,pump,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.779,365,2,0.137,0.018,0.017,E
+1248,pump,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.801,369,2,0.137,0.017,0.012,B
+1250,pump,original,qwen3.5:2b,rag,0.5,B,D,0,1,5,0.773,364,2,0.136,0.017,0.007,D
+1252,pump,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.775,306,2,0.118,0.017,0.008,B
+1254,pump,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.714,305,2,0.123,0.017,0.006,B
+1257,pump,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.671,323,2,0.134,0.017,0.006,A
+1259,pump,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.619,306,2,0.121,0.017,0.017,B
+1260,pump,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.639,330,2,0.126,0.017,0.006,A
+1265,pump,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.672,309,2,0.12,0.018,0.011,A
+1267,pump,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.712,326,2,0.126,0.017,0.015,B
+1270,pump,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.747,298,2,0.119,0.017,0.006,B
+1271,pump,original,qwen3.5:2b,rag,0.5,A,C,0,1,3,0.692,302,2,0.122,0.017,0.013,C
+1272,pump,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.714,323,2,0.128,0.017,0.012,B
+1274,pump,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.673,321,2,0.133,0.017,0.016,B
+1278,compressor,original,qwen3.5:2b,rag,0.5,C,D,0,1,5,0.682,336,2,0.129,0.017,0.007,D
+1280,compressor,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.747,387,2,0.14,0.016,0.008,D
+1281,compressor,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.716,374,2,0.144,0.017,0.017,C
+1285,compressor,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.747,345,2,0.129,0.017,0.007,E
+1291,compressor,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.77,369,2,0.141,0.02,0.011,C
+1293,compressor,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.731,373,2,0.145,0.017,0.008,A
+1294,compressor,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.728,370,2,0.143,0.017,0.016,C
+1300,compressor,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.732,344,2,0.129,0.016,0.01,B
+1302,compressor,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.72,339,2,0.129,0.017,0.005,C
+1303,compressor,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.729,305,2,0.118,0.017,0.008,B
+1304,compressor,original,qwen3.5:2b,rag,0.5,E,D,0,1,5,0.757,338,2,0.127,0.016,0.02,D
+1305,compressor,original,qwen3.5:2b,rag,0.5,D,C,0,1,5,0.758,307,2,0.119,0.018,0.007,C
+1309,compressor,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.737,312,2,0.121,0.017,0.01,A
+1313,compressor,original,qwen3.5:2b,rag,0.5,B,A,0,1,2,0.715,321,2,0.131,0.017,0.01,A
+1320,compressor,original,qwen3.5:2b,rag,0.5,D,D,1,1,4,0.718,328,2,0.127,0.017,0.008,D
+1322,compressor,original,qwen3.5:2b,rag,0.5,D,D,1,1,4,0.722,346,2,0.133,0.017,0.013,D
+1328,compressor,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.755,360,2,0.141,0.018,0.014,B
+1331,compressor,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.768,361,2,0.139,0.017,0.008,A
+1332,compressor,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.771,334,2,0.127,0.017,0.012,B
+1335,compressor,original,qwen3.5:2b,rag,0.5,A,A,1,1,3,0.779,350,2,0.136,0.017,0.014,A
+1339,compressor,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.751,330,2,0.125,0.016,0.007,B
+1343,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,B,0,1,5,0.785,381,2,0.141,0.016,0.007,B
+1344,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,C,0,1,5,0.754,376,2,0.141,0.017,0.019,C
+1346,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,E,D,0,1,5,0.72,387,2,0.148,0.018,0.006,D
+1347,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,D,0,1,5,0.702,377,2,0.144,0.018,0.005,D
+1348,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.667,378,2,0.143,0.016,0.008,C
+1357,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,D,0,1,5,0.701,375,2,0.139,0.017,0.009,D
+1360,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.73,361,2,0.137,0.017,0.006,B
+1362,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.729,366,2,0.144,0.017,0.01,B
+1363,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,3,0.725,369,2,0.142,0.016,0.006,B
+1366,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.69,379,2,0.145,0.017,0.01,B
+1373,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,B,0,1,4,0.701,382,2,0.14,0.017,0.006,B
+1375,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,C,C,1,1,4,0.706,382,2,0.15,0.016,0.008,C
+1378,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,A,0,1,4,0.746,369,2,0.14,0.017,0.008,A
+1379,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,C,0,1,4,0.745,370,2,0.142,0.016,0.014,C
+1381,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,D,1,1,4,0.707,370,2,0.148,0.018,0.01,D
+1386,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,C,0,1,5,0.749,376,2,0.139,0.017,0.016,C
+1388,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.749,381,2,0.142,0.017,0.012,D
+1392,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,E,C,0,1,5,0.754,380,2,0.145,0.017,0.008,C
+1394,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.784,371,2,0.137,0.02,0.015,D
+1396,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.759,384,2,0.165,0.019,0.017,D
+1397,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.745,384,2,0.166,0.019,0.01,E
+1398,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.756,377,2,0.148,0.019,0.007,C
+1402,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.771,365,2,0.147,0.02,0.021,B
+1406,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.776,365,2,0.168,0.019,0.007,A
+1407,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,A,0,1,2,0.772,370,2,0.151,0.019,0.005,A
+1413,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.819,376,2,0.145,0.021,0.006,B
+1414,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.782,371,2,0.158,0.02,0.015,B
+1416,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.778,376,2,0.159,0.019,0.011,B
+1423,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,3,0.816,368,2,0.149,0.019,0.007,B
+1427,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,3,0.765,365,2,0.152,0.02,0.008,B
+1428,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,C,C,1,1,3,0.771,375,2,0.159,0.019,0.01,C
+1429,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,A,0,1,3,0.769,368,2,0.158,0.019,0.009,A
+1431,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,3,0.732,369,2,0.154,0.019,0.012,B
+1433,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,,0,0,2,0.784,364,2,0.144,0.02,0.008,C
+1442,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.824,370,2,0.147,0.019,0.01,B
+1450,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.856,359,2,0.142,0.019,0.008,A
+1452,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.862,359,2,0.164,0.019,0.01,B
+1455,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.863,359,2,0.147,0.02,0.008,B
+1456,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.812,353,2,0.15,0.02,0.008,B
+1459,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.782,351,2,0.153,0.02,0.016,B
+1469,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.811,353,2,0.146,0.019,0.008,B
+1470,electric generator,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.802,382,2,0.147,0.02,0.01,C
+1472,electric generator,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.861,352,2,0.143,0.019,0.011,D
+1474,electric generator,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.853,334,2,0.152,0.019,0.015,A
+1476,electric generator,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.8,332,2,0.14,0.019,0.007,B
+1478,electric generator,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.803,353,2,0.143,0.019,0.008,A
+1479,electric generator,original,qwen3.5:2b,rag,0.5,B,C,0,1,5,0.789,339,2,0.135,0.019,0.019,C
+1480,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.834,363,2,0.143,0.019,0.007,B
+1482,electric generator,original,qwen3.5:2b,rag,0.5,D,D,1,1,4,0.884,333,2,0.137,0.02,0.01,D
+1494,electric generator,original,qwen3.5:2b,rag,0.5,E,C,0,1,5,0.867,317,2,0.142,0.021,0.009,C
+1495,electric generator,original,qwen3.5:2b,rag,0.5,D,C,0,1,5,0.866,319,2,0.133,0.02,0.016,C
+1499,electric generator,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.866,330,2,0.134,0.02,0.019,C
+1500,electric generator,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.862,353,2,0.144,0.019,0.013,E
+1501,electric generator,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.867,333,2,0.137,0.019,0.015,D
+1503,electric generator,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.821,342,2,0.143,0.02,0.024,E
+1504,electric generator,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.824,353,2,0.142,0.019,0.007,B
+1505,electric generator,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.783,356,2,0.148,0.02,0.007,A
+1507,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.795,357,2,0.142,0.019,0.006,B
+1510,electric generator,original,qwen3.5:2b,rag,0.5,E,A,0,1,5,0.804,359,2,0.148,0.018,0.011,A
+1513,electric generator,original,qwen3.5:2b,rag,0.5,A,C,0,1,5,0.77,357,2,0.16,0.019,0.008,C
+1515,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.802,309,2,0.127,0.02,0.012,B
+1516,electric generator,original,qwen3.5:2b,rag,0.5,C,C,1,1,4,0.793,352,2,0.143,0.021,0.01,C
+1518,electric generator,original,qwen3.5:2b,rag,0.5,C,C,1,1,4,0.827,340,2,0.135,0.018,0.017,C
+1523,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.835,327,2,0.134,0.02,0.012,B
+1527,electric generator,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.846,327,2,0.144,0.019,0.011,B
+1528,electric generator,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.848,305,2,0.126,0.02,0.012,A
+1529,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.799,315,2,0.145,0.019,0.021,B
+1532,electric generator,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.768,316,2,0.134,0.019,0.015,B
+1537,electric generator,original,qwen3.5:2b,rag,0.5,B,A,0,1,2,0.76,316,2,0.142,0.02,0.01,A
+1538,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.711,311,2,0.132,0.02,0.011,B
+1539,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.709,320,2,0.144,0.019,0.012,B
+1540,electric generator,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.71,319,2,0.142,0.02,0.013,A
+1542,electric generator,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.721,333,2,0.134,0.021,0.014,A
+1544,electric generator,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.771,317,2,0.129,0.02,0.009,B
+1545,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.821,332,2,0.137,0.019,0.007,B
+1550,fan,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.859,340,2,0.139,0.02,0.009,E
+1554,fan,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.805,343,2,0.145,0.02,0.01,D
+1555,fan,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.811,324,2,0.132,0.017,0.008,B
+1556,fan,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.751,324,2,0.137,0.018,0.006,B
+1558,fan,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.694,333,2,0.135,0.017,0.013,B
+1559,fan,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.702,304,2,0.119,0.017,0.013,B
+1560,fan,original,qwen3.5:2b,rag,0.5,B,A,0,1,2,0.636,312,2,0.124,0.017,0.014,A
+1562,fan,original,qwen3.5:2b,rag,0.5,B,A,0,1,2,0.671,324,2,0.128,0.017,0.01,A
+1564,fan,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.718,350,2,0.136,0.017,0.011,C
+1566,fan,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.707,348,2,0.144,0.017,0.014,B
+1569,fan,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.767,353,2,0.135,0.017,0.017,D
+1575,fan,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.761,328,2,0.127,0.019,0.017,A
+1576,fan,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.712,310,2,0.13,0.017,0.012,A
+1580,fan,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.702,322,2,0.135,0.017,0.012,A
+1583,fan,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.692,330,2,0.126,0.017,0.009,A
+1586,fan,original,qwen3.5:2b,rag,0.5,B,A,0,1,2,0.687,324,2,0.127,0.018,0.016,A
+1587,fan,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.723,338,2,0.127,0.017,0.009,B
+1588,fan,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.722,336,2,0.133,0.017,0.006,B
+1589,fan,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.734,316,2,0.126,0.018,0.015,B
+1590,fan,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.743,337,2,0.128,0.017,0.006,B
+1591,fan,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.71,337,2,0.134,0.017,0.017,A
+1593,fan,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.751,330,2,0.127,0.017,0.011,B
+1595,fan,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.73,309,2,0.119,0.017,0.017,B
+1596,fan,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.692,324,2,0.131,0.02,0.013,A
+1597,fan,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.69,322,2,0.133,0.017,0.023,A
+1598,fan,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.648,317,2,0.132,0.017,0.016,B
+1604,fan,original,qwen3.5:2b,rag,0.5,A,B,0,1,3,0.651,307,2,0.118,0.017,0.015,B
+1605,fan,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.637,305,2,0.123,0.017,0.008,B
+1607,fan,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.679,336,2,0.128,0.016,0.011,B
+1609,fan,original,qwen3.5:2b,rag,0.5,C,C,1,1,3,0.68,326,2,0.135,0.017,0.014,C
+1610,power transformer,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.739,476,2,0.172,0.017,0.012,D
+1612,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.787,475,2,0.176,0.017,0.005,C
+1617,power transformer,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.829,471,2,0.168,0.016,0.011,D
+1619,power transformer,original,qwen3.5:2b,rag,0.5,A,C,0,1,5,0.909,459,2,0.168,0.018,0.01,C
+1621,power transformer,original,qwen3.5:2b,rag,0.5,A,C,0,1,5,0.893,479,2,0.17,0.017,0.009,C
+1622,power transformer,original,qwen3.5:2b,rag,0.5,A,C,0,1,5,0.928,442,2,0.165,0.017,0.009,C
+1625,power transformer,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.94,470,2,0.172,0.017,0.012,B
+1627,power transformer,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.934,477,2,0.171,0.017,0.009,D
+1629,power transformer,original,qwen3.5:2b,rag,0.5,E,D,0,1,5,0.932,466,2,0.167,0.017,0.011,D
+1630,power transformer,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.895,477,2,0.177,0.017,0.016,E
+1631,power transformer,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.898,508,2,0.183,0.017,0.014,E
+1633,power transformer,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.925,531,2,0.185,0.017,0.012,B
+1638,power transformer,original,qwen3.5:2b,rag,0.5,C,A,0,1,5,0.945,500,2,0.174,0.017,0.013,A
+1639,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.976,497,2,0.171,0.017,0.016,C
+1640,power transformer,original,qwen3.5:2b,rag,0.5,D,B,0,1,5,0.967,442,2,0.167,0.017,0.016,B
+1641,power transformer,original,qwen3.5:2b,rag,0.5,D,B,0,1,5,0.956,500,2,0.173,0.017,0.013,B
+1652,power transformer,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.935,453,2,0.166,0.017,0.009,A
+1655,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.919,412,2,0.15,0.019,0.009,C
+1656,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.866,420,2,0.158,0.017,0.014,B
+1658,power transformer,original,qwen3.5:2b,rag,0.5,B,C,0,1,5,0.848,443,2,0.164,0.017,0.006,C
+1659,power transformer,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.845,417,2,0.149,0.016,0.012,B
+1661,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.868,466,2,0.169,0.017,0.012,B
+1664,power transformer,original,qwen3.5:2b,rag,0.5,E,D,0,1,5,0.911,410,2,0.156,0.023,0.008,D
+1668,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.92,374,2,0.147,0.02,0.007,C
+1670,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.929,359,2,0.144,0.019,0.017,C
+1671,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.871,385,2,0.153,0.02,0.012,C
+1672,power transformer,original,qwen3.5:2b,rag,0.5,C,D,0,1,5,0.821,362,2,0.155,0.019,0.013,D
+1674,power transformer,original,qwen3.5:2b,rag,0.5,B,D,0,1,5,0.765,361,2,0.149,0.019,0.01,D
+1675,power transformer,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.724,361,2,0.162,0.021,0.004,D
+1686,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.772,435,2,0.16,0.02,0.007,B
+1688,power transformer,original,qwen3.5:2b,rag,0.5,B,C,0,1,5,0.798,431,2,0.172,0.019,0.012,C
+1691,power transformer,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.856,436,2,0.16,0.018,0.009,B
+1692,power transformer,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.921,431,2,0.16,0.019,0.012,A
+1695,power transformer,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.885,420,2,0.169,0.019,0.007,B
+1696,power transformer,original,qwen3.5:2b,rag,0.5,E,D,0,1,5,0.913,435,2,0.159,0.02,0.029,D
+1706,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.918,436,2,0.158,0.019,0.009,B
+1707,power transformer,original,qwen3.5:2b,rag,0.5,C,B,0,1,5,0.907,425,2,0.158,0.019,0.008,B
+1709,power transformer,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.966,445,2,0.18,0.02,0.007,B
+1710,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,4,0.982,462,2,0.173,0.018,0.008,C
+1711,power transformer,original,qwen3.5:2b,rag,0.5,C,B,0,1,4,0.986,441,2,0.166,0.02,0.008,B
+1712,power transformer,original,qwen3.5:2b,rag,0.5,A,B,0,1,4,0.949,433,2,0.174,0.02,0.008,B
+1717,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.901,432,2,0.179,0.02,0.008,B
+1718,power transformer,original,qwen3.5:2b,rag,0.5,A,A,1,1,4,0.924,474,2,0.182,0.02,0.006,A
+1719,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.921,437,2,0.165,0.019,0.009,B
+1720,power transformer,original,qwen3.5:2b,rag,0.5,D,D,1,1,4,0.982,460,2,0.176,0.019,0.011,D
+1721,power transformer,original,qwen3.5:2b,rag,0.5,A,B,0,1,4,0.982,461,2,0.184,0.021,0.009,B
+1723,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,4,0.935,444,2,0.184,0.024,0.011,C
+1726,power transformer,original,qwen3.5:2b,rag,0.5,A,C,0,1,4,0.916,431,2,0.16,0.019,0.008,C
+1731,power transformer,original,qwen3.5:2b,rag,0.5,A,A,1,1,4,0.923,484,2,0.18,0.019,0.007,A
+1734,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.936,451,2,0.195,0.02,0.01,B
+1735,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,4,0.934,443,2,0.181,0.02,0.01,C
+1741,power transformer,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.948,459,2,0.181,0.019,0.014,B
+1742,power transformer,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.948,442,2,0.175,0.021,0.014,A
+1745,power transformer,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.968,441,2,0.162,0.019,0.008,B
+1747,power transformer,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.948,430,2,0.158,0.019,0.007,B
+1752,power transformer,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.925,426,2,0.166,0.019,0.011,B
+1756,power transformer,original,qwen3.5:2b,rag,0.5,B,A,0,1,2,0.907,434,2,0.162,0.02,0.005,A
+1757,power transformer,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.91,426,2,0.162,0.02,0.012,A
+1761,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.98,460,2,0.178,0.019,0.005,B
+1763,power transformer,original,qwen3.5:2b,rag,0.5,B,A,0,1,2,0.973,420,2,0.158,0.019,0.009,A
+1764,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.997,437,2,0.171,0.019,0.011,B
+1765,power transformer,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.965,455,2,0.19,0.02,0.009,B
+1767,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.94,437,2,0.161,0.019,0.008,B
+1771,power transformer,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.955,446,2,0.172,0.019,0.007,B
+1774,power transformer,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.95,461,2,0.174,0.02,0.01,B
+1779,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.995,463,2,0.177,0.02,0.007,B
+1780,power transformer,original,qwen3.5:2b,rag,0.5,B,A,0,1,2,1.027,501,2,0.183,0.019,0.007,A
+1784,power transformer,original,qwen3.5:2b,rag,0.5,B,A,0,1,2,1.053,504,2,0.182,0.02,0.004,A
+1785,power transformer,original,qwen3.5:2b,rag,0.5,B,A,0,1,2,1.055,468,2,0.178,0.02,0.021,A
+1786,power transformer,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,1.062,501,2,0.181,0.02,0.014,B
+1788,power transformer,original,qwen3.5:2b,rag,0.5,B,A,0,1,2,1.067,506,2,0.189,0.02,0.016,A
+1796,electric motor,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.998,312,2,0.124,0.019,0.015,C
+1800,electric motor,original,qwen3.5:2b,rag,0.5,D,B,0,1,4,0.942,310,2,0.13,0.02,0.028,B
+1802,electric motor,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.845,308,2,0.145,0.017,0.008,B
+1803,electric motor,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.747,297,2,0.118,0.018,0.006,B
+1808,electric motor,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.692,298,2,0.122,0.017,0.007,B
+1816,electric motor,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.668,330,2,0.128,0.017,0.009,A
+1817,electric motor,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.659,327,2,0.132,0.017,0.012,B
+1818,electric motor,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.639,327,2,0.137,0.017,0.008,A
+1820,electric motor,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.673,303,2,0.119,0.017,0.006,B
+1822,electric motor,original,qwen3.5:2b,rag,0.5,A,B,0,1,3,0.628,304,2,0.121,0.017,0.009,B
+1824,electric motor,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.619,303,2,0.124,0.017,0.009,B
+1826,electric motor,original,qwen3.5:2b,rag,0.5,C,D,0,1,4,0.64,304,2,0.119,0.017,0.016,D
+1830,electric motor,original,qwen3.5:2b,rag,0.5,B,C,0,1,4,0.611,300,2,0.127,0.018,0.013,C
+1831,electric motor,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.612,301,2,0.123,0.017,0.018,B
+1832,electric motor,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.66,301,2,0.128,0.02,0.012,B
+1833,electric motor,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.634,297,2,0.124,0.017,0.008,A
+1836,electric motor,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.665,312,2,0.12,0.017,0.005,B
+1837,electric motor,original,qwen3.5:2b,rag,0.5,B,A,0,1,2,0.708,300,2,0.118,0.017,0.007,A
+1839,electric motor,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.653,296,2,0.122,0.017,0.004,B
+1840,electric motor,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.692,318,2,0.124,0.017,0.009,B
+1843,electric motor,original,qwen3.5:2b,rag,0.5,E,C,0,1,5,0.701,316,2,0.127,0.019,0.007,C
+1848,electric motor,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.698,313,2,0.12,0.017,0.009,B
+1849,electric motor,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.703,308,2,0.126,0.017,0.011,B
+1852,electric motor,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.663,310,2,0.123,0.016,0.012,A
+1853,electric motor,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.616,307,2,0.122,0.017,0.006,B
+1854,electric motor,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.573,309,2,0.122,0.017,0.01,B
+1860,electric motor,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.606,297,2,0.116,0.018,0.008,B
+1868,electric motor,original,qwen3.5:2b,rag,0.5,D,D,1,1,4,0.639,310,2,0.119,0.017,0.011,D
+1874,steam turbine,original,qwen3.5:2b,rag,0.5,C,B,0,1,5,0.673,294,2,0.118,0.018,0.012,B
+1875,steam turbine,original,qwen3.5:2b,rag,0.5,A,D,0,1,5,0.672,290,2,0.12,0.017,0.024,D
+1877,steam turbine,original,qwen3.5:2b,rag,0.5,B,D,0,1,4,0.675,299,2,0.117,0.017,0.018,D
+1886,steam turbine,original,qwen3.5:2b,rag,0.5,A,C,0,1,4,0.673,285,2,0.116,0.017,0.012,C
+1888,steam turbine,original,qwen3.5:2b,rag,0.5,A,D,0,1,4,0.674,308,2,0.119,0.018,0.01,D
+1889,steam turbine,original,qwen3.5:2b,rag,0.5,C,A,0,1,3,0.711,304,2,0.119,0.017,0.022,A
+1890,steam turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.677,305,2,0.125,0.017,0.006,B
+1893,steam turbine,original,qwen3.5:2b,rag,0.5,B,A,0,1,3,0.647,302,2,0.124,0.017,0.015,A
+1897,steam turbine,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.641,273,2,0.11,0.018,0.014,B
+1900,steam turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.599,281,2,0.115,0.017,0.017,B
+1901,steam turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.591,273,2,0.114,0.017,0.006,A
+1902,steam turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.584,273,2,0.12,0.017,0.015,B
+1903,steam turbine,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.551,277,2,0.116,0.018,0.009,B
+1904,steam turbine,original,qwen3.5:2b,rag,0.5,A,C,0,1,5,0.59,288,2,0.116,0.017,0.019,C
+1910,steam turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.637,314,2,0.124,0.017,0.008,D
+1912,steam turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.677,311,2,0.12,0.017,0.008,D
+1913,steam turbine,original,qwen3.5:2b,rag,0.5,D,B,0,1,5,0.692,311,2,0.132,0.017,0.006,B
+1914,steam turbine,original,qwen3.5:2b,rag,0.5,E,D,0,1,5,0.659,308,2,0.123,0.017,0.01,D
+1917,steam turbine,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.651,287,2,0.117,0.017,0.007,B
+1918,steam turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,3,0.614,285,2,0.12,0.018,0.008,C
+1919,steam turbine,original,qwen3.5:2b,rag,0.5,A,B,0,1,3,0.602,289,2,0.119,0.017,0.008,B
+1921,steam turbine,original,qwen3.5:2b,rag,0.5,B,A,0,1,3,0.601,286,2,0.121,0.017,0.018,A
+1922,steam turbine,original,qwen3.5:2b,rag,0.5,B,A,0,1,3,0.569,286,2,0.129,0.017,0.004,A
+1923,aero gas turbine,original,qwen3.5:2b,rag,0.5,E,C,0,1,5,0.626,356,2,0.137,0.017,0.009,C
+1928,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,B,0,1,5,0.65,362,2,0.143,0.017,0.006,B
+1929,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,D,0,1,5,0.672,356,2,0.143,0.017,0.004,D
+1931,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,B,0,1,5,0.685,355,2,0.141,0.017,0.014,B
+1934,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,E,0,1,5,0.687,374,2,0.138,0.017,0.009,E
+1935,aero gas turbine,original,qwen3.5:2b,rag,0.5,E,A,0,1,5,0.694,374,2,0.149,0.017,0.011,A
+1936,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,B,0,1,5,0.695,377,2,0.144,0.017,0.016,B
+1940,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.733,358,2,0.135,0.019,0.007,B
+1945,aero gas turbine,original,qwen3.5:2b,rag,0.5,E,C,0,1,5,0.707,360,2,0.147,0.016,0.008,C
+1952,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.733,385,2,0.14,0.017,0.005,C
+1953,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.741,385,2,0.151,0.017,0.008,D
+1955,aero gas turbine,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.705,388,2,0.146,0.017,0.011,E
+1956,aero gas turbine,original,qwen3.5:2b,rag,0.5,E,C,0,1,5,0.715,385,2,0.155,0.019,0.011,C
+1957,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,D,0,1,5,0.703,388,2,0.157,0.019,0.011,D
+1958,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,E,0,1,5,0.719,386,2,0.159,0.019,0.013,E
+1960,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.76,343,2,0.134,0.018,0.014,D
+1961,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,C,0,1,5,0.751,341,2,0.141,0.019,0.007,C
+1962,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,D,0,1,5,0.732,340,2,0.135,0.019,0.009,D
+1964,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.763,351,2,0.142,0.02,0.007,B
+1965,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,B,0,1,4,0.742,348,2,0.164,0.019,0.008,B
+1968,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.752,351,2,0.147,0.021,0.007,B
+1969,aero gas turbine,original,qwen3.5:2b,rag,0.5,B,A,0,1,4,0.759,353,2,0.142,0.019,0.009,A
+1973,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,A,0,1,4,0.723,351,2,0.156,0.02,0.011,A
+1974,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,C,0,1,4,0.714,350,2,0.153,0.019,0.004,C
+1975,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,D,0,1,5,0.761,369,2,0.15,0.021,0.006,D
+1976,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.764,370,2,0.157,0.019,0.011,B
+1977,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,B,0,1,5,0.764,368,2,0.148,0.019,0.009,B
+1978,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,E,0,1,5,0.759,369,2,0.152,0.019,0.018,E
+1979,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,B,0,1,5,0.713,367,2,0.154,0.019,0.008,B
+1982,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,A,0,1,4,0.742,352,2,0.141,0.02,0.007,A
+1983,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,B,0,1,4,0.753,355,2,0.158,0.022,0.008,B
+1987,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,C,0,1,4,0.761,354,2,0.156,0.019,0.013,C
+1992,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,B,0,1,4,0.791,342,2,0.14,0.02,0.007,B
+1993,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,B,0,1,4,0.748,341,2,0.142,0.019,0.01,B
+1995,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,B,0,1,4,0.733,340,2,0.148,0.019,0.01,B
+1996,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,B,0,1,4,0.729,341,2,0.142,0.02,0.014,B
+1998,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,B,0,1,4,0.702,342,2,0.146,0.02,0.009,B
+2000,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,B,0,1,4,0.713,343,2,0.152,0.019,0.012,B
+2002,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,B,0,1,4,0.708,341,2,0.141,0.019,0.013,B
+2005,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,C,0,1,5,0.738,338,2,0.138,0.019,0.02,C
+2011,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,C,0,1,5,0.775,324,2,0.136,0.019,0.011,C
+2012,aero gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.757,323,2,0.137,0.019,0.01,D
+2013,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.764,324,2,0.151,0.021,0.011,A
+2014,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,C,0,1,5,0.722,319,2,0.138,0.019,0.015,C
+2019,aero gas turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,3,0.721,362,2,0.144,0.02,0.01,C
+2025,aero gas turbine,original,qwen3.5:2b,rag,0.5,A,B,0,1,3,0.74,361,2,0.154,0.02,0.012,B
+2030,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.772,315,2,0.134,0.019,0.005,B
+2034,industrial gas turbine,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.77,311,2,0.131,0.019,0.019,B
+2037,industrial gas turbine,original,qwen3.5:2b,rag,0.5,C,B,0,1,5,0.756,332,2,0.136,0.019,0.011,B
+2038,industrial gas turbine,original,qwen3.5:2b,rag,0.5,D,C,0,1,5,0.749,333,2,0.144,0.019,0.013,C
+2039,industrial gas turbine,original,qwen3.5:2b,rag,0.5,A,C,0,1,5,0.724,333,2,0.15,0.019,0.008,C
+2041,industrial gas turbine,original,qwen3.5:2b,rag,0.5,E,C,0,1,5,0.729,330,2,0.137,0.019,0.007,C
+2045,industrial gas turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,4,0.735,345,2,0.141,0.022,0.009,C
+2049,industrial gas turbine,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.793,372,2,0.15,0.019,0.01,D
+2051,industrial gas turbine,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.787,369,2,0.15,0.02,0.012,E
+2052,industrial gas turbine,original,qwen3.5:2b,rag,0.5,C,B,0,1,5,0.801,368,2,0.155,0.019,0.014,B
+2053,industrial gas turbine,original,qwen3.5:2b,rag,0.5,D,A,0,1,5,0.772,368,2,0.159,0.02,0.012,A
+2054,industrial gas turbine,original,qwen3.5:2b,rag,0.5,E,C,0,1,5,0.757,333,2,0.135,0.02,0.014,C
+2055,industrial gas turbine,original,qwen3.5:2b,rag,0.5,E,C,0,1,5,0.754,330,2,0.148,0.019,0.007,C
+2057,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,3,0.79,330,2,0.144,0.019,0.005,B
+2059,industrial gas turbine,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.766,327,2,0.139,0.02,0.017,B
+2060,industrial gas turbine,original,qwen3.5:2b,rag,0.5,C,A,0,1,3,0.728,331,2,0.144,0.02,0.014,A
+2061,industrial gas turbine,original,qwen3.5:2b,rag,0.5,C,C,1,1,3,0.721,332,2,0.141,0.019,0.007,C
+2062,industrial gas turbine,original,qwen3.5:2b,rag,0.5,A,B,0,1,3,0.68,328,2,0.144,0.02,0.005,B
+2066,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,A,0,1,5,0.711,325,2,0.132,0.018,0.012,A
+2067,industrial gas turbine,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.72,327,2,0.148,0.02,0.006,B
+2069,industrial gas turbine,original,qwen3.5:2b,rag,0.5,A,D,0,1,5,0.714,324,2,0.143,0.019,0.008,D
+2070,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,D,0,1,5,0.746,325,2,0.134,0.02,0.007,D
+2071,industrial gas turbine,original,qwen3.5:2b,rag,0.5,D,B,0,1,5,0.715,324,2,0.139,0.02,0.008,B
+2073,industrial gas turbine,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.749,318,2,0.135,0.02,0.01,B
+2074,industrial gas turbine,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.755,315,2,0.138,0.019,0.01,B
+2076,industrial gas turbine,original,qwen3.5:2b,rag,0.5,A,B,0,1,3,0.723,313,2,0.148,0.019,0.021,B
+2087,industrial gas turbine,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.753,307,2,0.127,0.021,0.008,A
+2089,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,A,0,1,2,0.712,307,2,0.145,0.02,0.008,A
+2090,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,C,0,1,4,0.742,324,2,0.133,0.02,0.008,C
+2091,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.739,323,2,0.143,0.02,0.011,B
+2092,industrial gas turbine,original,qwen3.5:2b,rag,0.5,D,C,0,1,4,0.703,326,2,0.136,0.018,0.016,C
+2093,industrial gas turbine,original,qwen3.5:2b,rag,0.5,D,C,0,1,4,0.692,326,2,0.139,0.017,0.007,C
+2094,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.642,325,2,0.132,0.017,0.014,B
+2095,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,A,0,1,4,0.632,322,2,0.135,0.018,0.006,A
+2104,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.681,317,2,0.142,0.017,0.01,B
+2105,industrial gas turbine,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.673,318,2,0.132,0.016,0.007,B
+2107,pump,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.702,300,2,0.12,0.02,0.012,B
+2108,pump,original,qwen3.5:2b,rag,0.5,A,,0,0,2,0.69,297,2,0.126,0.018,0.007,C
+2111,pump,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.633,297,2,0.13,0.018,0.008,B
+2113,pump,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.664,305,2,0.119,0.016,0.01,D
+2117,pump,original,qwen3.5:2b,rag,0.5,C,D,0,1,4,0.655,284,2,0.116,0.018,0.011,D
+2118,pump,original,qwen3.5:2b,rag,0.5,A,C,0,1,4,0.652,286,2,0.123,0.017,0.011,C
+2123,pump,original,qwen3.5:2b,rag,0.5,C,C,1,1,4,0.68,309,2,0.119,0.017,0.01,C
+2124,pump,original,qwen3.5:2b,rag,0.5,A,C,0,1,4,0.652,309,2,0.136,0.017,0.006,C
+2131,pump,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.655,288,2,0.117,0.016,0.013,C
+2132,pump,original,qwen3.5:2b,rag,0.5,A,D,0,1,5,0.657,291,2,0.123,0.017,0.012,D
+2135,pump,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.667,323,2,0.128,0.017,0.008,A
+2138,pump,original,qwen3.5:2b,rag,0.5,B,D,0,1,4,0.69,308,2,0.12,0.017,0.011,D
+2140,pump,original,qwen3.5:2b,rag,0.5,C,B,0,1,4,0.66,307,2,0.125,0.017,0.01,B
+2144,pump,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.698,297,2,0.12,0.017,0.008,B
+2146,pump,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.66,297,2,0.129,0.017,0.014,A
+2152,compressor,original,qwen3.5:2b,rag,0.5,A,D,0,1,4,0.658,308,2,0.118,0.016,0.007,D
+2157,compressor,original,qwen3.5:2b,rag,0.5,C,C,1,1,4,0.656,311,2,0.125,0.017,0.012,C
+2158,compressor,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.655,304,2,0.118,0.018,0.006,E
+2159,compressor,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.655,304,2,0.13,0.017,0.01,E
+2163,compressor,original,qwen3.5:2b,rag,0.5,C,B,0,1,4,0.657,308,2,0.12,0.017,0.006,B
+2164,compressor,original,qwen3.5:2b,rag,0.5,C,B,0,1,4,0.657,305,2,0.125,0.018,0.015,B
+2165,compressor,original,qwen3.5:2b,rag,0.5,D,D,1,1,4,0.622,309,2,0.126,0.017,0.005,D
+2169,compressor,original,qwen3.5:2b,rag,0.5,A,D,0,1,4,0.615,308,2,0.122,0.017,0.015,D
+2170,compressor,original,qwen3.5:2b,rag,0.5,D,B,0,1,4,0.586,308,2,0.128,0.017,0.007,B
+2181,compressor,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.617,301,2,0.118,0.018,0.006,B
+2182,compressor,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.616,302,2,0.125,0.017,0.009,E
+2183,compressor,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.654,305,2,0.122,0.018,0.008,D
+2184,compressor,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.651,307,2,0.125,0.017,0.008,E
+2185,compressor,original,qwen3.5:2b,rag,0.5,A,C,0,1,5,0.658,317,2,0.123,0.017,0.013,C
+2187,compressor,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.664,315,2,0.131,0.017,0.009,E
+2189,compressor,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.633,314,2,0.129,0.016,0.009,E
+2194,compressor,original,qwen3.5:2b,rag,0.5,D,B,0,1,5,0.674,322,2,0.126,0.017,0.009,B
+2203,compressor,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.663,298,2,0.118,0.017,0.007,B
+2204,compressor,original,qwen3.5:2b,rag,0.5,B,A,0,1,2,0.662,298,2,0.13,0.017,0.005,A
+2210,compressor,original,qwen3.5:2b,rag,0.5,B,A,0,1,2,0.657,298,2,0.124,0.017,0.01,A
+2214,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,C,0,1,4,0.67,369,2,0.137,0.017,0.018,C
+2215,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,4,0.66,368,2,0.144,0.017,0.014,B
+2217,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,4,0.677,365,2,0.147,0.016,0.007,B
+2221,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,B,0,1,4,0.701,365,2,0.149,0.017,0.012,B
+2225,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.705,377,2,0.139,0.017,0.007,B
+2227,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,C,D,0,1,5,0.709,377,2,0.149,0.016,0.006,D
+2232,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.705,376,2,0.142,0.016,0.008,B
+2235,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.729,359,2,0.135,0.017,0.007,B
+2242,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.691,363,2,0.143,0.017,0.005,B
+2245,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.686,360,2,0.142,0.017,0.006,B
+2251,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.719,358,2,0.138,0.017,0.022,B
+2256,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.69,356,2,0.143,0.017,0.009,B
+2258,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.686,355,2,0.141,0.017,0.01,B
+2259,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,C,E,0,1,5,0.72,379,2,0.139,0.017,0.015,E
+2260,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,E,0,1,5,0.687,375,2,0.142,0.017,0.011,E
+2261,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,E,C,0,1,5,0.688,378,2,0.144,0.017,0.01,C
+2262,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,B,0,1,5,0.693,377,2,0.147,0.016,0.021,B
+2268,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,D,0,1,5,0.664,377,2,0.147,0.017,0.012,D
+2271,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,C,B,0,1,4,0.713,365,2,0.146,0.021,0.015,B
+2272,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,D,0,1,4,0.729,361,2,0.158,0.019,0.006,D
+2274,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,C,0,1,4,0.741,364,2,0.154,0.02,0.006,C
+2276,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,C,0,1,4,0.761,360,2,0.158,0.019,0.01,C
+2279,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,A,0,1,4,0.726,359,2,0.152,0.02,0.016,A
+2280,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,E,C,0,1,5,0.758,376,2,0.144,0.019,0.009,C
+2283,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.752,375,2,0.149,0.019,0.009,B
+2287,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.741,374,2,0.149,0.02,0.004,B
+2288,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,A,0,1,5,0.754,376,2,0.158,0.02,0.012,A
+2289,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.727,374,2,0.162,0.02,0.005,B
+2290,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,A,0,1,5,0.765,373,2,0.146,0.018,0.003,A
+2292,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.765,372,2,0.155,0.019,0.006,C
+2296,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,C,0,1,4,0.8,367,2,0.145,0.02,0.013,C
+2297,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.794,368,2,0.15,0.019,0.005,B
+2299,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,A,1,1,4,0.753,370,2,0.153,0.02,0.007,A
+2300,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,D,1,1,4,0.76,369,2,0.156,0.019,0.013,D
+2301,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,D,1,1,4,0.73,370,2,0.165,0.02,0.004,D
+2303,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,D,1,1,4,0.727,369,2,0.15,0.019,0.008,D
+2305,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,4,0.728,367,2,0.153,0.019,0.007,B
+2306,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,A,0,1,5,0.768,371,2,0.147,0.019,0.019,A
+2308,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,D,B,0,1,5,0.779,371,2,0.173,0.019,0.007,B
+2309,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.778,367,2,0.15,0.019,0.008,C
+2310,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,E,C,0,1,5,0.786,366,2,0.16,0.02,0.008,C
+2311,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,C,D,0,1,5,0.741,369,2,0.153,0.019,0.018,D
+2313,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.718,367,2,0.147,0.02,0.014,B
+2316,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.764,366,2,0.147,0.021,0.009,B
+2318,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,C,0,1,5,0.755,371,2,0.152,0.02,0.008,C
+2323,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,C,0,1,5,0.761,365,2,0.154,0.02,0.02,C
+2324,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.823,364,2,0.147,0.02,0.01,B
+2326,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.795,364,2,0.167,0.019,0.014,B
+2329,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.795,362,2,0.153,0.019,0.013,B
+2330,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,B,A,0,1,2,0.799,364,2,0.164,0.019,0.019,A
+2332,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.747,364,2,0.155,0.019,0.013,B
+2333,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.736,362,2,0.154,0.02,0.01,B
+2335,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.743,362,2,0.154,0.021,0.018,B
+2336,reciprocating internal combustion engine,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.73,362,2,0.157,0.02,0.007,B
+2341,electric generator,original,qwen3.5:2b,rag,0.5,A,B,0,1,4,0.751,323,2,0.138,0.019,0.012,B
+2342,electric generator,original,qwen3.5:2b,rag,0.5,A,B,0,1,4,0.766,301,2,0.124,0.019,0.01,B
+2343,electric generator,original,qwen3.5:2b,rag,0.5,D,D,1,1,4,0.74,300,2,0.136,0.019,0.015,D
+2344,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.726,302,2,0.136,0.02,0.004,B
+2347,electric generator,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.714,293,2,0.127,0.02,0.011,A
+2348,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.731,308,2,0.127,0.02,0.011,B
+2353,electric generator,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.776,287,2,0.122,0.019,0.018,B
+2354,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.824,324,2,0.135,0.021,0.009,B
+2355,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.795,328,2,0.146,0.02,0.006,B
+2356,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.761,323,2,0.143,0.019,0.013,B
+2358,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.725,322,2,0.138,0.019,0.013,B
+2359,electric generator,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.684,326,2,0.15,0.02,0.014,B
+2360,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.683,322,2,0.146,0.019,0.008,B
+2362,electric generator,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.713,288,2,0.126,0.02,0.004,B
+2364,electric generator,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.708,288,2,0.136,0.02,0.016,B
+2365,electric generator,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.694,286,2,0.134,0.02,0.011,B
+2369,electric generator,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.683,287,2,0.138,0.019,0.012,A
+2374,electric generator,original,qwen3.5:2b,rag,0.5,C,B,0,1,3,0.686,291,2,0.126,0.02,0.008,B
+2377,electric generator,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.723,296,2,0.128,0.02,0.021,B
+2382,electric generator,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.728,295,2,0.142,0.021,0.014,B
+2385,electric generator,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.782,302,2,0.13,0.019,0.005,C
+2387,electric generator,original,qwen3.5:2b,rag,0.5,D,B,0,1,5,0.786,329,2,0.135,0.018,0.008,B
+2393,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.781,306,2,0.129,0.021,0.018,B
+2399,electric generator,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.789,303,2,0.151,0.022,0.006,B
+2402,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,4,0.786,322,2,0.131,0.019,0.016,B
+2411,electric generator,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.777,297,2,0.123,0.019,0.008,B
+2416,electric generator,original,qwen3.5:2b,rag,0.5,C,C,1,1,4,0.772,302,2,0.127,0.019,0.022,C
+2419,electric generator,original,qwen3.5:2b,rag,0.5,B,C,0,1,4,0.753,304,2,0.132,0.02,0.004,C
+2420,fan,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.741,298,2,0.127,0.019,0.01,B
+2424,fan,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.712,299,2,0.127,0.02,0.009,B
+2427,fan,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.682,297,2,0.139,0.02,0.015,B
+2429,fan,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.706,306,2,0.12,0.017,0.014,B
+2432,fan,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.654,305,2,0.125,0.017,0.008,D
+2433,fan,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.639,303,2,0.122,0.017,0.017,B
+2434,fan,original,qwen3.5:2b,rag,0.5,C,C,1,1,4,0.655,298,2,0.119,0.017,0.007,C
+2438,fan,original,qwen3.5:2b,rag,0.5,C,B,0,1,4,0.613,301,2,0.122,0.018,0.011,B
+2439,fan,original,qwen3.5:2b,rag,0.5,D,B,0,1,4,0.62,300,2,0.13,0.017,0.008,B
+2441,fan,original,qwen3.5:2b,rag,0.5,D,C,0,1,4,0.659,310,2,0.12,0.017,0.016,C
+2444,fan,original,qwen3.5:2b,rag,0.5,C,C,1,1,4,0.628,312,2,0.128,0.017,0.007,C
+2445,fan,original,qwen3.5:2b,rag,0.5,A,B,0,1,4,0.63,311,2,0.126,0.017,0.013,B
+2448,fan,original,qwen3.5:2b,rag,0.5,D,A,0,1,5,0.657,305,2,0.118,0.017,0.009,A
+2453,fan,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.619,304,2,0.124,0.017,0.012,B
+2458,fan,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.647,303,2,0.119,0.017,0.007,A
+2460,fan,original,qwen3.5:2b,rag,0.5,B,C,0,1,5,0.683,323,2,0.125,0.016,0.005,C
+2462,fan,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.698,323,2,0.134,0.017,0.009,C
+2463,fan,original,qwen3.5:2b,rag,0.5,D,A,0,1,5,0.705,327,2,0.13,0.017,0.014,A
+2469,fan,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.714,315,2,0.125,0.017,0.007,D
+2470,fan,original,qwen3.5:2b,rag,0.5,E,E,1,1,5,0.68,314,2,0.129,0.017,0.017,E
+2471,fan,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.643,318,2,0.134,0.018,0.011,B
+2476,fan,original,qwen3.5:2b,rag,0.5,B,A,0,1,3,0.675,305,2,0.12,0.017,0.011,A
+2482,power transformer,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.718,453,2,0.166,0.017,0.009,B
+2483,power transformer,original,qwen3.5:2b,rag,0.5,D,A,0,1,5,0.761,451,2,0.17,0.017,0.011,A
+2487,power transformer,original,qwen3.5:2b,rag,0.5,D,A,0,1,5,0.799,454,2,0.173,0.017,0.005,A
+2490,power transformer,original,qwen3.5:2b,rag,0.5,B,C,0,1,5,0.817,454,2,0.178,0.017,0.015,C
+2491,power transformer,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.783,452,2,0.174,0.017,0.006,B
+2492,power transformer,original,qwen3.5:2b,rag,0.5,B,C,0,1,5,0.78,453,2,0.168,0.017,0.004,C
+2496,power transformer,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.795,426,2,0.152,0.017,0.009,B
+2497,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.774,430,2,0.156,0.018,0.019,B
+2504,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.757,431,2,0.158,0.017,0.009,B
+2505,power transformer,original,qwen3.5:2b,rag,0.5,C,B,0,1,5,0.751,435,2,0.161,0.017,0.019,B
+2509,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.791,506,2,0.182,0.017,0.012,B
+2512,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.85,493,2,0.171,0.018,0.011,C
+2515,power transformer,original,qwen3.5:2b,rag,0.5,B,C,0,1,5,0.887,424,2,0.151,0.018,0.007,C
+2516,power transformer,original,qwen3.5:2b,rag,0.5,E,A,0,1,5,0.885,437,2,0.157,0.019,0.009,A
+2517,power transformer,original,qwen3.5:2b,rag,0.5,D,B,0,1,5,0.827,435,2,0.171,0.017,0.006,B
+2518,power transformer,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.77,430,2,0.158,0.017,0.011,B
+2520,power transformer,original,qwen3.5:2b,rag,0.5,C,A,0,1,5,0.735,427,2,0.157,0.018,0.015,A
+2529,power transformer,original,qwen3.5:2b,rag,0.5,C,A,0,1,5,0.759,423,2,0.15,0.016,0.008,A
+2535,power transformer,original,qwen3.5:2b,rag,0.5,D,B,0,1,5,0.751,433,2,0.159,0.017,0.011,B
+2536,power transformer,original,qwen3.5:2b,rag,0.5,A,D,0,1,5,0.788,438,2,0.154,0.017,0.013,D
+2543,power transformer,original,qwen3.5:2b,rag,0.5,B,C,0,1,5,0.82,430,2,0.152,0.017,0.008,C
+2547,power transformer,original,qwen3.5:2b,rag,0.5,C,A,0,1,5,0.787,431,2,0.157,0.016,0.005,A
+2550,power transformer,original,qwen3.5:2b,rag,0.5,E,B,0,1,5,0.791,431,2,0.162,0.017,0.008,B
+2551,power transformer,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.753,434,2,0.157,0.017,0.02,A
+2552,power transformer,original,qwen3.5:2b,rag,0.5,A,A,1,1,5,0.725,438,2,0.159,0.02,0.005,A
+2554,power transformer,original,qwen3.5:2b,rag,0.5,B,D,0,1,5,0.765,429,2,0.152,0.017,0.005,D
+2555,power transformer,original,qwen3.5:2b,rag,0.5,B,C,0,1,5,0.76,427,2,0.158,0.017,0.01,C
+2556,power transformer,original,qwen3.5:2b,rag,0.5,E,D,0,1,5,0.76,423,2,0.156,0.017,0.009,D
+2557,power transformer,original,qwen3.5:2b,rag,0.5,D,D,1,1,5,0.754,426,2,0.158,0.017,0.007,D
+2560,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.751,429,2,0.154,0.017,0.016,B
+2562,power transformer,original,qwen3.5:2b,rag,0.5,B,C,0,1,5,0.751,432,2,0.158,0.017,0.009,C
+2564,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,5,0.752,433,2,0.156,0.017,0.011,B
+2566,power transformer,original,qwen3.5:2b,rag,0.5,D,B,0,1,5,0.754,430,2,0.16,0.017,0.016,B
+2567,power transformer,original,qwen3.5:2b,rag,0.5,B,C,0,1,5,0.722,432,2,0.159,0.017,0.006,C
+2570,power transformer,original,qwen3.5:2b,rag,0.5,C,B,0,1,5,0.722,434,2,0.159,0.018,0.016,B
+2576,power transformer,original,qwen3.5:2b,rag,0.5,C,B,0,1,5,0.769,438,2,0.159,0.021,0.004,B
+2580,power transformer,original,qwen3.5:2b,rag,0.5,E,A,0,1,5,0.831,431,2,0.16,0.02,0.01,A
+2582,power transformer,original,qwen3.5:2b,rag,0.5,A,C,0,1,5,0.891,435,2,0.157,0.019,0.006,C
+2583,power transformer,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.922,448,2,0.184,0.019,0.008,B
+2585,power transformer,original,qwen3.5:2b,rag,0.5,A,C,0,1,5,0.912,377,2,0.144,0.019,0.015,C
+2590,power transformer,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.854,382,2,0.161,0.019,0.01,B
+2593,power transformer,original,qwen3.5:2b,rag,0.5,C,A,0,1,5,0.8,376,2,0.156,0.019,0.009,A
+2594,power transformer,original,qwen3.5:2b,rag,0.5,D,B,0,1,5,0.767,385,2,0.157,0.019,0.01,B
+2595,power transformer,original,qwen3.5:2b,rag,0.5,A,B,0,1,5,0.739,392,2,0.159,0.019,0.012,B
+2596,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.822,556,2,0.2,0.02,0.006,C
+2611,power transformer,original,qwen3.5:2b,rag,0.5,A,E,0,1,5,0.89,491,2,0.177,0.019,0.012,E
+2615,power transformer,original,qwen3.5:2b,rag,0.5,E,A,0,1,5,0.925,479,2,0.187,0.019,0.008,A
+2617,power transformer,original,qwen3.5:2b,rag,0.5,D,A,0,1,5,0.947,473,2,0.186,0.019,0.009,A
+2619,power transformer,original,qwen3.5:2b,rag,0.5,C,C,1,1,5,0.893,475,2,0.187,0.02,0.004,C
+2621,power transformer,original,qwen3.5:2b,rag,0.5,A,B,0,1,4,0.858,373,2,0.143,0.019,0.007,B
+2624,power transformer,original,qwen3.5:2b,rag,0.5,B,A,0,1,4,0.827,374,2,0.157,0.021,0.007,A
+2626,power transformer,original,qwen3.5:2b,rag,0.5,D,C,0,1,4,0.806,371,2,0.154,0.019,0.008,C
+2629,power transformer,original,qwen3.5:2b,rag,0.5,C,B,0,1,4,0.773,374,2,0.159,0.02,0.009,B
+2632,power transformer,original,qwen3.5:2b,rag,0.5,D,D,1,1,4,0.771,365,2,0.146,0.019,0.004,D
+2640,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.826,397,2,0.162,0.021,0.009,B
+2642,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.845,397,2,0.171,0.02,0.009,B
+2646,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.866,392,2,0.172,0.019,0.008,B
+2649,power transformer,original,qwen3.5:2b,rag,0.5,A,A,1,1,2,0.836,398,2,0.162,0.02,0.012,A
+2657,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.837,418,2,0.159,0.02,0.008,B
+2658,power transformer,original,qwen3.5:2b,rag,0.5,B,B,1,1,2,0.816,415,2,0.168,0.021,0.015,B
+2660,power transformer,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.806,414,2,0.158,0.02,0.01,B
+2661,power transformer,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.843,407,2,0.157,0.019,0.005,B
+2663,power transformer,original,qwen3.5:2b,rag,0.5,A,B,0,1,2,0.835,413,2,0.156,0.02,0.005,B

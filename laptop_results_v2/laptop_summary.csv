@@ -1,0 +1,5 @@
+model,condition,n,accuracy,parse_rate,median_latency_s,p95_latency_s,gen_tokens_per_s,prompt_tokens_per_s,cold_start_s,peak_ollama_ram_gb,min_free_ram_gb,cpu,cores_logical,ram_total_gb,os
+qwen3.5:2b,zero_shot,100,0.41,1,4.928,6.029,16.260162601626018,47.309993063979874,11.52,0.03,0.39,"AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",8,7.9,Windows 11
+qwen3.5:2b,rag,100,0.77,1,10.152999999999999,14.139,17.621487346685296,52.18960757344885,11.52,0.03,0.61,"AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",8,7.9,Windows 11
+qwen3.5:4b,zero_shot,100,0.5,1,5.8405000000000005,6.998,12.269938650306749,35.67457475702112,29.57,0.01,0.15,"AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",8,7.9,Windows 11
+qwen3.5:4b,rag,100,0.99,1,13.161000000000001,20.293,11.560693641618498,37.19874862,29.57,0.02,0,"AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",8,7.9,Windows 11
